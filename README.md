@@ -11,12 +11,12 @@ https://github.com/coffe1891/FERD
         1. 最新特性
             * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)
         1. 语言基础
-            * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html) | 点评:需要对作用域、作用域链的概念有了解
-            * 彻底搞懂Javascript中的闭包
+            * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html) | 点评:按照作者提供的窍门再也不怕搞错this指向了
             * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) | 点评:看完可以在这块儿吊打面试官
         1. 奇技淫巧
             * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179) | 点评:性能不佳但是面试时高频出现
             * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370) | 点评:确实很妙
+            * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419)
         1. 书籍推荐
             * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175) | 点评:绝对都是好书，我都读过，但我不是此文作者
 1. 数据结构与算法
@@ -28,19 +28,19 @@ https://github.com/coffe1891/FERD
         * [迭代、递归的区别]() | 点评:神解释
 1. 设计模式
     1. 经典14种模式
-        * 抽象工厂
-        * 单例
-        * 组合
-        * 命令
-        * 适配器
-        * 代理
-        * 观察者
-        * 策略
-        * 外观
-        * 迭代
-        * 状态
-        * 装饰者
-        * 模板方法        
+        * (01) 抽象工厂
+        * (02) 单例
+        * (03) 组合
+        * (04) 命令
+        * (05) 适配器
+        * (06) 代理
+        * (07) 观察者
+        * (08) 策略
+        * (09) 外观
+        * (10) 迭代
+        * (11) 状态
+        * (12) 装饰者
+        * (13) 模板方法        
     1. MVVM、MVC
         * [浅析web前端MVVM](https://zhuanlan.zhihu.com/p/54355504)
 1. 编程思想
@@ -65,4 +65,7 @@ https://github.com/coffe1891/FERD
 1. 工具
     1. Webpack
         * [带你走进webpack世界，成为webpack头号玩家](https://juejin.im/post/5ac9dc9af265da23884d5543)
-        * []()
+        * [webpack入门指南](https://webpack.docschina.org/guides/) | 点评:花1~2天看完这个指南就算入门了
+1. 网站
+    1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) | 点评:最全的Web相关参考文档,没有之一
+    2. [英文站-Stack Overflow](https://stackoverflow.com/) | 点评:掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
