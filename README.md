@@ -63,9 +63,11 @@ https://github.com/coffe1891/FERD
     1. flutter
         * [Flutter 开发体验初探](https://zhuanlan.zhihu.com/p/78344178) | 点评:基于Android Studio,对Android猿会更友好
 1. 工具
-    1. Webpack
+    1. Webpack-自动打包模块工具
         * [带你走进webpack世界，成为webpack头号玩家](https://juejin.im/post/5ac9dc9af265da23884d5543)
         * [webpack入门指南](https://webpack.docschina.org/guides/) | 点评:花1~2天看完这个指南就算入门了
+    1. Swagger-API文档管理
+        * [Swagger介绍及使用](https://www.jianshu.com/p/349e130e40d5)
 1. 网站
     1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) | 点评:最全的Web相关参考文档,没有之一
     2. [英文站-Stack Overflow](https://stackoverflow.com/) | 点评:掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
