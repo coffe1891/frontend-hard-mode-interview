@@ -1,9 +1,9 @@
 # [前端内参(FERD)](https://github.com/coffe1891/FERD)
-前端内参-分享最好的前端文章。
+<small>前端内参-分享最好的前端文章。
 Front End Reference Documents-share the best articles of FE.
-https://github.com/coffe1891/FERD
-*QQ群:308689488 ， 微信群:加 kenny2019拉进群。申请请说明:前端内参*
+https://github.com/coffe1891/FERD</small>
 **每篇文章都有点评，方便阅读前参考**
+<div>QQ群:308689488 ， 微信群:加 kenny2019拉进群。申请请说明:前端内参。</div>
 
 ## 目录 
 1. 语言：
