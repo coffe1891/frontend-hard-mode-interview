@@ -1,7 +1,8 @@
-<small>**每篇文章都是我精心挑选，用心写上点评，方便小伙伴们读前参考。**
-<br/>“前端内参”会经常更新，保持跟上时代，请收藏。学而时习之，不亦乐乎？
-<br/>**欢迎小伙伴们star或者fork，欢迎进群推荐好文章，欢迎一起完善。**
-<br/>QQ群:308689488 微信群:kenny2019 拉你进群。申请口令:*“前端内参”。*</small>
+**每篇文章都是我精心挑选，用心写上点评，方便小伙伴们读前参考。**
+<br/>请收藏，以备学而时习之，不亦乐乎？
+<br/>**欢迎小伙伴们star或者fork，欢迎进群投稿好文章。**
+<br/>QQ群:308689488 微信群:kenny2019 拉你进群。申请口令:*“前端内参”。*
+<br/>[[ 欢迎给我留言/提建议 ]](https://github.com/coffe1891/FERD/issues/new)
 
 --- 
 #### 一、JavaScript语言
@@ -14,7 +15,7 @@
 1. 奇技淫巧
     * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179)<br/>性能不佳,但是面试时高频出现|
     * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370)<br/>确实很妙|
-    * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419)|
+    * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419)<br/>Proxy可以拦截/控制任何目标Object的行为,十分强大。嗯，灵活性几乎总是意味着性能损失|
 1. 书籍推荐
     * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175)<br/>绝对都是好书,我都读过,但我不是此文作者|
 
@@ -88,10 +89,10 @@
     * 代码重构
 
 #### 七、参考网站
-1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) | 最全的Web相关参考文档,没有之一
-1. [英文站-Stack Overflow](https://stackoverflow.com/) | 掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
-1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/) | 手册在手,Vue不愁
-1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue) | 超级多的资源,总能找到你喜欢的那款
+1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web)<br/>最全的Web相关参考文档,没有之一|
+1. [英文站-Stack Overflow](https://stackoverflow.com/)<br/>掌握了四级英语就能向老外提问交流了,解决疑难杂症必上|
+1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/)<br/>手册在手,Vue不愁|
+1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue)<br.>超级多的资源,总能找到你喜欢的那款|
 
 #### 八、前端公众号
 1. 奇舞周刊 | 进微信搜索"奇舞周刊",360奇舞团出品,篇篇精品
