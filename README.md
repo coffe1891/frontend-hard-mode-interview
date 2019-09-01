@@ -6,7 +6,7 @@
 ### 目录 
 #### 一、JavaScript语言
 1. 最新特性
-    * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)
+    [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)|
 1. 语言基础
     * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html)<br/>点评:按照作者提供的窍门再也不怕搞错this指向了|
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q)<br/>点评:看完可以在这块儿吊打面试官|
@@ -19,7 +19,7 @@
 
 #### 二、数据结构与算法
 1. 面试时高频率出现的算法
-    * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html) | 点评:很严谨的文档,论文风格,对阅读能力有较高要求
+    * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html) <br/>点评:很严谨的文档,论文风格,对阅读能力有较高要求|
     * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607)<br/>点评:递归用来解决二叉树问题就是简洁|
     * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17)<br/>点评:写得都通俗易懂|
 1. 其他算法理论
