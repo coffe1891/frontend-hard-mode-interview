@@ -1,6 +1,7 @@
-<small>**每篇文章都有点评，方便阅读前参考。**
-<br/>**欢迎小伙伴们star或者fork，一起完善前端内参。**
-<br/>**前端交流** QQ群：308689488 ， 微信群：加kenny2019拉进群。*申请请说明:“前端内参”。*</small>
+#[前端内参](https://coffe1891.github.io/FERD/)
+<small>**每篇文章都有点评，方便读前参考。**
+<br/>**欢迎小伙伴们star或者fork，欢迎进群推荐好文章，欢迎一起完善。**
+<br/>**前端交流** QQ群：308689488 ， 微信群：kenny2019 拉你进群。*申请请说明:“前端内参”。*</small>
 
 ## 目录 
 1. **JavaScript语言**
@@ -17,9 +18,9 @@
         * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175) | 点评:绝对都是好书，我都读过,但我不是此文作者
 1. **数据结构与算法**
     1. 面试时高频率出现的算法
-        * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) | 点评:写得都通俗易懂
         * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html) | 点评:很严谨的文档,论文风格,对阅读能力有较高要求
         * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607) | 点评:递归用来解决二叉树问题就是简洁
+        * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) | 点评:写得都通俗易懂
     1. 其他算法理论
         * [面试官问你斐波那契数列的时候不要高兴得太早](https://zhuanlan.zhihu.com/p/54378423) | 点评:把递归/尾递归、迭代讲明白了,C语言版本,不妨碍阅读
         * [尾递归究竟是好是坏](https://www.zhihu.com/question/49368021/answer/115631284) | 点评:确定编译器能优化尾递归,就可以写尾递归
