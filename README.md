@@ -93,10 +93,10 @@
 1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web)<br/>最全的Web相关参考文档,没有之一|
 1. [英文站-StackOverflow](https://stackoverflow.com/)<br/>掌握了四级英语就能向老外提问交流了,解决疑难杂症必上|
 1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/)<br/>手册在手,Vue不愁|
-1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue)<br.>超级多的资源,总能找到你喜欢的那款|
+1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue)<br/>超级多的资源,总能找到你喜欢的那款|
 
 #### 八、前端公众号
 1. 奇舞周刊 | 进微信搜索"奇舞周刊",360奇舞团出品,篇篇精品
 
-#### 九、大神们的Twitter
+#### 九、Twitter
 1. [尤雨溪](https://twitter.com/youyuxi) | Vue.js作者
