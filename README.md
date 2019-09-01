@@ -75,12 +75,13 @@
 #### 六、编程思想
 1. 综合
     * [如何通俗易懂地举例说明「面向对象」和「面向过程」有什么区别](https://www.zhihu.com/question/27468564/answer/103253765)<br/>点评:|
-1. 面向对象
+1. 面向对象编程
     * [面向对象编程的弊端是什么](https://www.zhihu.com/question/20275578/answer/26577791)<br/>点评:|
     * [重新认识JavaScript面向对象: 从ES5到ES6](https://zhuanlan.zhihu.com/p/33658346)<br/>点评:|
-1. 面向过程
 1. 函数式编程
     * [什么是函数式编程思维](https://www.zhihu.com/question/28292740/answer/40336090)<br/>面向数学,变量不可变,无需共享资源无须独占锁,因此线程安全,适合发挥多核CPU并发的威力.顺带把递归和迭代讲透了|
+1. 元编程
+    * [Javascript元编程](https://zhuanlan.zhihu.com/p/20758879)<br> eval、new Function()、Proxy等都是元编程特性|
 1. 架构原则
     * 单一职责原则
     * 最少知识原则
