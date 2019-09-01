@@ -1,4 +1,3 @@
-#[前端内参](https://coffe1891.github.io/FERD/)
 <small>**每篇文章都有点评，方便读前参考。**
 <br/>**欢迎小伙伴们star或者fork，欢迎进群推荐好文章，欢迎一起完善。**
 <br/>**前端交流** QQ群：308689488 ， 微信群：kenny2019 拉你进群。*申请请说明:“前端内参”。*</small>
@@ -25,7 +24,7 @@
         * [面试官问你斐波那契数列的时候不要高兴得太早](https://zhuanlan.zhihu.com/p/54378423) | 点评:把递归/尾递归、迭代讲明白了,C语言版本,不妨碍阅读
         * [尾递归究竟是好是坏](https://www.zhihu.com/question/49368021/answer/115631284) | 点评:确定编译器能优化尾递归,就可以写尾递归
     1. 好书推荐
-        * [《学习JavaScript数据结构与算法(第2版)》](https://book.douban.com/subject/27129352/) | 点评:先看一遍书目录
+        * [《学习JavaScript数据结构与算法(第2版)》](https://book.douban.com/subject/27129352/) | 点评:建议先看一遍书目录,高级点的数据结构还需要专门看其他文章,目前市面上没有比这本好的。
 1. **前端框架**
     1. 综合
         * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390) | 点评:讲清楚了为什么flutter更快的原因
@@ -42,9 +41,10 @@
         * [带你走进webpack世界，成为webpack头号玩家](https://juejin.im/post/5ac9dc9af265da23884d5543)
         * [webpack入门指南](https://webpack.docschina.org/guides/) | 点评:花1~2天看完这个指南就算入门了
     1. Swagger-API文档管理
-        * [Swagger介绍及使用](https://www.jianshu.com/p/349e130e40d5)
+        * [Swagger介绍及使用](https://www.jianshu.com/p/349e130e40d5) | 点评:再也不愁文档更新不及时了
     1. IDE-工欲善其事必先利其器
-        * VS Code
+        * [这就是我想要的VSCode插件！](https://zhuanlan.zhihu.com/p/36020180) | 点评:
+        * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453) | 点评:你就觉得VSCode没有它们会非常单调
         * Sublime
 1. **设计模式**
     1. 十四种经典设计模式
