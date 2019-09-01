@@ -7,8 +7,7 @@
 1. 最新特性
     * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)
 1. 语言基础
-    * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html) 
-    点评:按照作者提供的窍门再也不怕搞错this指向了 |
+    * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html)<br/>点评:按照作者提供的窍门再也不怕搞错this指向了|
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) | 点评:看完可以在这块儿吊打面试官
 1. 奇技淫巧
     * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179) | 点评:性能不佳但是面试时高频出现
