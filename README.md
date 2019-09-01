@@ -48,8 +48,8 @@
 1. Swagger-API文档管理
     * [Swagger介绍及使用](https://www.jianshu.com/p/349e130e40d5)<br/>再也不愁文档更新不及时了|
 1. IDE-工欲善其事必先利其器
-    * [高效使用VSCode的9点建议](https://zhuanlan.zhihu.com/p/60394607)<br/>这9插件中 Live Share 最逆天|
-    * [这就是我想要的VSCode插件！](https://zhuanlan.zhihu.com/p/36020180)<br/>点评:|
+    * [高效使用VSCode的9点建议](https://zhuanlan.zhihu.com/p/60394607)<br/>这9插件中 Live Share 最逆天,多行编辑也十分好用|
+    * [这就是我想要的VSCode插件！](https://zhuanlan.zhihu.com/p/36020180)<br/>Quokka.js,Bracket Pair Colorizer,Import Cost这三个插件惊艳了我|
     * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453)<br/>VSCode没有它们会非常单调|
     * Sublime
 
@@ -91,7 +91,7 @@
 
 #### 七、参考网站
 1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web)<br/>最全的Web相关参考文档,没有之一|
-1. [英文站-Stack Overflow](https://stackoverflow.com/)<br/>掌握了四级英语就能向老外提问交流了,解决疑难杂症必上|
+1. [英文站-StackOverflow](https://stackoverflow.com/)<br/>掌握了四级英语就能向老外提问交流了,解决疑难杂症必上|
 1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/)<br/>手册在手,Vue不愁|
 1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue)<br.>超级多的资源,总能找到你喜欢的那款|
 
