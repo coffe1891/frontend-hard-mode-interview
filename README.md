@@ -9,9 +9,11 @@
 1. 最新特性
     * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)<br/>点评:|
 1. 语言基础
+    * 作用域、作用域链<br/>点评:欢迎投稿 |
     * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html)<br/>按照作者提供的窍门再也不怕搞错this指向了|
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q)<br/>写得详实易懂,看完可以举一反三、对答如流|
-    * [彻底搞懂Javascript中的闭包]()<br/>点评:|
+    * 彻底搞懂Javascript中的闭包<br/>点评:欢迎投稿|
+    * 模块化编程<br/>点评:欢迎投稿|
 1. 奇技淫巧
     * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179)<br/>性能不佳,但是面试时高频出现|
     * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370)<br/>确实很妙|
@@ -35,7 +37,7 @@
     * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390)<br/>讲清楚了为什么flutter更快|
     * [Angular和Vue.js深度对比](https://www.cnblogs.com/scode2/p/8820613.html)|
 1. Vue.js
-    * [Vue问得最多的面试题](https://zhuanlan.zhihu.com/p/53703176)|
+    * [Vue问得最多的面试题](https://zhuanlan.zhihu.com/p/53703176)<br/>面试小抄,细节很多,但我觉得没必要死记硬背,搞清楚原理更重要|
     * [Vue源码解读：Vue数据响应式原理](https://www.jianshu.com/p/1032ecd62b3a)<br/>分析比较透彻,适合深度阅读|
 1. Angular.js
 1. React Native
