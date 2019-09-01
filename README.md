@@ -1,12 +1,12 @@
 <small>**每篇文章都是我精心挑选，用心写上点评，方便小伙伴们读前参考。**
-“前端内参”会经常更新，保持内容跟上时代。请收藏，时而温习之，不亦乐乎？
+<br/>“前端内参”会经常更新，保持内容跟上时代。请收藏，时而温习之，不亦乐乎？
 <br/>**欢迎小伙伴们star或者fork，欢迎进群推荐好文章，欢迎一起完善。**
 <br/>**前端交流** QQ群：308689488 ， 微信群：kenny2019 拉你进群。*申请请说明:“前端内参”。*</small>
 
 ### 目录 
 #### 一、JavaScript语言
 1. 最新特性
-    [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)|
+    * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)|
 1. 语言基础
     * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html)<br/>点评:按照作者提供的窍门再也不怕搞错this指向了|
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q)<br/>点评:看完可以在这块儿吊打面试官|
@@ -51,7 +51,7 @@
     * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453)<br/>点评:你就觉得VSCode没有它们会非常单调|
     * Sublime
 
-### 五.设计模式
+#### 五、设计模式
 1. 十四种经典设计模式
     * (01) 单例模式
     * (02) 策略模式
@@ -70,7 +70,7 @@
 1. MVVM、MVC、MVP
     * [浅析web前端MVVM](https://zhuanlan.zhihu.com/p/54355504)|
 
-### 六.编程思想
+#### 六、编程思想
 1. 综合
     * [如何通俗易懂地举例说明「面向对象」和「面向过程」有什么区别](https://www.zhihu.com/question/27468564/answer/103253765)|
 1. 面向对象
@@ -86,14 +86,14 @@
     * 接口和面向接口编程
     * 代码重构
 
-### 七.参考网站
+#### 七、参考网站
 1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) | 点评:最全的Web相关参考文档,没有之一
 1. [英文站-Stack Overflow](https://stackoverflow.com/) | 点评:掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
 1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/) | 点评:手册在手,Vue不愁
 1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue) | 点评:超级多的资源,总能找到你喜欢的那款
 
-### 八.前端公众号
+#### 八、前端公众号
 1. 奇舞周刊 | 点评:进微信搜索"奇舞周刊",360奇舞团出品,篇篇精品
 
-### 九.大神们的Twitter
+#### 九、大神们的Twitter
 1. [尤雨溪](https://twitter.com/youyuxi) | 点评:Vue.js作者
