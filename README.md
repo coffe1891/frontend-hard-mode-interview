@@ -21,18 +21,18 @@ https://github.com/coffe1891/FERD</small>
             * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175) | 点评:绝对都是好书，我都读过，但我不是此文作者
 1. 数据结构与算法
     1. 面试时高频率出现的算法
-        * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) | 不用多说,看就对了,写得都通俗易懂
+        * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) | 点评:写得都通俗易懂
         * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html) | 点评:很严谨的文档,论文风格,对阅读能力有较高要求
         * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607) | 点评:递归用来解决二叉树问题就是简洁
     1. 其他算法理论
-        * [迭代、递归的区别]() | 点评:神解释
+        * [面试官问你斐波那契数列的时候不要高兴得太早](https://zhuanlan.zhihu.com/p/54378423) | 点评:把递归/尾递归、迭代讲明白了,C语言版本,不妨碍阅读
 1. 框架：
     1. 综合
         * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390)
         * [Angular和Vue.js深度对比](https://www.cnblogs.com/scode2/p/8820613.html)
     1. Vue.js
         * [Vue问得最多的面试题](https://zhuanlan.zhihu.com/p/53703176)
-        * 
+        * [Vue源码解读：Vue数据响应式原理](https://www.jianshu.com/p/1032ecd62b3a) | 点评:分析比较透彻,适合深度阅读
     1. Angular.js
     1. React Native
     1. flutter
@@ -69,7 +69,7 @@ https://github.com/coffe1891/FERD</small>
         * [重新认识JavaScript面向对象: 从ES5到ES6](https://zhuanlan.zhihu.com/p/33658346)
     1. 面向过程
     1. 函数式编程
-        * [什么是函数式编程思维](https://www.zhihu.com/question/28292740/answer/40336090)
+        * [什么是函数式编程思维](https://www.zhihu.com/question/28292740/answer/40336090) | 点评:顺带把递归和迭代讲透了
     1. 架构原则
         * 单一职责原则
         * 最少知识原则
