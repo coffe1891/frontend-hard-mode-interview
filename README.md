@@ -7,7 +7,7 @@
 1. 最新特性
     * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)
 1. 语言基础
-    * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html) | 点评:按照作者提供的窍门再也不怕搞错this指向了
+    * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html) <br> 点评:按照作者提供的窍门再也不怕搞错this指向了
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) | 点评:看完可以在这块儿吊打面试官
 1. 奇技淫巧
     * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179) | 点评:性能不佳但是面试时高频出现
@@ -16,7 +16,7 @@
 1. 书籍推荐
     * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175) | 点评:绝对都是好书，我都读过,但我不是此文作者
 
-###二.数据结构与算法
+### 二.数据结构与算法
 1. 面试时高频率出现的算法
     * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html) | 点评:很严谨的文档,论文风格,对阅读能力有较高要求
     * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607) | 点评:递归用来解决二叉树问题就是简洁
@@ -27,7 +27,7 @@
 1. 好书推荐
     * [《学习JavaScript数据结构与算法(第2版)》](https://book.douban.com/subject/27129352/) | 点评:建议先看一遍书目录,高级点的数据结构还需要专门看其他文章,目前市面上没有比这本好的。
 
-###三.前端框架
+### 三.前端框架
 1. 综合
     * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390) | 点评:讲清楚了为什么flutter更快
     * [Angular和Vue.js深度对比](https://www.cnblogs.com/scode2/p/8820613.html)
@@ -39,7 +39,7 @@
 1. flutter
     * [Flutter 开发体验初探](https://zhuanlan.zhihu.com/p/78344178) | 点评:基于Android Studio,对Android猿会更友好
 
-###四.前端工具
+### 四.前端工具
 1. Webpack-自动打包模块工具
     * [带你走进webpack世界，成为webpack头号玩家](https://juejin.im/post/5ac9dc9af265da23884d5543)
     * [webpack入门指南](https://webpack.docschina.org/guides/) | 点评:花1~2天看完这个指南就算入门了
@@ -50,7 +50,7 @@
     * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453) | 点评:你就觉得VSCode没有它们会非常单调
     * Sublime
 
-###五.设计模式
+### 五.设计模式
 1. 十四种经典设计模式
     * (01) 单例模式
     * (02) 策略模式
@@ -69,7 +69,7 @@
 1. MVVM、MVC、MVP
     * [浅析web前端MVVM](https://zhuanlan.zhihu.com/p/54355504)
 
-###六.编程思想
+### 六.编程思想
 1. 综合
     * [如何通俗易懂地举例说明「面向对象」和「面向过程」有什么区别](https://www.zhihu.com/question/27468564/answer/103253765)
 1. 面向对象
@@ -85,14 +85,14 @@
     * 接口和面向接口编程
     * 代码重构
 
-###七.参考网站
+### 七.参考网站
 1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) | 点评:最全的Web相关参考文档,没有之一
 1. [英文站-Stack Overflow](https://stackoverflow.com/) | 点评:掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
 1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/) | 点评:手册在手,Vue不愁
 1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue) | 点评:超级多的资源,总能找到你喜欢的那款
 
-###八.前端公众号
+### 八.前端公众号
 1. 奇舞周刊 | 点评:进微信搜索"奇舞周刊",360奇舞团出品,篇篇精品
 
-###九.大神们的Twitter
+### 九.大神们的Twitter
 1. [尤雨溪](https://twitter.com/youyuxi) | 点评:Vue.js作者
