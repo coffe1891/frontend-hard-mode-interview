@@ -10,6 +10,9 @@
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q)<br/>写得详实易懂,看完可以举一反三、对答如流|
     * 彻底搞懂Javascript中的闭包<br/>点评:|
     * 模块化编程<br/>点评:|
+1. 浏览器相关知识
+    * [页面重排与重绘（Reflow & Repaint)](https://zhuanlan.zhihu.com/p/35184404)<br/>把浏览器的工作原理也讲到了，reflow和repaint是两个很重要的概念,一定要搞明白|
+    * [V8 内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8)<br/>V8采用分代回收+复制回收的垃圾回收算法，这个知识点一定要明白，是通用的|
 1. 奇技淫巧
     * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179)<br/>性能不佳,但是面试时高频出现|
     * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370)<br/>确实很妙|
@@ -81,7 +84,7 @@
 1. 函数式编程
     * [什么是函数式编程思维](https://www.zhihu.com/question/28292740/answer/40336090)<br/>面向数学,变量不可变,无需共享资源无须独占锁,因此线程安全,适合发挥多核CPU并发的威力.顺带把递归和迭代讲透了|
 1. 元编程
-    * [Javascript元编程](https://zhuanlan.zhihu.com/p/20758879)<br> eval、new Function()、Proxy等都是元编程特性|
+    * [Javascript元编程](https://zhuanlan.zhihu.com/p/20758879)<br> 讲了什么是元编程，并举例eval、new Function()、Proxy等元编程特性|
 1. 架构原则
     * 单一职责原则
     * 最少知识原则
