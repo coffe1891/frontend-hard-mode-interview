@@ -1,13 +1,9 @@
-# [前端内参(FERD)](https://github.com/coffe1891/FERD)
-<small>前端内参-分享最好的前端文章。
-Front End Reference Documents-share the best articles of FE.
-https://github.com/coffe1891/FERD</small>
-<br/>**每篇文章都有点评，方便阅读前参考。**
+<small>**每篇文章都有点评，方便阅读前参考。**
 <br/>**欢迎小伙伴们star或者fork，一起完善前端内参。**
-<br/>**前端交流** QQ群：308689488 ， 微信群：加kenny2019拉进群。*申请请说明:前端内参。*
+<br/>**前端交流** QQ群：308689488 ， 微信群：加kenny2019拉进群。*申请请说明:“前端内参”。*</small>
 
 ## 目录 
-1. JavaScript语言：
+1. **JavaScript语言**
     1. 最新特性
         * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)
     1. 语言基础
@@ -19,7 +15,7 @@ https://github.com/coffe1891/FERD</small>
         * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419)
     1. 书籍推荐
         * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175) | 点评:绝对都是好书，我都读过,但我不是此文作者
-1. 数据结构与算法
+1. **数据结构与算法**
     1. 面试时高频率出现的算法
         * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) | 点评:写得都通俗易懂
         * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html) | 点评:很严谨的文档,论文风格,对阅读能力有较高要求
@@ -28,8 +24,8 @@ https://github.com/coffe1891/FERD</small>
         * [面试官问你斐波那契数列的时候不要高兴得太早](https://zhuanlan.zhihu.com/p/54378423) | 点评:把递归/尾递归、迭代讲明白了,C语言版本,不妨碍阅读
         * [尾递归究竟是好是坏](https://www.zhihu.com/question/49368021/answer/115631284) | 点评:确定编译器能优化尾递归,就可以写尾递归
     1. 好书推荐
-        * [学习JavaScript数据结构与算法(第2版)](https://book.douban.com/subject/27129352/) | 点评:先看一遍书目录
-1. 框架：
+        * [《学习JavaScript数据结构与算法(第2版)》](https://book.douban.com/subject/27129352/) | 点评:先看一遍书目录
+1. **前端框架**
     1. 综合
         * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390) | 点评:讲清楚了为什么flutter更快的原因
         * [Angular和Vue.js深度对比](https://www.cnblogs.com/scode2/p/8820613.html)
@@ -40,13 +36,16 @@ https://github.com/coffe1891/FERD</small>
     1. React Native
     1. flutter
         * [Flutter 开发体验初探](https://zhuanlan.zhihu.com/p/78344178) | 点评:基于Android Studio,对Android猿会更友好
-1. 工具
+1. **前端工具**
     1. Webpack-自动打包模块工具
         * [带你走进webpack世界，成为webpack头号玩家](https://juejin.im/post/5ac9dc9af265da23884d5543)
         * [webpack入门指南](https://webpack.docschina.org/guides/) | 点评:花1~2天看完这个指南就算入门了
     1. Swagger-API文档管理
         * [Swagger介绍及使用](https://www.jianshu.com/p/349e130e40d5)
-1. 设计模式
+    1. IDE-工欲善其事必先利其器
+        * VS Code
+        * Sublime
+1. **设计模式**
     1. 十四种经典设计模式
         * (01) 单例模式
         * (02) 策略模式
@@ -64,7 +63,7 @@ https://github.com/coffe1891/FERD</small>
         * (14) 适配器模式
     1. MVVM、MVC
         * [浅析web前端MVVM](https://zhuanlan.zhihu.com/p/54355504)
-1. 编程思想
+1. **编程思想**
     1. 综合
         * [如何通俗易懂地举例说明「面向对象」和「面向过程」有什么区别](https://www.zhihu.com/question/27468564/answer/103253765)
     1. 面向对象
@@ -79,12 +78,12 @@ https://github.com/coffe1891/FERD</small>
         * 开放-封闭原则
         * 接口和面向接口编程
         * 代码重构
-1. 网站
+1. **参考网站**
     1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) | 点评:最全的Web相关参考文档,没有之一
     1. [英文站-Stack Overflow](https://stackoverflow.com/) | 点评:掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
     1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/) | 点评:手册在手,Vue不愁
     1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue) | 点评:超级多的资源,总能找到你喜欢的那款
-1. 公众号
+1. **前端公众号**
     1. [奇舞周刊] | 点评:进微信搜索"奇舞周刊",360奇舞团出品,篇篇精品
-1. Twitter
+1. **大神们的Twitter**
     1. [尤雨溪](https://twitter.com/youyuxi) | 点评:Vue.js作者
