@@ -48,7 +48,7 @@
     * [Swagger介绍及使用](https://www.jianshu.com/p/349e130e40d5)<br/>点评:再也不愁文档更新不及时了|
 1. IDE-工欲善其事必先利其器
     * [这就是我想要的VSCode插件！](https://zhuanlan.zhihu.com/p/36020180)<br/>点评:|
-    * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453)<br/>点评:你就觉得VSCode没有它们会非常单调|
+    * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453)<br/>点评:VSCode没有它们会非常单调|
     * Sublime
 
 #### 五、设计模式
@@ -75,10 +75,10 @@
     * [如何通俗易懂地举例说明「面向对象」和「面向过程」有什么区别](https://www.zhihu.com/question/27468564/answer/103253765)|
 1. 面向对象
     * [面向对象编程的弊端是什么](https://www.zhihu.com/question/20275578/answer/26577791)|
-    * [重新认识JavaScript面向对象: 从ES5到ES6](https://zhuanlan.zhihu.com/p/33658346)
+    * [重新认识JavaScript面向对象: 从ES5到ES6](https://zhuanlan.zhihu.com/p/33658346)|
 1. 面向过程
 1. 函数式编程
-    * [什么是函数式编程思维](https://www.zhihu.com/question/28292740/answer/40336090) | 点评:顺带把递归和迭代讲透了
+    * [什么是函数式编程思维](https://www.zhihu.com/question/28292740/answer/40336090)<br/>点评:顺带把递归和迭代讲透了|
 1. 架构原则
     * 单一职责原则
     * 最少知识原则
