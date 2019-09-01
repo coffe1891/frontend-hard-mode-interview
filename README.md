@@ -3,22 +3,22 @@
 Front End Reference Documents-share the best articles of FE.
 https://github.com/coffe1891/FERD</small>
 <br/>**每篇文章都有点评，方便阅读前参考。**
-<br/>**前端交流**：QQ群=308689488 ， 微信群=加kenny2019拉进群。申请请说明:前端内参。
+<br/>**欢迎小伙伴们star或者fork，一起完善前端内参。**
+<br/>**前端交流** QQ群：308689488 ， 微信群：加kenny2019拉进群。*申请请说明:前端内参。*
 
 ## 目录 
-1. 语言：
-    1. JavaScript
-        1. 最新特性
-            * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)
-        1. 语言基础
-            * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html) | 点评:按照作者提供的窍门再也不怕搞错this指向了
-            * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) | 点评:看完可以在这块儿吊打面试官
-        1. 奇技淫巧
-            * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179) | 点评:性能不佳但是面试时高频出现
-            * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370) | 点评:确实很妙
-            * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419)
-        1. 书籍推荐
-            * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175) | 点评:绝对都是好书，我都读过，但我不是此文作者
+1. JavaScript语言：
+    1. 最新特性
+        * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)
+    1. 语言基础
+        * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html) | 点评:按照作者提供的窍门再也不怕搞错this指向了
+        * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) | 点评:看完可以在这块儿吊打面试官
+    1. 奇技淫巧
+        * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179) | 点评:性能不佳但是面试时高频出现
+        * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370) | 点评:确实很妙
+        * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419)
+    1. 书籍推荐
+        * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175) | 点评:绝对都是好书，我都读过,但我不是此文作者
 1. 数据结构与算法
     1. 面试时高频率出现的算法
         * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) | 点评:写得都通俗易懂
@@ -26,9 +26,12 @@ https://github.com/coffe1891/FERD</small>
         * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607) | 点评:递归用来解决二叉树问题就是简洁
     1. 其他算法理论
         * [面试官问你斐波那契数列的时候不要高兴得太早](https://zhuanlan.zhihu.com/p/54378423) | 点评:把递归/尾递归、迭代讲明白了,C语言版本,不妨碍阅读
+        * [尾递归究竟是好是坏](https://www.zhihu.com/question/49368021/answer/115631284) | 点评:确定编译器能优化尾递归,就可以写尾递归
+    1. 好书推荐
+        * [学习JavaScript数据结构与算法(第2版)](https://book.douban.com/subject/27129352/) | 点评:先看一遍书目录
 1. 框架：
     1. 综合
-        * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390)
+        * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390) | 点评:讲清楚了为什么flutter更快的原因
         * [Angular和Vue.js深度对比](https://www.cnblogs.com/scode2/p/8820613.html)
     1. Vue.js
         * [Vue问得最多的面试题](https://zhuanlan.zhihu.com/p/53703176)
