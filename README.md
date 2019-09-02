@@ -14,9 +14,9 @@
     * 请停止抖你的腿，挺直你的背
     * 不卑不亢、不疾不徐地说话
     * 注意倾听，回答问题适可而止
-    * 诚实诚恳，扬长避短
     * 直觉地感到面试官对你不友好时，如何应对？
     * 谦虚的人总是受人尊敬的
+    * 诚实诚恳，扬长避短
     * 如何回答职业规划？
     * 如何回答离职原因？
     * 被问答到薪资待遇时如何应对？
@@ -108,7 +108,7 @@
     * [浅析web前端MVVM](https://zhuanlan.zhihu.com/p/54355504)<br/>点评:
 
 #### 六、编程思想
-1. 设计原则
+1. 设计原则——先有美的设计，才有后面美的实现
     * 单一职责原则
     * 最少知识原则
     * 开放-封闭原则
@@ -128,7 +128,7 @@
 #### 七、参考网站
 1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web)<br/>最全的Web相关参考文档,没有之一
 1. [英文站-StackOverflow](https://stackoverflow.com/)<br/>掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
-1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/)<br/>手册在手,Vue不愁
+1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/)<br/>手册在手,玩转Vue不愁
 1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue)<br/>超级多的资源,总能找到你喜欢的那款
 
 #### 八、博客&公众号
