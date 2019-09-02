@@ -20,27 +20,28 @@
     * 如何礼貌又得体的询问结果？
     * 如果被拒，如何再次寻求面试机会？
     * 面完及时总结-->提升-->准备下一轮面试。
-    
-#### 一、前端之灵：JavaScript语言
+
+#### 一、前端之灵：JavaScript/ECMAScript
 1. 最新特性
-    * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)<br/>点评:
-1. 语言基础
-    * [作用域、作用域链](https://zhuanlan.zhihu.com/p/59321690)<br/>许多开发人员经常混淆作用域和执行上下文的概念，误认为它们是相同的概念，但事实并非如此
-    * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html)<br/>按照作者提供的窍门再也不怕搞错this指向了
+    * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)
+    * 2020年的Javascript新变化
+1. 核心概念
+    * [作用域、作用域链、上下文环境](https://zhuanlan.zhihu.com/p/59321690)<br/>许多开发人员经常混淆作用域和执行上下文的概念，误认为它们是相同的概念，但事实并非如此
+    * [彻底搞懂this](https://www.cnblogs.com/kaima/p/javascript_this.html)<br/>按照作者提供的窍门再也不怕搞错this指向了
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q)<br/>写得详实易懂,看完可以举一反三、对答如流
-    * [彻底搞懂Javascript中的闭包](https://www.cnblogs.com/wangfupeng1988/p/3994065.html)<br/>“闭包”这个词的概念的文字描述，确实不好解释，我看过很多遍，但是现在还是记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递。
-    * [如何形象地解释 JavaScript 中 map、foreach、reduce 间的区别？](https://www.zhihu.com/question/24927450/answer/29478982)<br/>点评:Vue.js作者给的解释，简单干脆，附带还讲了filter()
-    * [新的RegExp特性，rest/spread属性，异步迭代和Promise.prototype.finally](https://zhuanlan.zhihu.com/p/55416553)<br/>每个JavaScript开发者都该了解的ES2018新特性
+    * [面试官高频问到的“闭包”](https://www.cnblogs.com/wangfupeng1988/p/3994065.html)<br/>“闭包”这个词的概念的文字描述，确实不好解释，我看过很多遍，但是现在还是记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递。
+    * [如何形象地解释数组的map、foreach、reduce、filter 间的区别？](https://www.zhihu.com/question/24927450/answer/29478982)<br/>点评:Vue.js作者给的解释，简单干脆
+    * [新的RegExp特性，rest/spread属性，异步迭代和Promise.prototype.finally](https://zhuanlan.zhihu.com/p/55416553)<br/>每个JavaScript开发者都该了解的ES新特性
 1. 浏览器、JS引擎
     * [页面重排与重绘（Reflow & Repaint)](https://zhuanlan.zhihu.com/p/35184404)<br/>把浏览器的工作原理也讲到了，reflow和repaint是两个很重要的概念,一定要搞明白
     * [V8引擎是如何工作的](https://zhuanlan.zhihu.com/p/73768338)<br/>对V8引擎需要有充分了解才能知道为什么快，怎么样写代码会跑的更快
     * [V8内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8)<br/>V8采用分代回收+复制回收的垃圾回收算法,这个知识点要弄明白,是通用的
-1. 奇技淫巧
+1. 面试时容易高频问到的小技巧
     * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179)<br/>性能不佳,但是面试时高频出现
     * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370)<br/>确实很妙
     * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419)<br/>Proxy可以拦截/控制任何目标Object的行为,十分强大。嗯，灵活性几乎总是意味着性能损失
 1. 书籍推荐
-    * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175)<br/>绝对都是好书,我都读过,但我不是此文作者
+    * [面试官问你读过哪些Javscript书籍](https://www.zhihu.com/question/19562698/answer/89480175)<br/>绝对都是好书,我都读过,但我不是此文作者
 
 #### 二、必须学扎实：数据结构与算法
 1. 面试时高频率出现的算法
