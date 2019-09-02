@@ -16,7 +16,7 @@ description: 挑战Hard模式下的前端面试之旅
 
 因此做了这个内参，把前端知识和前端面试要点梳理一遍，作为自己求职的复习/进阶内参。现在分享出来，用心写上点评，希望对你有用。如果我最终能达成入职一线互联网公司的目标，更年轻、更健康的你们只会比我做的更好。加油吧，弟弟妹妹们！
 
-欢迎给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，[@Twitter](https://twitter.com/coffe1891)记录了我的面试实时动态。
+欢迎给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，[@Twitter](https://twitter.com/coffe1891)我的面试之旅实时动态。
 
 ## 零、搞定Hard模式下的面试
 
