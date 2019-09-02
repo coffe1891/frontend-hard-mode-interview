@@ -66,11 +66,12 @@ description: 挑战Hard模式下的前端面试之旅
    * [页面重排与重绘（Reflow & Repaint\)](https://zhuanlan.zhihu.com/p/35184404) 把浏览器的工作原理也讲到了，reflow和repaint是两个很重要的概念,一定要搞明白
    * [V8引擎是如何工作的](https://zhuanlan.zhihu.com/p/73768338) 对V8引擎需要有充分了解才能知道为什么快，怎么样写代码会跑的更快
    * [V8内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8) V8采用分代回收+复制回收的垃圾回收算法,这个知识点要弄明白,是通用的
-4. 了解一些服务器端核心概念
+4. 了解一些常被问到的服务器端概念
    * 为什么要创造服务器端的javascript—Node.js？
    * 了解TCP/IP、UDP、TLS
    * Http协议的三个版本
    * Http和Https的区别在哪里
+   * XSS与CSRF
 5. 面试时高频问到的小技巧
    * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179) 性能不佳,但是面试时高频出现
    * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370) 确实很妙
