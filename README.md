@@ -3,9 +3,9 @@
 #### 零、搞定Hard模式下的面试
 1. 一线互联网公司面试前的准备
     * 该公司是做什么的，实力怎么样，前景如何，口碑怎样？
-    * 该岗位负责做什么的，前景如何？
-    * 面试官会是什么样的人？
-    * 可能问到哪些笔试、面试题？
+    * 该岗位负责做什么的，上升空间多大？
+    * 面试官会是什么样的人呢？
+    * 面试官可能问到哪些笔试、面试题？
     * 如何在面试前就给人留下深刻印象？
     * 面试应该怎样穿着打扮？
 2. 面试中的技巧
@@ -18,7 +18,7 @@
     * 如何礼貌又得体的询问结果？
     * 如果被拒，如何再次寻求面试机会？
     * 面完及时总结-->提升-->准备下一轮面试。
-#### 一、JavaScript语言
+#### 一、前端之灵：JavaScript语言
 1. 最新特性
     * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)<br/>点评:
 1. 语言基础
@@ -39,7 +39,7 @@
 1. 书籍推荐
     * [关于 JavaScript 的好书有哪些？](https://www.zhihu.com/question/19562698/answer/89480175)<br/>绝对都是好书,我都读过,但我不是此文作者
 
-#### 二、数据结构与算法
+#### 二、必须学扎实：数据结构与算法
 1. 面试时高频率出现的算法
     * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html) <br/>很严谨的文档,论文风格,对阅读能力有较高要求,适合深度阅读
     * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607)<br/>递归用来解决二叉树问题就是简洁
@@ -51,7 +51,7 @@
 1. 好书推荐
     * [《学习JavaScript数据结构与算法》](https://book.douban.com/subject/27129352/)<br/>这是第2版,加入了ES6的一些新内容,建议先看一遍书目录,高级点的数据结构还需要专门看其他文章,目前市面上没有比这本好的
 
-#### 三、前端框架
+#### 三、流行的框架
 1. 综合
     * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390)<br/>讲清楚了为什么flutter更快
     * [Angular和Vue.js深度对比](https://www.cnblogs.com/scode2/p/8820613.html)
@@ -64,7 +64,7 @@
     * [Flutter 开发体验初探](https://zhuanlan.zhihu.com/p/78344178)<br/>基于Android Studio,对Android猿会更友好
 1. 好书推荐
 
-#### 四、前端工具
+#### 四、必会的工具
 1. Webpack-自动打包模块工具
     * [带你走进webpack世界，成为webpack头号玩家](https://juejin.im/post/5ac9dc9af265da23884d5543)
     * [webpack入门指南](https://webpack.docschina.org/guides/)<br/>花1~2天看完这个指南就算入门了
@@ -76,7 +76,7 @@
     * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453)<br/>VSCode没有它们会非常单调
     * Sublime
 
-#### 五、设计模式
+#### 五、掌握常见的设计模式，实战中融会贯通
 1. 十四种经典设计模式
     * (01) 单例模式
     * (02) 策略模式
