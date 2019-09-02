@@ -40,18 +40,18 @@
     * Javascript模块化
     * [如何形象地解释数组的map、foreach、reduce、filter 间的区别？](https://www.zhihu.com/question/24927450/answer/29478982)<br/>点评:Vue.js作者给的解释，简单干脆
     * [新的RegExp特性，rest/spread属性，异步迭代和Promise.prototype.finally](https://zhuanlan.zhihu.com/p/55416553)<br/>每个JavaScript开发者都该了解的ES新特性
-1. 浏览器、JS引擎
+1. 浏览器、引擎
     * [页面重排与重绘（Reflow & Repaint)](https://zhuanlan.zhihu.com/p/35184404)<br/>把浏览器的工作原理也讲到了，reflow和repaint是两个很重要的概念,一定要搞明白
     * [V8引擎是如何工作的](https://zhuanlan.zhihu.com/p/73768338)<br/>对V8引擎需要有充分了解才能知道为什么快，怎么样写代码会跑的更快
     * [V8内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8)<br/>V8采用分代回收+复制回收的垃圾回收算法,这个知识点要弄明白,是通用的
-1. 面试时容易高频问到的小技巧
+1. 面试时高频问到的小技巧
     * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179)<br/>性能不佳,但是面试时高频出现
     * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370)<br/>确实很妙
     * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419)<br/>Proxy可以拦截/控制任何目标Object的行为,十分强大。嗯，灵活性几乎总是意味着性能损失
 1. 书籍推荐
     * [面试官问你读过哪些Javscript书籍](https://www.zhihu.com/question/19562698/answer/89480175)<br/>绝对都是好书,我都读过,但我不是此文作者
 
-#### 二、必须学扎实：数据结构与算法
+#### 二、数据结构与算法
 1. 面试时高频率出现的算法
     * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html) <br/>很严谨的文档,论文风格,对阅读能力有较高要求,适合深度阅读
     * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607)<br/>递归用来解决二叉树问题就是简洁
@@ -105,10 +105,10 @@
     * (13) 状态模式
     * (14) 适配器模式
 1. MVVM、MVC、MVP
-    * [浅析web前端MVVM](https://zhuanlan.zhihu.com/p/54355504)<br/>点评:
+    * [浅析web前端MVVM](https://zhuanlan.zhihu.com/p/54355504)<br/>
 
 #### 六、编程思想
-1. 设计原则——先有美的设计，才有后面美的实现
+1. 设计原则——先有美的设计，才有美的实现
     * 单一职责原则
     * 最少知识原则
     * 开放-封闭原则
