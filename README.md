@@ -45,7 +45,7 @@ description: 挑战Hard模式下的前端面试之旅
    * 如果被拒，如何再次寻求面试机会？
    * 面完及时总结--&gt;提升--&gt;准备下轮面试
 
-## 一、前端之灵：JavaScript/ECMAScript
+## 壹、前端之灵：JavaScript/ECMAScript
 
 1. 最新特性
    * [2019年的JavaScript性能变化](https://juejin.im/post/5d1f27285188252f275fdbb6)
@@ -77,7 +77,7 @@ description: 挑战Hard模式下的前端面试之旅
 6. 书籍推荐
    * [面试官问你读过哪些Javscript书籍](https://www.zhihu.com/question/19562698/answer/89480175) 绝对都是好书,我都读过,但我不是此文作者
 
-## 二、数据结构与算法
+## 贰、数据结构与算法
 
 1. 面试时高频率出现的算法
    * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)  很严谨的文档,论文风格,对阅读能力有较高要求,适合深度阅读
@@ -90,7 +90,7 @@ description: 挑战Hard模式下的前端面试之旅
 3. 好书推荐
    * [《学习JavaScript数据结构与算法》](https://book.douban.com/subject/27129352/) 这是第2版,加入了ES6的一些新内容,建议先看一遍书目录,高级点的数据结构还需要专门看其他文章,但是目前市面上也没有比这本写得更好的
 
-## 三、主流框架
+## 叁、主流框架
 
 1. 综合比较
    * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390) 讲清楚了为什么flutter更快
@@ -108,7 +108,7 @@ description: 挑战Hard模式下的前端面试之旅
 6. 好书推荐
    * 《Vue.js》《Angular.js》 
 
-## 四、必会的工具
+## 肆、必会的工具
 
 1. Webpack-自动打包模块工具
    * [带你走进webpack世界，成为webpack头号玩家](https://juejin.im/post/5ac9dc9af265da23884d5543)
@@ -121,7 +121,7 @@ description: 挑战Hard模式下的前端面试之旅
    * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453) VSCode没有它们会非常单调
    * Sublime
 
-## 五、编程思想
+## 伍、编程思想
 
 1. 设计原则——先有美的设计，才有美的实现
    * 单一职责原则
@@ -140,7 +140,7 @@ description: 挑战Hard模式下的前端面试之旅
 5. 好书推荐
    * [《重构》](https://book.douban.com/subject/4262627/)
 
-## 六、掌握常见的设计模式
+## 陆、掌握常见的设计模式
 
 1. 面试时很容易聊到的十四种经典设计模式
    * 单例模式
@@ -160,19 +160,19 @@ description: 挑战Hard模式下的前端面试之旅
 2. MVVM、MVC、MVP
    * [浅析web前端MVVM](https://zhuanlan.zhihu.com/p/54355504) 
 
-## 七、参考网站
+## 柒、参考网站
 
 1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) 最全的Web相关参考文档,没有之一
 2. [英文站-StackOverflow](https://stackoverflow.com/) 掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
 3. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/) 手册在手,玩转Vue不愁
 4. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue) 超级多的资源,总能找到你喜欢的那款
 
-## 八、博客&公众号
+## 捌、博客&公众号
 
 1. 奇舞周刊  进微信搜索"奇舞周刊",360奇舞团\(75Team\)出品,篇篇精品
 2. [每一个Javascript开发人员都应该关注的博客](https://www.zcfy.cc/article/15-blogs-every-javascript-developer-should-follow-in-2018) 老外的博客，一些博主是Javascript明星，更多的是像你我这样的普通开发人员。 某些博客关注在某个具体的生态（像是Angular、React或者Vue\)， 还有一些关注更普遍的用法。
 
-## 九、Twitter
+## 玖、Twitter
 
 1. [尤雨溪](https://twitter.com/youyuxi)  Vue.js作者
 
