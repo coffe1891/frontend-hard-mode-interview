@@ -46,7 +46,7 @@
     * [页面重排与重绘（Reflow & Repaint)](https://zhuanlan.zhihu.com/p/35184404)<br/>把浏览器的工作原理也讲到了，reflow和repaint是两个很重要的概念,一定要搞明白
     * [V8引擎是如何工作的](https://zhuanlan.zhihu.com/p/73768338)<br/>对V8引擎需要有充分了解才能知道为什么快，怎么样写代码会跑的更快
     * [V8内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8)<br/>V8采用分代回收+复制回收的垃圾回收算法,这个知识点要弄明白,是通用的
-1. Node.js和服务器端
+1. 了解一些服务器端核心概念
     * 为什么要创造服务器端的javascript—Node.js？
     * 了解TCP/IP、UDP、TLS
     * Http协议的三个版本
@@ -58,6 +58,7 @@
     * [用JavaScript实现类、继承、多态]()<br>有好几种办法实现继承，但有点类似于茴香豆有几种写法，无用之用
 1. 书籍推荐
     * [面试官问你读过哪些Javscript书籍](https://www.zhihu.com/question/19562698/answer/89480175)<br/>绝对都是好书,我都读过,但我不是此文作者
+
 #### 二、数据结构与算法
 1. 面试时高频率出现的算法
     * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html) <br/>很严谨的文档,论文风格,对阅读能力有较高要求,适合深度阅读
@@ -70,7 +71,7 @@
 1. 好书推荐
     * [《学习JavaScript数据结构与算法》](https://book.douban.com/subject/27129352/)<br/>这是第2版,加入了ES6的一些新内容,建议先看一遍书目录,高级点的数据结构还需要专门看其他文章,但是目前市面上也没有比这本写得更好的
 
-#### 三、流行的框架
+#### 三、主流框架
 1. 综合比较
     * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390)<br/>讲清楚了为什么flutter更快
     * [Angular和Vue.js深度对比](https://www.cnblogs.com/scode2/p/8820613.html)
