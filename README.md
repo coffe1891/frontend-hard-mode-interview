@@ -10,10 +10,11 @@
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q)<br/>写得详实易懂,看完可以举一反三、对答如流|
     * 彻底搞懂Javascript中的闭包<br/>点评:|
     * [如何形象地解释 JavaScript 中 map、foreach、reduce 间的区别？](https://www.zhihu.com/question/24927450/answer/29478982)<br/>点评:Vue.js作者给的解释，简单干脆，附带还讲了filter()|
+    * [新的RegExp特性，rest/spread属性，异步迭代和Promise.prototype.finally](https://zhuanlan.zhihu.com/p/55416553)<br/>每个JavaScript开发者都该了解的ES2018新特性|
 1. 浏览器、JS引擎
     * [页面重排与重绘（Reflow & Repaint)](https://zhuanlan.zhihu.com/p/35184404)<br/>把浏览器的工作原理也讲到了，reflow和repaint是两个很重要的概念,一定要搞明白|
-    * [JavaScript的工作原理：V8引擎内部+关于如何编写优化代码的5个技巧](https://zhuanlan.zhihu.com/p/47480980)<br/>|
-    * [V8 内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8)<br/>V8采用分代回收+复制回收的垃圾回收算法,这个知识点要弄明白,是通用的|
+    * [V8引擎是如何工作的](https://zhuanlan.zhihu.com/p/73768338)<br/>|
+    * [V8内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8)<br/>V8采用分代回收+复制回收的垃圾回收算法,这个知识点要弄明白,是通用的|
 1. 奇技淫巧
     * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179)<br/>性能不佳,但是面试时高频出现|
     * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370)<br/>确实很妙|
@@ -99,8 +100,9 @@
 1. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/)<br/>手册在手,Vue不愁|
 1. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue)<br/>超级多的资源,总能找到你喜欢的那款|
 
-#### 八、前端公众号
+#### 八、博客&公众号
 1. 奇舞周刊 <br/>进微信搜索"奇舞周刊",360奇舞团(75Team)出品,篇篇精品|
+1. [每一个Javascript开发人员都应该关注的博客](https://www.zcfy.cc/article/15-blogs-every-javascript-developer-should-follow-in-2018)<br/>一些博主是Javascript明星，更多的是像你我这样的普通开发人员。 某些博客关注在某个具体的生态（像是Angular、React或者Vue)， 还有一些关注更普遍的用法。|
 
 #### 九、Twitter
 1. [尤雨溪](https://twitter.com/youyuxi) <br>Vue.js作者|
