@@ -1,14 +1,14 @@
->如何在Hard模式下通过一线互联网公司的面试？我，38岁的听障程序员，没错，属于听力残疾人士。在360和百度工作过，后来创业3次运气好成功了1次，爱挑战逆境。在南方休息2年后，现在回到了北京，有了新的挑战：入职一线互联网公司做感兴趣的Front-End工作。因为年纪大、听力差，很多互联网公司的领导似乎不太接受这样的，屡屡被拒。面对如此逆境，我决定苦练技能，用更高的性价比打动雇主以达成目标。因此做了这个内参，把前端知识梳理一遍，作为自己求职的复习/进阶内参。每篇文章都是精心挑选，现在分享出来，用心写上点评，希望对你有用。[@欢迎给我提建议](https://github.com/coffe1891/FERD/issues/new)，[@Twitter](https://twitter.com/coffe1891)。
+>如何在Hard模式下通过一线互联网公司的面试？我，38岁的听障程序员，没错，属于听力残疾人士。在360和百度工作过，后来创业3次运气好成功了1次，爱挑战逆境。在南方休息2年后，现在回到了北京，有了新的挑战：计划入职一线互联网公司做感兴趣的Front-End工作。因为听力差、年龄大，很多互联网公司的领导似乎不太接受这样的，屡屡被拒。面对如此逆境，我决定苦练技能，用更高的性价比打动雇主以达成目标。因此做了这个内参，把前端知识梳理一遍，作为自己求职的复习/进阶内参。每篇文章都是精心挑选，现在分享出来，用心写上点评，希望对你有用。[@欢迎给我提建议](https://github.com/coffe1891/FERD/issues/new)，[@Twitter](https://twitter.com/coffe1891)。
 
 
 #### 一、JavaScript语言
 1. 最新特性
     * [2019年的JavaScript性能](https://juejin.im/post/5d1f27285188252f275fdbb6)<br/>点评:
 1. 语言基础
-    * 作用域、作用域链<br/>点评: 
+    * [作用域、作用域链](https://zhuanlan.zhihu.com/p/59321690)<br/>许多开发人员经常混淆作用域和执行上下文的概念，误认为它们是相同的概念，但事实并非如此
     * [彻底搞懂Javascript中的this](https://www.cnblogs.com/kaima/p/javascript_this.html)<br/>按照作者提供的窍门再也不怕搞错this指向了
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q)<br/>写得详实易懂,看完可以举一反三、对答如流
-    * 彻底搞懂Javascript中的闭包<br/>点评:
+    * [彻底搞懂Javascript中的闭包](https://www.cnblogs.com/wangfupeng1988/p/3994065.html)<br/>“闭包”这个词的概念的文字描述，确实不好解释，我看过很多遍，但是现在还是记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递。
     * [如何形象地解释 JavaScript 中 map、foreach、reduce 间的区别？](https://www.zhihu.com/question/24927450/answer/29478982)<br/>点评:Vue.js作者给的解释，简单干脆，附带还讲了filter()
     * [新的RegExp特性，rest/spread属性，异步迭代和Promise.prototype.finally](https://zhuanlan.zhihu.com/p/55416553)<br/>每个JavaScript开发者都该了解的ES2018新特性
 1. 浏览器、JS引擎
