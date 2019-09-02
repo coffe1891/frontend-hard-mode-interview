@@ -34,7 +34,7 @@
     * 2020年的Javascript新变化
 1. 核心概念
     * [函数]()<br>函数是JavaScript世界的第一等公民
-    * [作用域、作用域链、上下文环境](https://zhuanlan.zhihu.com/p/59321690)<br/>许多开发人员经常混淆作用域和执行上下文的概念，误认为它们是相同的概念，但事实并非如此
+    * [作用域、作用域链、执行上下文](https://zhuanlan.zhihu.com/p/59321690)<br/>其实我觉得，执行上下文，也就是执行时产生的作用域，详见《JavaScript权威指南》。
     * [彻底搞懂this](https://www.cnblogs.com/kaima/p/javascript_this.html)<br/>按照作者提供的窍门再也不怕搞错this指向了
     * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q)<br/>写得详实易懂,看完可以举一反三、对答如流
     * [面试时高频问到的“闭包”](https://www.cnblogs.com/wangfupeng1988/p/3994065.html)<br/>“闭包”这个词的概念的文字描述，确实不好解释，我看过很多遍，但是现在还是记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递。
@@ -145,7 +145,7 @@
 
 #### 八、博客&公众号
 1. 奇舞周刊 <br/>进微信搜索"奇舞周刊",360奇舞团(75Team)出品,篇篇精品
-1. [每一个Javascript开发人员都应该关注的博客](https://www.zcfy.cc/article/15-blogs-every-javascript-developer-should-follow-in-2018)<br/>一些博主是Javascript明星，更多的是像你我这样的普通开发人员。 某些博客关注在某个具体的生态（像是Angular、React或者Vue)， 还有一些关注更普遍的用法。
+1. [每一个Javascript开发人员都应该关注的博客](https://www.zcfy.cc/article/15-blogs-every-javascript-developer-should-follow-in-2018)<br/>老外的博客，一些博主是Javascript明星，更多的是像你我这样的普通开发人员。 某些博客关注在某个具体的生态（像是Angular、React或者Vue)， 还有一些关注更普遍的用法。
 
 #### 九、Twitter
 1. [尤雨溪](https://twitter.com/youyuxi) <br>Vue.js作者
