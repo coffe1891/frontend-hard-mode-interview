@@ -68,8 +68,9 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [RegExp新增改动，rest/spread属性，异步迭代和Promise.prototype.finally](https://zhuanlan.zhihu.com/p/55416553) 每个JavaScript开发者都该了解的ES新特性
 3. 浏览器、引擎
    * [页面重排与重绘（Reflow & Repaint\)](https://zhuanlan.zhihu.com/p/35184404) 讲了浏览器的工作原理，reflow和repaint是两个很重要的步骤，对渲染性能的影响很大
+   * [DOM、Shadow DOM、Vitual DOM](./)
    * [V8引擎是如何工作的](https://zhuanlan.zhihu.com/p/73768338) 对V8引擎需要有了解才能知道为什么快，以及怎么样写代码会跑的更快
-   * [V8内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8) V8采用分代回收+复制回收的算法，要弄明白有几种垃圾回收算法，这些算法是软件领域通用的
+   * [V8引擎内存管理和垃圾回收机制](https://www.jianshu.com/p/455d0b9ef0a8) V8采用分代回收+复制回收的算法，要弄明白有几种垃圾回收算法，这些算法是软件领域通用的
 4. 了解一些常被问到的服务器端概念
    * [为什么要创造服务器端的javascript—Node.js？](./)背后真相是前后端渗透之争
    * [了解TCP/IP、UDP、TLS](./) 三次握手，一次握手，四次握手
@@ -77,10 +78,10 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [Http和Https的区别在哪里](./) TLS的具体应用
    * [XSS与CSRF](./) 了解一点安全攻防
 5. 面试官高频问到的小技巧
-   * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179) 性能不佳,但是面试时高频出现
+   * [JavaScript函数柯里化](./) 性能不佳但是面试时高频出现
    * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370) 确实很妙
-   * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419) Proxy可以拦截/控制任何目标Object的行为,十分强大。嗯，灵活性几乎总是意味着性能损失
-   * [用JavaScript实现类、继承、多态](./) 有好几种办法实现继承，但有点类似于茴香豆有几种写法，无用之用
+   * [ES6之Proxy的巧用](./) Proxy可以拦截/控制任何目标Object的行为,十分强大。嗯，灵活性几乎总是意味着性能损失
+   * [用JavaScript实现类、继承](./) 有好几种办法实现继承，但有点类似于茴香豆有几种写法，无用之用
    * [深拷贝与浅拷贝的区别](./) 这2个概念只针对引用类型而言
 6. 书籍推荐
    * [面试官问你读过哪些Javscript书籍](https://www.zhihu.com/question/19562698/answer/89480175) 绝对都是好书,我都读过,但我不是此文作者
@@ -90,7 +91,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 1. 面试时高频率出现的算法
    * [十大经典排序算法](./#er-shu-ju-jie-gou-yu-suan-fa)  冒泡、选择、插入、希尔、归并、快速、堆、计数、桶、基数排序共10种
    * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607) 递归用来解决二叉树问题就是简洁
-   * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) 算是一份前端算法笔试的小抄
+   * [其他笔试常见算法题](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) 算是一份前端算法笔试的小抄
    * [字节跳动前端面试2道算法题](https://www.cnblogs.com/kaima/p/bytedance_interview.html) 曾经我答得不算好，以后一定答得精彩
 2. 其他算法理论
    * [面试官问你斐波那契数列的时候不要高兴得太早](https://zhuanlan.zhihu.com/p/54378423)  把递归/尾递归、迭代讲明白了
