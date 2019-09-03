@@ -88,12 +88,12 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 ## 贰、数据结构与算法
 
 1. 面试时高频率出现的算法
-   * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)  很严谨的文档,论文风格,对阅读能力有较高要求,适合深度阅读
+   * [十大经典排序算法](./#er-shu-ju-jie-gou-yu-suan-fa)  冒泡、选择、插入、希尔、归并、快速、堆、计数、桶、基数排序共10种
    * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607) 递归用来解决二叉树问题就是简洁
-   * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) 写得都通俗易懂,算是一份前端面试小抄
-   * [字节跳动前端面试2道算法题](https://www.cnblogs.com/kaima/p/bytedance_interview.html) 二叉树算法题我当时答得不算好,没有进入第二面,正在寻求再次面试的机会
+   * [前端笔试&面试常见算法](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) 算是一份前端算法笔试的小抄
+   * [字节跳动前端面试2道算法题](https://www.cnblogs.com/kaima/p/bytedance_interview.html) 曾经我答得不算好，以后一定答得精彩
 2. 其他算法理论
-   * [面试官问你斐波那契数列的时候不要高兴得太早](https://zhuanlan.zhihu.com/p/54378423)  把递归/尾递归、迭代讲明白了,C语言版本,不妨碍阅读
+   * [面试官问你斐波那契数列的时候不要高兴得太早](https://zhuanlan.zhihu.com/p/54378423)  把递归/尾递归、迭代讲明白了
    * [尾递归究竟是好是坏](https://www.zhihu.com/question/49368021/answer/115631284)  确定编译器能优化尾递归,就可以写尾递归
 3. 好书推荐
    * [《学习JavaScript数据结构与算法》](https://book.douban.com/subject/27129352/) 这是第2版,加入了ES6的一些新内容,建议先看一遍书目录,高级点的数据结构还需要专门看其他文章,但是目前市面上也没有比这本写得更好的
@@ -104,7 +104,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390) 讲清楚了为什么flutter更快
    * [Angular和Vue.js深度对比](https://www.cnblogs.com/scode2/p/8820613.html)
 2. Vue.js
-   * [Vue问得最多的面试题](https://zhuanlan.zhihu.com/p/53703176) 面试小抄,细节很多,但我觉得没必要死记硬背,搞清楚原理更重要
+   * [Vue问得最多的面试题](https://zhuanlan.zhihu.com/p/53703176) 面试时Vue的小抄,细节很多,但我觉得没必要死记硬背,搞清楚原理更重要
    * [Vue源码解读：Vue数据响应式原理](https://www.jianshu.com/p/1032ecd62b3a) 分析比较透彻,适合深度阅读
 3. Angular.js
    * 先有Angular.js再有Vue.js
