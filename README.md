@@ -63,6 +63,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [你有多理解call,apply,bind？](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) 看完可以举一反三，丝毫不惧面试官层层盘问
    * [面试时高频问到的“闭包”](https://www.cnblogs.com/wangfupeng1988/p/3994065.html) “闭包”这个概念的文字描述，确实不好解释，我看过很多晦涩的定义，一样都记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递
    * [原型和原型链](./) 忘掉“类”和“继承”的概念，拥抱原型
+   * [同步和异步、阻塞和非阻塞](./)
    * [模块化](./) 模块化是大势所趋，一线互联网公司大规模应用都是采用模块化的方式开发
    * [如何形象地解释数组的map、foreach、reduce、filter 间的区别？](https://www.zhihu.com/question/24927450/answer/29478982) Vue.js作者给的解释，简单干脆
    * [RegExp新增改动，rest/spread属性，异步迭代和Promise.prototype.finally](https://zhuanlan.zhihu.com/p/55416553) 每个JavaScript开发者都该了解的ES新特性
@@ -93,6 +94,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [二叉树中的最大路径和](https://zhuanlan.zhihu.com/p/77213607) 递归用来解决二叉树问题就是简洁
    * [其他笔试常见算法题](https://juejin.im/post/5b72f0caf265da282809f3b5#heading-17) 算是一份前端算法笔试的小抄
    * [字节跳动前端面试2道算法题](https://www.cnblogs.com/kaima/p/bytedance_interview.html) 曾经我答得不算好，以后一定答得精彩
+   * [滴滴打车面试算法题](./) 解蛇形数组的问题，触类旁通
 2. 其他算法理论
    * [面试官问你斐波那契数列的时候不要高兴得太早](https://zhuanlan.zhihu.com/p/54378423)  把递归/尾递归、迭代讲明白了
    * [尾递归究竟是好是坏](https://www.zhihu.com/question/49368021/answer/115631284)  确定编译器能优化尾递归,就可以写尾递归
@@ -110,7 +112,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 3. Angular.js
    * 先有Angular.js再有Vue.js
    * Angular.js的优缺点
-4. React Native
+4. React
    * 面试官高频问到的一些实现原理
 5. flutter
    * [Flutter 开发体验初探](https://zhuanlan.zhihu.com/p/78344178) 基于Android Studio,对Android猿会更友好
@@ -127,8 +129,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [Swagger介绍及使用](https://www.jianshu.com/p/349e130e40d5) 再也不愁文档更新不及时了
 3. IDE-工欲善其事必先利其器
    * [高效使用VSCode的9点建议](https://zhuanlan.zhihu.com/p/60394607) VSCode自带的一些功能使用技巧
-   * [这就是我想要的VSCode插件！](https://zhuanlan.zhihu.com/p/36020180) Quokka.js,Bracket Pair Colorizer,Import Cost这三个插件惊艳了我
-   * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453) VSCode没有它们会非常单调
+   * [适用于前端开发者的VSCode插件](https://zhuanlan.zhihu.com/p/37090453) VSCode没有它们会非常单调
    * [Sublime Text](./) 快速启动、快速编辑，简洁、轻巧、可扩展性强大的IDE
 
 ## 伍、设计思想与编程范式
