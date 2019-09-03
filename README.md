@@ -167,7 +167,9 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * 状态模式
    * 适配器模式
 2. MVVM、MVC、MVP
-   * [浅析web前端MVVM](https://zhuanlan.zhihu.com/p/54355504) 
+   * [前端MVVM](https://zhuanlan.zhihu.com/p/54355504) 
+   * 有了MVC为什么还要MVVM？
+   * MVP又是什么？
 
 ## 柒、参考网站
 
