@@ -104,6 +104,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 ## 叁、主流框架
 
 1. 综合比较
+   * [jQuery相对现在流行的JavaScript库而言过时了吗？](./)给jQuery正名
    * [开发跨平台app推荐React Native还是flutter？](https://www.zhihu.com/question/307298908/answer/569471390) 讲清楚了为什么flutter更快
    * [Angular和Vue.js深度对比](https://www.cnblogs.com/scode2/p/8820613.html)
 2. Vue.js
