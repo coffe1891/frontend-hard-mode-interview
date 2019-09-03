@@ -57,13 +57,13 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 
 1. 最新特性
    * [2019年的JavaScript性能变化](https://juejin.im/post/5d1f27285188252f275fdbb6)
-   * 2020年的Javascript新变化
+   * ECMAScript 6 给我们带来了很多语法糖
 2. 核心概念
    * [函数](./) 函数是JavaScript世界的第一等公民
    * [作用域、作用域链、活动对象](https://zhuanlan.zhihu.com/p/59321690) 函数执行时产生的对象就是活动对象（Activation Object）
    * [彻底搞懂this](https://www.cnblogs.com/kaima/p/javascript_this.html) 按照作者提供的窍门再也不怕搞错this指向了
    * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) 写得详实易懂,看完可以举一反三、对答如流
-   * [面试时高频问到的“闭包”](https://www.cnblogs.com/wangfupeng1988/p/3994065.html) “闭包”这个词的概念的文字描述，确实不好解释，我看过很多遍，但是现在还是记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递。
+   * [面试时高频问到的“闭包”](https://www.cnblogs.com/wangfupeng1988/p/3994065.html) “闭包”这个概念的文字描述，确实不好解释，我看过很多晦涩的定义，一样都记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递。
    * [原型和原型链](./) 忘掉“类”和“继承”的概念，拥抱原型
    * [模块化](./) 模块化是大势所趋，一线互联网公司大规模应用都是采用模块化的方式开发
    * [如何形象地解释数组的map、foreach、reduce、filter 间的区别？](https://www.zhihu.com/question/24927450/answer/29478982) Vue.js作者给的解释，简单干脆
