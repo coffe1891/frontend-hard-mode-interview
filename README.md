@@ -110,7 +110,8 @@ description: 挑战Hard模式下的前端面试之旅
 5. flutter
    * [Flutter 开发体验初探](https://zhuanlan.zhihu.com/p/78344178) 基于Android Studio,对Android猿会更友好
 6. 好书推荐
-   * [《深入浅出Vue.js》](https://book.douban.com/subject/32581281/)、《Angular.js》 
+   * [《深入浅出Vue.js》](https://book.douban.com/subject/32581281/)
+   * [《深入React技术栈》](https://book.douban.com/subject/26918038/) 
 
 ## 肆、必会的工具
 
