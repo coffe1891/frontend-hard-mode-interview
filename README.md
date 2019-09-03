@@ -60,28 +60,28 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [函数](1.1.1.md) 函数是JavaScript世界的第一等公民
    * [作用域、作用域链、活动对象](https://zhuanlan.zhihu.com/p/59321690) 函数执行时产生的对象就是活动对象（Activation Object）
    * [彻底搞懂this](https://www.cnblogs.com/kaima/p/javascript_this.html) 再也不怕搞错this指向了
-   * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) 写得详实易懂,看完可以举一反三、对答如流
+   * [你有多理解call,apply,bind？](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) 看完可以举一反三，丝毫不惧面试官层层盘问
    * [面试时高频问到的“闭包”](https://www.cnblogs.com/wangfupeng1988/p/3994065.html) “闭包”这个概念的文字描述，确实不好解释，我看过很多晦涩的定义，一样都记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递
    * [原型和原型链](./) 忘掉“类”和“继承”的概念，拥抱原型
    * [模块化](./) 模块化是大势所趋，一线互联网公司大规模应用都是采用模块化的方式开发
    * [如何形象地解释数组的map、foreach、reduce、filter 间的区别？](https://www.zhihu.com/question/24927450/answer/29478982) Vue.js作者给的解释，简单干脆
    * [RegExp新增改动，rest/spread属性，异步迭代和Promise.prototype.finally](https://zhuanlan.zhihu.com/p/55416553) 每个JavaScript开发者都该了解的ES新特性
 3. 浏览器、引擎
-   * [页面重排与重绘（Reflow & Repaint\)](https://zhuanlan.zhihu.com/p/35184404) 把浏览器的工作原理也讲到了，reflow和repaint是两个很重要的概念,一定要搞明白
-   * [V8引擎是如何工作的](https://zhuanlan.zhihu.com/p/73768338) 对V8引擎需要有充分了解才能知道为什么快，怎么样写代码会跑的更快
-   * [V8内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8) V8采用分代回收+复制回收的垃圾回收算法,这个知识点要弄明白,是通用的
+   * [页面重排与重绘（Reflow & Repaint\)](https://zhuanlan.zhihu.com/p/35184404) 讲了浏览器的工作原理，reflow和repaint是两个很重要的步骤，对渲染性能的影响很大
+   * [V8引擎是如何工作的](https://zhuanlan.zhihu.com/p/73768338) 对V8引擎需要有了解才能知道为什么快，以及怎么样写代码会跑的更快
+   * [V8内存管理和垃圾回收机制总结](https://www.jianshu.com/p/455d0b9ef0a8) V8采用分代回收+复制回收的算法，要弄明白有几种垃圾回收算法，这些算法是软件领域通用的
 4. 了解一些常被问到的服务器端概念
-   * 为什么要创造服务器端的javascript—Node.js？
-   * 了解TCP/IP、UDP、TLS
-   * Http协议的三个版本
-   * Http和Https的区别在哪里
-   * XSS与CSRF
-5. 面试时高频问到的小技巧
+   * [为什么要创造服务器端的javascript—Node.js？](./)背后真相是前后端渗透之争
+   * [了解TCP/IP、UDP、TLS](./) 三次握手，一次握手，四次握手
+   * [Http协议的三个版本](./)
+   * [Http和Https的区别在哪里](./) TLS的具体应用
+   * [XSS与CSRF](./) 了解一点安全攻防
+5. 面试官高频问到的小技巧
    * [JavaScript函数柯里化](https://zhuanlan.zhihu.com/p/31271179) 性能不佳,但是面试时高频出现
    * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370) 确实很妙
    * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419) Proxy可以拦截/控制任何目标Object的行为,十分强大。嗯，灵活性几乎总是意味着性能损失
    * [用JavaScript实现类、继承、多态](./) 有好几种办法实现继承，但有点类似于茴香豆有几种写法，无用之用
-   * 深拷贝与浅拷贝的区别
+   * [深拷贝与浅拷贝的区别](./) 这2个概念只针对引用类型而言
 6. 书籍推荐
    * [面试官问你读过哪些Javscript书籍](https://www.zhihu.com/question/19562698/answer/89480175) 绝对都是好书,我都读过,但我不是此文作者
 
