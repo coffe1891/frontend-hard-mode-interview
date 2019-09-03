@@ -54,8 +54,8 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 ## 壹、前端之灵：JavaScript/ECMAScript
 
 1. 最新特性
-   * [2019年的JavaScript性能变化](https://juejin.im/post/5d1f27285188252f275fdbb6)
-   * ECMAScript 6 给我们带来了很多语法糖
+   * [2019年的JavaScript性能变化](./#qian-yan) 过去几年中JavaScript 性能的大幅改进，很大程度上依赖于浏览器解析和编译的速度。而在2019 年，改进性能在于减少下载和 CPU 执行时间。
+   * [ECMAScript 6 给我们带来了很多语法糖](./)
 2. 核心概念
    * [函数](1.1.1.md) 函数是JavaScript世界的第一等公民
    * [作用域、作用域链、活动对象](https://zhuanlan.zhihu.com/p/59321690) 函数执行时产生的对象就是活动对象（Activation Object）
@@ -145,9 +145,11 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [重新认识JavaScript面向对象: 从ES5到ES6](https://zhuanlan.zhihu.com/p/33658346) 
 3. 函数式编程
    * [什么是函数式编程思维](https://www.zhihu.com/question/28292740/answer/40336090) 面向数学,变量不可变,无需共享资源无须独占锁,因此线程安全,适合发挥多核CPU并发的威力.顺带把递归和迭代讲透了
-4. 元编程
+4. 响应式编程
+   * RxJS
+5. 元编程
    * [Javascript元编程](https://zhuanlan.zhihu.com/p/20758879)  讲了什么是元编程，并举例eval、new Function\(\)、Proxy等元编程特性
-5. 好书推荐
+6. 好书推荐
    * [《重构》](https://book.douban.com/subject/4262627/)
 
 ## 陆、掌握常见的设计模式
