@@ -68,7 +68,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [RegExp新增改动，rest/spread属性，异步迭代和Promise.prototype.finally](https://zhuanlan.zhihu.com/p/55416553) 每个JavaScript开发者都该了解的ES新特性
 3. 浏览器、引擎
    * [页面重排与重绘（Reflow & Repaint\)](https://zhuanlan.zhihu.com/p/35184404) 讲了浏览器的工作原理，reflow和repaint是两个很重要的步骤，对渲染性能的影响很大
-   * [DOM、Shadow DOM、Vitual DOM](./)
+   * [DOM、Shadow DOM、Virtual DOM](./)
    * [V8引擎是如何工作的](https://zhuanlan.zhihu.com/p/73768338) 对V8引擎需要有了解才能知道为什么快，以及怎么样写代码会跑的更快
    * [V8引擎内存管理和垃圾回收机制](https://www.jianshu.com/p/455d0b9ef0a8) V8采用分代回收+复制回收的算法，要弄明白有几种垃圾回收算法，这些算法是软件领域通用的
 4. 了解一些常被问到的服务器端概念
@@ -131,7 +131,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453) VSCode没有它们会非常单调
    * [Sublime Text](./) 快速启动、快速编辑，简洁、轻巧、可扩展性强大的IDE
 
-## 伍、编程思想
+## 伍、设计思想与编程范式
 
 1. 设计原则——先有美的设计，才有美的实现
    * 单一职责原则
@@ -146,7 +146,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 3. 函数式编程
    * [什么是函数式编程思维](https://www.zhihu.com/question/28292740/answer/40336090) 面向数学,变量不可变,无需共享资源无须独占锁,因此线程安全,适合发挥多核CPU并发的威力.顺带把递归和迭代讲透了
 4. 响应式编程
-   * RxJS
+   * [RxJS](./#wu-bian-cheng-si-xiang) RxJS能够让我们很轻松地创建和操控事件和streams，虽然会让开发变得复杂，但是会让异步代码变得易读
 5. 元编程
    * [Javascript元编程](https://zhuanlan.zhihu.com/p/20758879)  讲了什么是元编程，并举例eval、new Function\(\)、Proxy等元编程特性
 6. 好书推荐
