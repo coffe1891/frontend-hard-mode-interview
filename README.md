@@ -77,6 +77,7 @@ description: 挑战Hard模式下的前端面试之旅
    * [用 Reduce 实现 Promise 串行执行](https://zhuanlan.zhihu.com/p/47896370) 确实很妙
    * [ES6之Proxy的巧用](https://zhuanlan.zhihu.com/p/75407419) Proxy可以拦截/控制任何目标Object的行为,十分强大。嗯，灵活性几乎总是意味着性能损失
    * [用JavaScript实现类、继承、多态](./) 有好几种办法实现继承，但有点类似于茴香豆有几种写法，无用之用
+   * 深拷贝与浅拷贝的区别
 6. 书籍推荐
    * [面试官问你读过哪些Javscript书籍](https://www.zhihu.com/question/19562698/answer/89480175) 绝对都是好书,我都读过,但我不是此文作者
 
