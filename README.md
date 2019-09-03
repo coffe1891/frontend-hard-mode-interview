@@ -59,9 +59,9 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 2. 核心概念
    * [函数](1.1.1.md) 函数是JavaScript世界的第一等公民
    * [作用域、作用域链、活动对象](https://zhuanlan.zhihu.com/p/59321690) 函数执行时产生的对象就是活动对象（Activation Object）
-   * [彻底搞懂this](https://www.cnblogs.com/kaima/p/javascript_this.html) 按照作者提供的窍门再也不怕搞错this指向了
+   * [彻底搞懂this](https://www.cnblogs.com/kaima/p/javascript_this.html) 再也不怕搞错this指向了
    * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) 写得详实易懂,看完可以举一反三、对答如流
-   * [面试时高频问到的“闭包”](https://www.cnblogs.com/wangfupeng1988/p/3994065.html) “闭包”这个概念的文字描述，确实不好解释，我看过很多晦涩的定义，一样都记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递。
+   * [面试时高频问到的“闭包”](https://www.cnblogs.com/wangfupeng1988/p/3994065.html) “闭包”这个概念的文字描述，确实不好解释，我看过很多晦涩的定义，一样都记不住。但是你只需要知道应用的两种情况即可——函数作为返回值，函数作为参数传递
    * [原型和原型链](./) 忘掉“类”和“继承”的概念，拥抱原型
    * [模块化](./) 模块化是大势所趋，一线互联网公司大规模应用都是采用模块化的方式开发
    * [如何形象地解释数组的map、foreach、reduce、filter 间的区别？](https://www.zhihu.com/question/24927450/answer/29478982) Vue.js作者给的解释，简单干脆
@@ -125,10 +125,10 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 2. Swagger-API文档管理
    * [Swagger介绍及使用](https://www.jianshu.com/p/349e130e40d5) 再也不愁文档更新不及时了
 3. IDE-工欲善其事必先利其器
-   * [高效使用VSCode的9点建议](https://zhuanlan.zhihu.com/p/60394607) 这9插件中 Live Share 最逆天,多行编辑也十分好用
+   * [高效使用VSCode的9点建议](https://zhuanlan.zhihu.com/p/60394607) VSCode自带的一些功能使用技巧
    * [这就是我想要的VSCode插件！](https://zhuanlan.zhihu.com/p/36020180) Quokka.js,Bracket Pair Colorizer,Import Cost这三个插件惊艳了我
    * [适用于前端开发者的12款VSCode扩展工具](https://zhuanlan.zhihu.com/p/37090453) VSCode没有它们会非常单调
-   * Sublime
+   * [Sublime Text](./) 快速启动、快速编辑，简洁、轻巧、可扩展性强大的IDE
 
 ## 伍、编程思想
 
