@@ -121,8 +121,8 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 ## 肆、必会的工具
 
 1. Webpack-自动打包模块工具
-   * [带你走进webpack世界，成为webpack头号玩家](https://juejin.im/post/5ac9dc9af265da23884d5543)
-   * [webpack入门指南](https://webpack.docschina.org/guides/) 花1~2天看完这个指南就算入门了
+   * [带你走进webpack世界](./) 花1~2天看完这个指南就算入门了
+   * 常用的脚手架 
 2. Swagger-API文档管理
    * [Swagger介绍及使用](https://www.jianshu.com/p/349e130e40d5) 再也不愁文档更新不及时了
 3. IDE-工欲善其事必先利其器
@@ -186,7 +186,8 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 1. 奇舞周刊  进微信搜索"奇舞周刊",360奇舞团\(75Team\)出品,篇篇精品
 2. [每一个Javascript开发人员都应该关注的博客](https://www.zcfy.cc/article/15-blogs-every-javascript-developer-should-follow-in-2018) 老外的博客，一些博主是Javascript明星，更多的是像你我这样的普通开发人员。 某些博客关注在某个具体的生态（像是Angular、React或者Vue\)， 还有一些关注更普遍的用法。
 
-## 玖、Twitter
+## 玖、后记
 
-1. [尤雨溪](https://twitter.com/youyuxi)  Vue.js作者
+1. 讨论与纠错、本书源代码下载
+2. 前端展望：百川奔流直入海
 
