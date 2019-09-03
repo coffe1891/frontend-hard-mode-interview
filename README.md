@@ -4,8 +4,6 @@ description: 挑战Hard模式下的前端面试之旅
 
 # 前端内参
 
-
-
 ![](.gitbook/assets/image%20%282%29.png)
 
 _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_](http://creativecommons.org/licenses/by-nc/4.0/)_进行许可。_
@@ -59,7 +57,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * [2019年的JavaScript性能变化](https://juejin.im/post/5d1f27285188252f275fdbb6)
    * ECMAScript 6 给我们带来了很多语法糖
 2. 核心概念
-   * [函数](./) 函数是JavaScript世界的第一等公民
+   * [函数](1.1.1.md) 函数是JavaScript世界的第一等公民
    * [作用域、作用域链、活动对象](https://zhuanlan.zhihu.com/p/59321690) 函数执行时产生的对象就是活动对象（Activation Object）
    * [彻底搞懂this](https://www.cnblogs.com/kaima/p/javascript_this.html) 按照作者提供的窍门再也不怕搞错this指向了
    * [面试官想知道你有多理解call,apply,bind](https://mp.weixin.qq.com/s/DlUJq0JJzHjnPwCI_SAI5Q) 写得详实易懂,看完可以举一反三、对答如流
