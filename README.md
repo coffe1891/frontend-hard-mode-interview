@@ -108,20 +108,20 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 ## 叁、主流框架
 
 1. 综合比较
-   * jQuery相对现在流行的JavaScript库而言过时了吗？ `给jQuery正名`
-   * 开发跨平台app推荐React Native还是flutter？  `讲清楚了为什么flutter更快`
+   * jQuery相对现在流行的JavaScript库而言过时了吗？
+   * 开发跨平台app推荐React Native还是flutter？
    * Angular和Vue.js深度对比
 2. Vue.js
-   * 问得最多的Vue.js面试题  `面试时Vue的小抄,细节很多,但我觉得没必要死记硬背,搞清楚原理更重要`
-   * Vue.js源码解读：Vue数据响应式原理  `分析比较深入，适合大块时间深度阅读`
+   * 问得最多的Vue.js面试题 
+   * Vue.js源码解读：Vue数据响应式原理
 3. Angular.js
-   * 先有Angular.js再有Vue.js
-   * Angular.js的优缺点
+   * 你真的懂Angular.js吗？
+   * Angular.js性能优化要点
 4. React
    * 面试官高频问到的一些实现原理
    * React的性能优化技巧
 5. flutter
-   * Flutter 开发体验初探  `基于Android Studio,对Android猿会更友好`
+   * flutter开发初体验
 6. 好书推荐
    * [《深入浅出Vue.js》](https://book.douban.com/subject/32581281/)
    * [《深入React技术栈》](https://book.douban.com/subject/26918038/) 
@@ -153,14 +153,14 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 ## 伍、必会的工具
 
 1. Webpack-自动打包模块工具
-   * 带你走进webpack世界  `花1~2天看完这个指南就算入门了`
+   * 深入理解 Webpack打包分块
    * 常用的脚手架 
-2. Swagger-API文档管理
-   * Swagger介绍及使用  `再也不愁文档更新不及时了`
+2. API文档管理
+   * 用Swagger解决API文档更新的烦恼
 3. IDE-工欲善其事必先利其器
-   * 高效使用VSCode的10点建议  `VSCode自带功能的使用技巧`
-   * 适用于前端开发者的20个VSCode插件  `VSCode没有这些惊艳的插件会非常单调`
-   * Sublime Text  `快速启动、快速编辑，简洁、轻巧、可扩展性强大的IDE`
+   * 高效使用VSCode的10点建议
+   * 适用于前端开发者的20个VSCode插件
+   * Sublime Text
 
 ## 陆、设计原则与编程范式
 
