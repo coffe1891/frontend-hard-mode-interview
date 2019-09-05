@@ -54,7 +54,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 ## 壹、前端之灵：JavaScript/ECMAScript
 
 1. 新特性 
-   * [新版 ECMAScript 一系列新特性背后的原因分析](1.1.1.md)
+   * [新版 ECMAScript 一系列新特性分析](1.1.1.md)
    * JavaScript未来性能优化的方向
 2. 核心概念
    * [函数](1.2.1.md)
@@ -108,7 +108,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
 ## 叁、主流框架
 
 1. 综合比较
-   * jQuery相对现在流行的JavaScript库而言过时了吗？
+   * jQuery相对现在流行的库而言过时了吗？
    * 开发跨平台app推荐React Native还是flutter？
    * Angular和Vue.js深度对比
 2. Vue.js
