@@ -71,7 +71,7 @@ _本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_
    * RegExp
    * rest和spread操作符
    * 异步迭代和Promise.prototype.finally
-   * 模块化开发
+   * [模块化开发](1.2.13.md)
 3. 容易被问到的知识点
    * 深拷贝与浅拷贝
    * JavaScript函数柯里化
