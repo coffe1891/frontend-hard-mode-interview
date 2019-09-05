@@ -4,9 +4,11 @@ description: 挑战Hard模式下的前端面试之旅
 
 # 前端内参
 
+## 版权许可
+
 ![](.gitbook/assets/image%20%282%29.png)
 
-_本作品采用_[_知识共享署名-非商业性使用 4.0 国际许可协议_](http://creativecommons.org/licenses/by-nc/4.0/)_进行许可。_
+本作品采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可，只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
 
 ## 前言
 
