@@ -58,7 +58,7 @@ description: 挑战Hard模式下的前端面试之旅
 ## 壹、前端之灵：JavaScript/ECMAScript
 
 1. 新特性 
-   * [新版 ECMAScript 一系列新特性分析](1.1.1.md)
+   * [新版 ECMAScript 特性分析](1.1.1.md)
    * JavaScript未来性能优化的方向
 2. 核心概念
    * [函数](1.2.1.md)
