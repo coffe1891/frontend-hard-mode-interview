@@ -28,7 +28,7 @@ description: 挑战Hard模式下的前端面试之旅
 
 （嗯，目前还正在写，许多章节等我们去“点亮”😸）
 
-欢迎给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，[@Twitter](https://twitter.com/coffe1891)记录了面试实时动态。
+欢迎给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，[@Twitter](https://twitter.com/coffe1891)，微信:kenny2019。
 
 ## 零、搞定Hard模式下的面试
 
