@@ -100,6 +100,42 @@ var dailyTemperatures = function(T) {
 
 说白了就是空间换时间，新增一个单调栈存放index，巧妙地来换取时间复杂度的降低。
 
+### 2.求数组项左右两侧比该项大的第一个项的值
+
+原题如下：
+
+> 给定一个长度为N的正整数数组，输出每个数左右两边第一个比它小的数，如果不存在则输出 - 1。   
+>   
+>  输入： `[3, 4, 2, 7, 5]`
+>
+>  输出：   
+> 左边 `[-1, 3, -1, 2, 2]`   
+> 右边 `[2, 2, -1, 5, -1]`
+
+解题思路：查找左右两边第一个更小的元素，使用单调递增栈
+
+* 入栈时，**当前元素左边的第一个更小的元素**是**当前栈顶元素**
+* 出栈时，**栈顶右边第一个更小的元素**是**即将入栈的当前元素**
+
+```javascript
+((arr) => {
+    let l = arr.length;
+    let resLeft = new Array(l).fill(-1);
+    let resRight = new Array(l).fill(-1);
+    let stack = [];
+    for (let i = 0; i < l; i++) {
+        while (stack.length && arr[i] < arr[stack[stack.length - 1]]) {
+            let index = stack.pop();
+            resRight[index] = arr[i];
+            if (stack.length)
+                resLeft[index] = arr[stack[stack.length - 1]];
+        }
+        stack.push(i);
+    }
+    console.log(resLeft, resRight);
+})([3, 4, 2, 7, 5]);
+```
+
 ## 贰.1.2.3 总结要点
 
 单调栈的核心并不是单调，单调递增或者递减只不过是副产品。其实际意义在于：

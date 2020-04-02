@@ -70,7 +70,7 @@ Github：[https://github.com/coffe1891/frontend-hard-mode-interview](https://git
    * 异步迭代和Promise.prototype.finally
    * [模块化开发](1/1.2.13.md)
 3. 容易被问到的知识点
-   * 深拷贝与浅拷贝
+   * [深拷贝与浅拷贝](1/1.3.1.md)
    * JavaScript函数柯里化
    * 用 Reduce 实现 Promise 串行执行
    * Proxy的各种用法
