@@ -83,18 +83,18 @@ var dailyTemperatures = function (T) {
  * @return {number[]}
  */
 var dailyTemperatures = function(T) {
-    let { length } = T
-    let res = new Array(length).fill(0)
-    let stack = []
+    let { length } = T;
+    let res = new Array(length).fill(0);
+    let stack = [];
     for(let i = 0; i < length; i++) {
         while(stack.length && T[i] > T[stack[stack.length - 1]]) {
-            let index = stack.pop();//巧妙之处。条件满足得到一个结果之后，
-                                    //执行出栈，可以接着计算下一个了。
-            res[index] = i - index;//存放结果
+            let index = stack.pop();//条件满足得到一个结果之后，取出栈顶存放的index
+                                    //并执行出栈，可以接着计算下一个了。
+            res[index] = i - index;//res[index]是巧妙之处，存放天数
         }
         stack.push(i);//栈内存放T的index
     }
-    return res
+    return res;
 };
 ```
 
@@ -102,13 +102,9 @@ var dailyTemperatures = function(T) {
 
 ## 贰.1.2.3 总结要点
 
-单调栈的核心并不是单调，单调只不过是副产品。以单调递增栈为例（单调递减栈可以类推），其实际意义在于：
+单调栈的核心并不是单调，单调递增或者递减只不过是副产品。其实际意义在于：
 
-* 对于将要放入单调栈的数字m，栈里的所有数都比m大。
-* 那么，对于每个成功留在栈里的数字来说，前面的所有数都比这个数m大，由此易得这个栈一定是单调递增的，但单调递增本身的意义并不大。
-* m具有这样的特点：
-  * 栈顶的数比m小，否则弹出栈顶这个数。
-  * 是原数组中，在m的左/右边，且距离m最近，的比m小的数。 
-* 实际栈中并不保存数本身，而是保存其在原数组中的索引位置（index）。
-* 若从1到N遍历一遍，把每个将要放入的数对应的栈顶元素的索引位置记录下来，就可以在O\(N\)的时间复杂度内得到数组所有元素的左/右边、距离该元素最近、且比该元素小的其他元素的索引位置。
+* 实际上单调栈中并不保存数组项的值，而是保存数组项在原数组中的索引位置（index）；
+* 单调栈只是一个临时用来协助加速计算的、比较巧妙的数据结构；
+* 若从1到N遍历数组一遍，把每个将要放入的数组项其对应的索引位置（index）记录到栈里，就可以在O\(N\)的时间复杂度内得到数组所有项的左/右边、距离该项元素最近、且比该项元素大/小的其他元素的索引位置（index）。
 
