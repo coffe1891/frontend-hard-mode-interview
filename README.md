@@ -30,7 +30,7 @@ description: 挑战Hard模式下的前端面试之旅
 
 （嗯，目前还正在写，许多章节等我们去“点亮”😸）
 
-欢迎给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，微信 **kenny2019**
+欢迎给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，QQ群 308689488，微信 **kenny2019**
 
 Github地址：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
 
