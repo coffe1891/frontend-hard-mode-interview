@@ -78,7 +78,7 @@ Github：[https://github.com/coffe1891/frontend-hard-mode-interview](https://git
 4. 浏览器、V8引擎
    * 网页被浏览器绘出来过程是怎样的？
    * 页面重排（Reflow）与重绘（Repaint\) 
-   * DOM、Shadow DOM、Virtual DOM
+   * [DOM、Shadow DOM、Virtual DOM](1/1.4.3.md)
    * V8引擎是如何工作的
    * V8引擎内存管理和垃圾回收机制
 5. 相关的后端知识点
