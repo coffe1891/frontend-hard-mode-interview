@@ -30,11 +30,11 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 
 （嗯，目前还正在写，许多章节等我们去“点亮”😸）
 
-欢迎给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，QQ群 308689488，微信 **kenny2019**
+前端技术日新月异，疏漏之处在所难免。  
+欢迎朋友们随时给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，QQ群 308689488，微信 **kenny2019**
 
-Github：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
-
-电子书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview/](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)
+Github源码：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)  
+电子书阅读：[https://coffe1891.gitbook.io/frontend-hard-mode-interview/](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)
 
 ## 零、搞定Hard模式下的面试
 
