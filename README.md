@@ -202,12 +202,12 @@ Github：[https://github.com/coffe1891/frontend-hard-mode-interview](https://git
    * 有了MVC为什么还要MVVM？
    * MVP又是什么？
 
-## 捌、参考网站
+## 捌、很有用的网站
 
 1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) 最全的Web相关参考文档,没有之一
 2. [英文站-StackOverflow](https://stackoverflow.com/) 掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
-3. [中文站-Vue.js手册](https://www.w3cschool.cn/aekdgs/) 手册在手,玩转Vue不愁
-4. [中英文-Vue资源大全](https://github.com/vuejs/awesome-vue) 超级多的资源,总能找到你喜欢的那款
+3. [中文站-Vue.js手册](https://vuejs.bootcss.com/guide/) 手册在手,玩转Vue不愁
+4. [英文-Vue资源大全](https://github.com/vuejs/awesome-vue) 超级多的资源,总能找到你喜欢的那款
 
 ## 玖、公众号&博客推荐
 
