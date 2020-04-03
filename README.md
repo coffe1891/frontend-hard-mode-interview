@@ -48,7 +48,7 @@ Github：[https://github.com/coffe1891/frontend-hard-mode-interview](https://git
    * 面试应该怎样穿着打扮？
    * 不要迟到！不要迟到！不要迟到！
    * [不卑不亢、不疾不徐地说话](0/0.2.2.md)
-   * [当面试官问你“有什么问题要问我吗”，如何应对？](0/0.2.9.md)
+   * [“有什么问题要问我吗”，如何回答？](0/0.2.9.md)
 
 ## 壹、前端之灵：JavaScript/ECMAScript
 
