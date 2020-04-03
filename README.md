@@ -92,7 +92,7 @@ Github：[https://github.com/coffe1891/frontend-hard-mode-interview](https://git
 1. 面试时高频率出现的算法
    * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
    * [单调栈](2/2.1.2.md)
-   * 二叉树的遍历
+   * [二叉树的遍历](2/2.1.3.md)
    * 二叉树中的最大路径和
    * [实战：字节跳动前端面试2道算法题](2/2.1.4.md)
    * 实战：滴滴打车面试算法题
