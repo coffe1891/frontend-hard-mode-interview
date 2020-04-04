@@ -81,7 +81,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 5. 相关的后端知识点
    * 为什么要创造服务器端的javascript—Node.js？
    * [了解TCP、UDP、TLS ](1/1.5.2.md)
-   * Http协议的三个版本
+   * Http协议的4个版本
    * Http和Https的区别在哪里
    * XSS与CSRF
 6. 书籍推荐
