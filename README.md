@@ -85,7 +85,7 @@ Github源码：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * Http和Https的区别在哪里
    * XSS与CSRF
 6. 书籍推荐
-   * 面试官问你读过哪些Javscript书籍
+   * 你读过哪些Javscript书籍
 
 ## 贰、[数据结构与算法](2/2.0.md)
 
