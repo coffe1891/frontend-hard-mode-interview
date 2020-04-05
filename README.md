@@ -4,16 +4,14 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 
 # 前端内参
 
-\*\*\*\*
-
-Github 仓   库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)  
-阅读本电子书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview/](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)
+Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)  
+阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview/](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)
 
 ![&#x5C01;&#x9762;](.gitbook/assets/cover.jpg)
 
 ## 版权许可
 
-![](.gitbook/assets/image%20%2826%29.png)
+![](.gitbook/assets/copyright.png)
 
 本作品采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可，只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
 
