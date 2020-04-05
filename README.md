@@ -4,6 +4,11 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 
 # 前端内参
 
+\*\*\*\*
+
+Github 仓   库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)  
+阅读本电子书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview/](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)
+
 ![&#x5C01;&#x9762;](.gitbook/assets/cover.jpg)
 
 ## 版权许可
@@ -32,9 +37,6 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 
 前端技术日新月异，疏漏之处在所难免。  
 欢迎朋友们随时给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，QQ群 308689488，微信 **kenny2019**
-
-Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)  
-电子书阅读：[https://coffe1891.gitbook.io/frontend-hard-mode-interview/](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)
 
 ## 零、搞定Hard模式下的面试
 
