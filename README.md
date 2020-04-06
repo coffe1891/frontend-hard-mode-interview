@@ -4,8 +4,8 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 
 # 前端内参
 
-Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)  
-阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview/](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)
+阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview/](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
+Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
 
 ![&#x5C01;&#x9762;](.gitbook/assets/cover.jpg)
 
@@ -59,9 +59,9 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * [Event Loop](1/1.2.8.md)
    * [强大的数组](1/1.2.9.md)
    * [正则表达式](1/1.2.10.md)
-   * 位操作符
-   * rest和spread操作符
-   * 异步迭代和Promise.prototype.finally
+   * [位操作符](1/1.2.11.md)
+   * [rest和spread操作符](1/1.2.12.md)
+   * [异步迭代和Promise.prototype.finally](1/1.2.13.md)
    * [模块化开发](1/1.2.14.md)
 3. 容易被问到的知识点
    * [深拷贝与浅拷贝](1/1.3.1.md)
