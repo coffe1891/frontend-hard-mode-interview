@@ -56,7 +56,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * [面试时高频问到的“闭包” ](1/1.2.5.md)
    * [原型和原型链](1/1.2.6.md)
    * [同步和异步，阻塞和非阻塞](1/1.2.7.md)
-   * [Event loop](1/1.2.8.md)
+   * [Event Loop](1/1.2.8.md)
    * [强大的数组](1/1.2.9.md)
    * [正则表达式](1/1.2.10.md)
    * rest和spread操作符
