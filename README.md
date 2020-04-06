@@ -9,12 +9,6 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 ![&#x5C01;&#x9762;](.gitbook/assets/cover.jpg)
 
-## 版权许可
-
-![](.gitbook/assets/copyright.png)
-
-本作品采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可，只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
-
 ## 前言
 
 如何在Hard模式下通过一线互联网公司的面试？相信很多程序员朋友都有过这个困扰。
@@ -36,7 +30,9 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 前端技术日新月异，疏漏之处在所难免。  
 欢迎朋友们随时给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，QQ群 308689488，微信 **kenny2019**
 
-## 零、搞定Hard模式下的面试
+## 目录
+
+### 零、搞定Hard模式下的面试
 
 1. 一线互联网公司面试前的准备
    * [一线互联网公司有什么不同？](0/0.1.1.md)
@@ -47,7 +43,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * [不卑不亢、不疾不徐地说话](0/0.2.2.md)
    * [“有什么问题要问我吗”，如何回答？](0/0.2.9.md)
 
-## 壹、前端之灵：JavaScript/ECMAScript
+### 壹、前端之灵：JavaScript/ECMAScript
 
 1. 你需要知道的新东西 
    * [新版 ECMAScript 特性分析](1/1.1.1.md)
@@ -87,7 +83,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 6. 书籍推荐
    * 你读过哪些Javscript书籍
 
-## 贰、[数据结构与算法](2/2.0.md)
+### 贰、[数据结构与算法](2/2.0.md)
 
 1. 面试时高频率出现的算法
    * [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
@@ -102,7 +98,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 3. 好书推荐
    * [《学习JavaScript数据结构与算法》](https://book.douban.com/subject/27129352/)
 
-## 叁、主流框架
+### 叁、主流框架
 
 1. 综合比较
    * jQuery相对现在流行的库而言过时了吗？
@@ -123,7 +119,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * [《深入浅出Vue.js》](https://book.douban.com/subject/32581281/)
    * [《深入React技术栈》](https://book.douban.com/subject/26918038/) 
 
-## 肆、动效
+### 肆、动效
 
 1. 动效应用的场景
    * 不要拒绝设计小姐姐的要求  
@@ -147,7 +143,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 谁都会做的全景图  
    * 3d跑酷小游戏  
 
-## 伍、必会的工具
+### 伍、必会的工具
 
 1. Webpack-自动打包模块工具
    * 深入理解Webpack打包
@@ -159,7 +155,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 适用于前端开发者的20个VSCode插件
    * Sublime Text
 
-## 陆、设计原则与编程范式
+### 陆、设计原则与编程范式
 
 1. 设计原则——先有美的设计，才有美的实现
    * 单一职责
@@ -180,7 +176,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 6. 好书推荐
    * [《重构》](https://book.douban.com/subject/4262627/)
 
-## 柒、掌握常见的设计模式
+### 柒、掌握常见的设计模式
 
 1. 面试时很容易聊到的十四种经典设计模式
    * 单例模式
@@ -202,14 +198,14 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 有了MVC为什么还要MVVM？
    * MVP又是什么？
 
-## 捌、很有用的网站
+### 捌、很有用的网站
 
 1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) 最全的Web相关参考文档,没有之一
 2. [英文站-StackOverflow](https://stackoverflow.com/) 掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
 3. [中文站-Vue.js手册](https://vuejs.bootcss.com/guide/) 手册在手,玩转Vue不愁
 4. [英文-Vue资源大全](https://github.com/vuejs/awesome-vue) 超级多的资源,总能找到你喜欢的那款
 
-## 玖、公众号&博客推荐
+### 玖、公众号&博客推荐
 
 1. 公众号
    * 奇虎360 
@@ -221,8 +217,20 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 2. 博客
    * 每一个前端工程师都应该关注的博客
 
-## 拾、后记
+### 拾、后记
 
 1. 讨论、纠错、更新，本书源代码下载
 2. 前端展望：百川奔流直入海
+
+## 贡献者
+
+这本开源书得到了很多前端工程师朋友们的帮助和代码贡献，非常感谢！我为人人，人人为我，让我们一起帮助更多的人。以下是具体贡献者清单（排名不分先后）：
+
+[thales-jiang](https://github.com/thales-jiang) 
+
+## 版权许可
+
+![](.gitbook/assets/copyright.png)
+
+本作品采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可，只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
 
