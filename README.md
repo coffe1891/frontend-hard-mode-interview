@@ -224,7 +224,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 ## 贡献者
 
-这本开源书得到了很多前端工程师朋友们的帮助和代码贡献，非常感谢！我为人人，人人为我，让我们一起帮助更多的人。以下是具体贡献者清单（排名不分先后）：
+这本开源书得到了很多前端工程师朋友们的建议和代码贡献，非常感谢！我为人人，人人为我，让我们一起帮助更多的人。以下是代码贡献者的清单（排名不分先后）：
 
 [thales-jiang](https://github.com/thales-jiang) 
 
