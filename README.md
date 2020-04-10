@@ -6,7 +6,7 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 
 阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview/](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)  
-_\(如果图片显示不了，开翻墙工具、或者多刷几遍就好）_
+_\(如果书里文章的图片显示不了，开翻墙工具、或者多刷几遍就好）_
 
 ![&#x5C01;&#x9762;](.gitbook/assets/cover.jpg)
 
