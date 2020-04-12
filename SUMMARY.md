@@ -30,7 +30,7 @@
 * [壹.2.13 异步迭代和Promise.prototype.finally](1/1.2.13.md)
 * [壹.2.14 模块化开发](1/1.2.14.md)
 * [壹.3.1 深拷贝与浅拷贝](1/1.3.1.md)
-* [壹.3.2 JavaScript函数柯里化](1/yi-.3.2-javascript-han-shu-ke-li-hua.md)
+* [壹.3.2 JavaScript函数柯里化](1/1.3.2.md)
 * [壹.4.3 DOM、Shadow DOM、Virtual DOM](1/1.4.3.md)
 * [壹.5.2 了解TCP、UDP、TLS](1/1.5.2.md)
 
