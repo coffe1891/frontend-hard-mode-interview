@@ -128,7 +128,7 @@ _\(如果书里文章的图片显示不了，开翻墙工具、或者多刷几�
    * 有效的引导用户
    * 让页面拥有生命力
 2. css3动画基础 
-   * [transition过渡](4/4.2.1.md)
+   * [transition过渡](https://github.com/coffe1891/frontend-hard-mode-interview/tree/68ed827572a97a2e1290af6be85e56945aa66ce5/4/4.2.1.md)
    * animation动画 
 3. css3动画实践 
    * 弹窗  
@@ -228,7 +228,7 @@ _\(如果书里文章的图片显示不了，开翻墙工具、或者多刷几�
 
 这本开源书得到了很多前端工程师朋友们的建议和代码贡献，非常感谢！我为人人，人人为我，让我们一起帮助更多的人。以下是代码贡献者的清单（排名不分先后）：
 
-[thales-jiang](https://github.com/thales-jiang) 
+[thales-jiang](https://github.com/thales-jiang)
 
 ## 版权许可
 
