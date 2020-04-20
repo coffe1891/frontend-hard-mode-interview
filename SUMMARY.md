@@ -47,5 +47,5 @@
 
 ## 玖
 
-* [玖.1 一线互联网公司前端公众号](jiu/jiu-.1-yi-xian-hu-lian-wang-gong-si-qian-duan-gong-zhong-hao.md)
+* [玖.1 一线互联网公司官方前端公众号](jiu/9.1.md)
 
