@@ -10,9 +10,9 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 前端技术日新月异，我也在不断学习，疏漏之处在所难免。  
 欢迎朋友们随时给我[@提建议](https://github.com/coffe1891/FERD/issues/new)，QQ群 308689488，微信 **kenny2019**
 
-> 1.本书适合至少3年的前端工作经验的朋友进阶阅读。  
+> 1.本书适合至少三年前端工作经验的朋友阅读。  
 > 2.如果书里文章的图片显示不了，开翻墙工具、或者多刷几遍就好。  
-> 3.阅读尽量去上面的gitbook地址阅读，导航更清晰，图片也不会出现显示错误。
+> 3.阅读本书尽量去上面的gitbook地址，gitbook导航更清晰，图片也不会出现显示错位。
 
 ![&#x5C01;&#x9762;](.gitbook/assets/cover.jpg)
 
