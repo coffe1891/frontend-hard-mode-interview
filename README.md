@@ -172,6 +172,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 重新认识JavaScript面向对象: 从ES5到ES6 
 3. 函数式编程
    * [什么是函数式编程思维？](6/6.3.1.md)
+   * [JavaScript的函数式编程探索](6/6.3.2.md)
 4. 响应式编程
    * RxJS
 5. 元编程
