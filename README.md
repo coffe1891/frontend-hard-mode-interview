@@ -77,7 +77,7 @@ QQ群 **308689488**，微信 **kenny2019**
 4. 浏览器、V8引擎
    * 网页被浏览器绘出来过程是怎样的？
    * 页面重排（Reflow）与重绘（Repaint\) 
-   * [DOM、Shadow DOM、Virtual DOM](1/1.4.3.md)
+   * [DOM、Shadow DOM、Virtual DOM](1/1.4.3.md) _`updating…`_
    * V8引擎是如何工作的
    * V8引擎内存管理和垃圾回收机制
 5. 相关的后端知识点
@@ -92,7 +92,7 @@ QQ群 **308689488**，微信 **kenny2019**
 ### 贰、[数据结构与算法](2/2.0.md)
 
 1. 面试时高频率出现的算法
-   * 十大经典排序算法
+   * [十大排序算法](2/2.1.1.md)_`updating…`_
    * [单调栈](2/2.1.2.md)
    * [二叉树的遍历](2/2.1.3.md)
    * 二叉树中的最大路径和
@@ -102,7 +102,7 @@ QQ群 **308689488**，微信 **kenny2019**
    * [面试官问你斐波那契数列的时候不要太高兴](https://zhuanlan.zhihu.com/p/54378423) _`外链`_
    * 尾递归究竟是好是坏
 3. 好书推荐
-   * [《学习JavaScript数据结构与算法》](https://book.douban.com/subject/27129352/)
+   * [《学习JavaScript数据结构与算法》](https://book.douban.com/subject/27129352/)_`外链`_
 
 ### 叁、主流框架
 
@@ -122,8 +122,8 @@ QQ群 **308689488**，微信 **kenny2019**
 5. flutter
    * flutter开发初体验
 6. 好书推荐
-   * [《深入浅出Vue.js》](https://book.douban.com/subject/32581281/)
-   * [《深入React技术栈》](https://book.douban.com/subject/26918038/) 
+   * [《深入浅出Vue.js》](https://book.douban.com/subject/32581281/)_`外链`_
+   * [《深入React技术栈》](https://book.douban.com/subject/26918038/)_`外链`_
 
 ### 肆、动效
 
@@ -181,7 +181,7 @@ QQ群 **308689488**，微信 **kenny2019**
    * [什么是响应式编程？](6/6.4.1.md)
    * RxJS
 5. 好书推荐
-   * [《重构》](https://book.douban.com/subject/4262627/)
+   * [《重构》](https://book.douban.com/subject/4262627/)_`外链`_
 
 ### 柒、掌握常见的设计模式
 
@@ -207,10 +207,10 @@ QQ群 **308689488**，微信 **kenny2019**
 
 ### 捌、很有用的网站
 
-1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) 最全的Web相关参考文档,没有之一
-2. [英文站-StackOverflow](https://stackoverflow.com/) 掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
-3. [中文站-Vue.js手册](https://vuejs.bootcss.com/guide/) 手册在手,玩转Vue不愁
-4. [英文-Vue资源大全](https://github.com/vuejs/awesome-vue) 超级多的资源,总能找到你喜欢的那款
+1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) _`外链`_ 最全的Web相关参考文档,没有之一
+2. [英文站-StackOverflow](https://stackoverflow.com/) _`外链`_ 掌握了四级英语就能向老外提问交流了,解决疑难杂症必上
+3. [中文站-Vue.js手册](https://vuejs.bootcss.com/guide/) _`外链`_ 手册在手,玩转Vue不愁
+4. [英文-Vue资源大全](https://github.com/vuejs/awesome-vue) _`外链`_ 超级多的资源,总能找到你喜欢的那款
 
 ### 玖、公众号&博客推荐
 
