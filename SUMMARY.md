@@ -33,6 +33,8 @@
 * [壹.3.2 JavaScript函数柯里化](1/1.3.2.md)
 * [壹.4.3 DOM、Shadow DOM、Virtual DOM](1/1.4.3.md)
 * [壹.5.2 了解TCP、UDP、TLS](1/1.5.2.md)
+* [壹.5.3 Http几个版本的区别](1/1.5.3.md)
+* [壹.5.4 Http和Https的区别在哪里](1/1.5.4.md)
 
 ## 贰、数据结构与算法 <a id="2"></a>
 
