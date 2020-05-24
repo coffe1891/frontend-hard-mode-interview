@@ -111,8 +111,8 @@ QQ群 **308689488**，微信 **kenny2019**
    * 开发跨平台app推荐React Native还是flutter？
    * Angular和Vue.js深度对比
 2. Vue.js
-   * 问得最多的Vue.js面试题 
    * Vue.js源码解读：Vue数据响应式原理
+   * Vue.js带来的一些新问题以及解决办法探索
 3. Angular.js
    * 你真的懂Angular.js吗？
    * Angular.js性能优化要点
