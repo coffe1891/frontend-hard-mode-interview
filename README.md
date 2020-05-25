@@ -85,7 +85,7 @@ QQ群 **308689488**，微信 **kenny2019**
    * Http和Https的区别在哪里
    * XSS与CSRF
 6. 书籍推荐
-   * 你读过哪些Javscript书籍
+   * [你读过哪些Javscript书籍](https://www.zhihu.com/question/19562698/answer/89480175) _`外链`_
 
 ### 贰、[数据结构与算法](2/2.0.md)
 
