@@ -67,7 +67,6 @@ QQ群 **308689488**，微信 **kenny2019** _\(加微信请注明 “前端内参
    * [深拷贝与浅拷贝](1/1.3.1.md)
    * [JavaScript函数柯里化](1/1.3.2.md)
    * 理解WeakSet/WeakMap中对象的弱引用
-   * Hook
 4. 浏览器、V8引擎
    * 网页被浏览器绘出来过程是怎样的？
    * 页面重排（Reflow）与重绘（Repaint\) 
@@ -102,19 +101,19 @@ QQ群 **308689488**，微信 **kenny2019** _\(加微信请注明 “前端内参
 
 1. 综合比较
    * jQuery相对现在流行的库而言过时了吗？
-   * 开发跨平台app推荐React Native还是flutter？
-   * Angular和Vue.js深度对比
-2. Vue.js
+   * React、Vue.js和Angular对比
+2. React
+   * React Hooks究竟是什么呢？
+   * React的性能优化技巧
+3. Vue.js
    * Vue.js源码解读：Vue数据响应式原理
    * Vue.js带来的一些新问题以及解决办法探索
-3. Angular.js
+4. Angular.js
    * 你真的懂Angular.js吗？
    * Angular.js性能优化要点
-4. React
-   * 面试官高频问到的一些实现原理
-   * React的性能优化技巧
 5. Flutter
    * 浅谈Flutter给前端研发带来的变化
+   * Dart
 6. 好书推荐
    * [《深入浅出Vue.js》](https://book.douban.com/subject/32581281/)_`外链`_
    * [《深入React技术栈》](https://book.douban.com/subject/26918038/)_`外链`_
