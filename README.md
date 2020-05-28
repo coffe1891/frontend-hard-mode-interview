@@ -229,7 +229,7 @@ QQ群 **308689488**，微信 **kenny2019** _\(加微信请注明 “前端内参
 
 网名：Bob Ma  
 微信：kenny2019（加微信请注明“前端内参”）  
-Email：[kai.ma\(at\)163.com](mailto:kai.ma@163.com)  
+Email：[kai521@gmail.com](mailto:kai521@gmail.com)  
 Github：[https://github.com/coffe1891](https://github.com/coffe1891)  
   
 对本书有任何疑问，欢迎联系我。
