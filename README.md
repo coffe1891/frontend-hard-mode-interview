@@ -4,14 +4,10 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 
 # 前端内参
 
-![&#x524D;&#x7AEF;&#x5185;&#x53C2;&#xB7;&#x5C01;&#x9762;](.gitbook/assets/cover20200504.jpg)
-
 阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
 
-本书较多着笔于深层理论上的论述，辅有代码示例，多是经过时间洗礼后的沉淀。然而前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友们随时[@提建议](https://github.com/coffe1891/FERD/issues/new)，我将及时改进。
-
-![Author:Bob Ma](.gitbook/assets/bobma.jpg)
+本书较多着笔于深层理论上的论述，辅有代码示例，多是经过时间洗礼后的沉淀。然而前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友们随时[@提建议](https://github.com/coffe1891/FERD/issues/new)，我将及时改进。如果觉得有帮助，别忘了【star】，如果想进一步交流，可以【follow】我，也可以加入【QQ群】或【微信】联系。
 
 QQ群 **308689488**，微信 **kenny2019** _\(加微信请注明 “前端内参”）_
 
@@ -219,11 +215,24 @@ QQ群 **308689488**，微信 **kenny2019** _\(加微信请注明 “前端内参
 1. [成为一个好的程序员远比找份好工作重要](10/10.1-1.md)
 2. 2020年前端技术展望
 
+## 本书封面
+
+![](.gitbook/assets/cover20200504.jpg)
+
 ## 贡献者
 
-这本开源书得到了朋友们的建议和代码贡献，非常感谢！让我们一起帮助更多的人。以下是代码贡献者的清单（排名不分先后）：
-
 [thales-jiang](https://github.com/thales-jiang)
+
+## 关于作者
+
+![Bob Ma](.gitbook/assets/bobma.jpg)
+
+网名：Bob Ma  
+微信：kenny2019（加微信请注明“前端内参”）  
+Email：[kai.ma\(at\)163.com](mailto:kai.ma@163.com)  
+Github：[https://github.com/coffe1891](https://github.com/coffe1891)  
+  
+对本书有任何疑问，欢迎联系我。
 
 ## 版权许可
 
