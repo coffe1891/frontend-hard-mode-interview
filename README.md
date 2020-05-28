@@ -4,14 +4,14 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 
 # 前端内参
 
-<img src=".gitbook/assets/cover20200504.jpg" width="100%" alt="前端内参·封面" />
+![&#x524D;&#x7AEF;&#x5185;&#x53C2;&#xB7;&#x5C01;&#x9762;](.gitbook/assets/cover20200504.jpg)
 
 阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
 
 本书较多着笔于深层理论上的论述，辅有代码示例，多是经过时间洗礼后的沉淀。然而前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友们随时[@提建议](https://github.com/coffe1891/FERD/issues/new)，我将及时改进。
 
-<img src=".gitbook/assets/coffe1891.jpg" width="180px" alt="本书整理者:Bob Ma"/>
+![Author:Bob Ma](.gitbook/assets/bobma.jpg)
 
 QQ群 **308689488**，微信 **kenny2019** _\(加微信请注明 “前端内参”）_
 
