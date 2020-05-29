@@ -95,10 +95,10 @@ QQ群 **308689488**，微信 **kenny2019** _\(加微信请注明 “前端内参
 3. 好书推荐
    * [《学习JavaScript数据结构与算法》](https://book.douban.com/subject/27129352/)_`外链`_
 
-### 叁、主流框架
+### 叁、主流框架/库
 
 1. 综合比较
-   * [jQuery相对现在流行的库而言过时了吗？](3/3.1.1.md)
+   * [jQuery过时了吗？](3/3.1.1.md)
    * React、Vue.js和Angular对比
 2. React
    * [React Hooks究竟是什么？](3/3.2.1.md)
