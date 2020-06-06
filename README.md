@@ -166,6 +166,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 面向对象编程的弊端是什么？
    * [重新认识JavaScript面向对象:继承](6/6.2.3.md) 
    * [彻底搞懂泛型](6/6.2.4.md) _`updating…`_
+   * [用JavaScript认识抽象类和虚方法](6/6.2.5.md)
 3. 函数式编程
    * [什么是函数式编程？](6/6.3.1.md)
    * [JavaScript的函数式编程探索](6/6.3.2.md)
