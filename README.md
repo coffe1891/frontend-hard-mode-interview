@@ -227,8 +227,8 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 网名：Bob Ma  
 微信：kenny2019（加微信请注明“前端内参”）  
 Email：[kai521@gmail.com](mailto:kai521@gmail.com)  
-Github：[https://github.com/coffe1891](https://github.com/coffe1891)  
-  
+Github：[https://github.com/coffe1891](https://github.com/coffe1891)
+
 对本书有任何疑问，欢迎联系我。
 
 ## 版权许可
