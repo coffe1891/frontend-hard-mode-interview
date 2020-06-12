@@ -160,7 +160,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 开放封闭原则
    * 接口隔离原则
    * [里氏替换原则](6/6.1.5.md)
-   * [依赖倒置原则](6/6.1.6.md) _`updating…`_
+   * [依赖倒置原则](6/6.1.6.md)
 2. 面向对象编程（OOP）
    * 面向对象与面向过程有什么区别？
    * 面向对象编程的弊端是什么？
