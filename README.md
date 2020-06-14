@@ -59,7 +59,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * [正则表达式](1/1.2.10.md)
    * [位操作符与进制转换](1/1.2.11.md)
    * [rest和spread操作符](1/1.2.12.md)
-   * [实现异步非阻塞的任务](1/1.2.13.md) _`updating…`_
+   * [实现异步非阻塞的任务](1/1.2.13.md)
    * [模块化开发](1/1.2.14.md)
 3. 其他知识点
    * [深拷贝与浅拷贝](1/1.3.1.md)
