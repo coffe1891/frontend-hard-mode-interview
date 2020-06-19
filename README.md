@@ -9,7 +9,7 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
 
-如果觉得有帮助请点一下右上角的star，你的鼓励是我更新的动力；如果想和前端工程师们讨论，也可以加入【QQ群】**308689488**；我的【微信】**kenny2019** _\(加微信请注明 “前端内参”）。_
+如果觉得有帮助请点右上角的★，你的鼓励是我更新的动力；如果想和前端工程师们讨论，也可以加入【QQ群】**308689488**；有更多问题想探讨也可以加我的【微信】**kenny2019** _\(加微信请注明 “前端内参”）。_
 
 > 1. 本书较多着笔于深层理论上的论述，辅有代码示例，多是经过时间洗礼后的沉淀，适合至少三年前端工作经验的朋友阅读。然而前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友们随时[@提建议](https://github.com/coffe1891/FERD/issues/new)，我将及时改进；
 > 2. 阅读本书尽量去上面的gitbook地址，gitbook导航更清晰，图片也不会出现显示错位，并且支持手机模式下浏览；
