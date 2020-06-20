@@ -3,8 +3,7 @@ description: 帮助前端工程师们夯实技术以通过一线互联网企业�
 ---
 
 # 前端内参
-
-![](.gitbook/assets/cover20200619.jpg)
+![封面](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyj8fmwm1j30zk0hs770.jpg)
 
 阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
