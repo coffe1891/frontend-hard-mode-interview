@@ -149,7 +149,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 ### 陆、设计原则与编程范式
 
 1. 设计原则（SOLID）
-   * 单一职责原则
+   * [单一职责原则](6/6.1.1.md)
    * 接口隔离原则
    * 最少知识原则
    * 开放封闭原则
