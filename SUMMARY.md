@@ -55,19 +55,19 @@
 * [叁.1.1 jQuery过时了吗？](3/3.1.1.md)
 * [叁.2.1 React Hooks究竟是什么？](3/3.2.1.md)
 
-## 肆、必会的工具
+## 肆、必会的工具 <a id="4"></a>
 
-* [肆.3.2 适用于前端开发者的20个VSCode插件](si-bi-hui-de-gong-ju/4.3.2.md)
+* [肆.3.2 适用于前端开发者的20个VSCode插件](4/4.3.2.md)
 
-## 伍、编程范式
+## 伍、编程范式 <a id="5"></a>
 
-* [伍.1.3 重新认识JavaScript面向对象: 继承](wu-bian-cheng-fan-shi/5.1.3.md)
-* [伍.1.4 彻底搞懂泛型](wu-bian-cheng-fan-shi/5.1.4.md)
-* [伍.1.5 用JavaScript认识抽象类和虚方法](wu-bian-cheng-fan-shi/5.1.5.md)
-* [伍.2.1 什么是函数式编程？](wu-bian-cheng-fan-shi/5.2.1.md)
-* [伍.2.2 JavaScript的函数式编程探索](wu-bian-cheng-fan-shi/5.2.2.md)
-* [伍.2.3 Pointfree无参数风格编程](wu-bian-cheng-fan-shi/5.2.3.md)
-* [伍.3.1 什么是响应式编程？](wu-bian-cheng-fan-shi/5.3.1.md)
+* [伍.1.3 重新认识JavaScript面向对象: 继承](5/5.1.3.md)
+* [伍.1.4 彻底搞懂泛型](5/5.1.4.md)
+* [伍.1.5 用JavaScript认识抽象类和虚方法](5/5.1.5.md)
+* [伍.2.1 什么是函数式编程？](5/5.2.1.md)
+* [伍.2.2 JavaScript的函数式编程探索](5/5.2.2.md)
+* [伍.2.3 Pointfree无参数风格编程](5/5.2.3.md)
+* [伍.3.1 什么是响应式编程？](5/5.3.1.md)
 
 ## 陆、设计原则与编程范式 <a id="6"></a>
 
