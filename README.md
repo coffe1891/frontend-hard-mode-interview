@@ -110,7 +110,19 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * [《深入浅出Vue.js》](https://book.douban.com/subject/32581281/)_`外链`_
    * [《深入React技术栈》](https://book.douban.com/subject/26918038/)_`外链`_
 
-### 肆、编程范式
+### 肆、必会的工具
+
+1. Webpack-自动打包模块工具
+   * 深入理解Webpack打包
+   * 常用的脚手架 
+2. API文档管理
+   * 用Swagger解决前后端沟通不畅与API调试强依赖的问题
+3. IDE-工欲善其事必先利其器
+   * 高效使用VSCode的10点建议
+   * 适用于前端开发者的20个VSCode插件
+   * Sublime Text
+
+### 伍、编程范式
 
 1. 面向对象编程（OOP）
    * 面向对象与面向过程有什么区别？
@@ -125,18 +137,6 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 3. 响应式编程
    * [什么是响应式编程？](6/6.4.1.md)
    * RxJS
-
-### 伍、必会的工具
-
-1. Webpack-自动打包模块工具
-   * 深入理解Webpack打包
-   * 常用的脚手架 
-2. API文档管理
-   * 用Swagger解决前后端沟通不畅与工作依赖的问题
-3. IDE-工欲善其事必先利其器
-   * 高效使用VSCode的10点建议
-   * 适用于前端开发者的20个VSCode插件
-   * Sublime Text
 
 ### 陆、软件设计的原则
 
