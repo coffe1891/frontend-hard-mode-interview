@@ -110,29 +110,21 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * [《深入浅出Vue.js》](https://book.douban.com/subject/32581281/)_`外链`_
    * [《深入React技术栈》](https://book.douban.com/subject/26918038/)_`外链`_
 
-### 肆、动效
+### 肆、编程范式
 
-1. 动效应用的场景
-   * 不要拒绝设计小姐姐的要求  
-   * 有效的引导用户
-   * 让页面拥有生命力
-2. css3动画基础 
-   * [transition过渡](https://github.com/coffe1891/frontend-hard-mode-interview/tree/68ed827572a97a2e1290af6be85e56945aa66ce5/4/4.2.1.md)
-   * animation动画 
-3. css3动画实践 
-   * 弹窗  
-   * 逐帧动画  
-   * 悬浮按钮  
-   * 广告动画  
-   * 3D动画  
-4. canvas 
-   * 画布的基本功能
-   * 分享到朋友圈的预览图制作
-   * 飞机大战小游戏     
-5. webgl
-   * 3D的基础知识
-   * 谁都会做的全景图  
-   * 3D跑酷小游戏  
+1. 面向对象编程（OOP）
+   * 面向对象与面向过程有什么区别？
+   * 面向对象编程的弊端是什么？
+   * [重新认识JavaScript面向对象:继承](6/6.2.3.md) 
+   * [彻底搞懂泛型](6/6.2.4.md) _`updating…`_
+   * [用JavaScript认识抽象类和虚方法](6/6.2.5.md)
+2. 函数式编程
+   * [什么是函数式编程？](6/6.3.1.md)
+   * [JavaScript的函数式编程探索](6/6.3.2.md)
+   * [Pointfree无参数风格编程](6/6.3.3.md) _`updating…`_
+3. 响应式编程
+   * [什么是响应式编程？](6/6.4.1.md)
+   * RxJS
 
 ### 伍、必会的工具
 
@@ -140,35 +132,22 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 深入理解Webpack打包
    * 常用的脚手架 
 2. API文档管理
-   * 用Swagger解决API文档更新的烦恼
+   * 用Swagger解决前后端沟通不畅与工作依赖的问题
 3. IDE-工欲善其事必先利其器
    * 高效使用VSCode的10点建议
    * 适用于前端开发者的20个VSCode插件
    * Sublime Text
 
-### 陆、设计原则与编程范式
+### 陆、软件设计的原则
 
-1. 设计原则（SOLID）
+1. [六大设计原则导读（SOLID）](6/6.1.0.md)
    * [单一职责原则](6/6.1.1.md)
-   * 接口隔离原则
-   * 最少知识原则
-   * 开放封闭原则
+   * [接口隔离原则](6/6.1.2.md)
+   * [最少知识原则](6/6.1.3.md)
+   * [开放封闭原则](6/6.1.4.md)
    * [里氏替换原则](6/6.1.5.md)
    * [依赖倒置原则](6/6.1.6.md)
-2. 面向对象编程（OOP）
-   * 面向对象与面向过程有什么区别？
-   * 面向对象编程的弊端是什么？
-   * [重新认识JavaScript面向对象:继承](6/6.2.3.md) 
-   * [彻底搞懂泛型](6/6.2.4.md) _`updating…`_
-   * [用JavaScript认识抽象类和虚方法](6/6.2.5.md)
-3. 函数式编程
-   * [什么是函数式编程？](6/6.3.1.md)
-   * [JavaScript的函数式编程探索](6/6.3.2.md)
-   * [Pointfree无参数风格编程](6/6.3.3.md) _`updating…`_
-4. 响应式编程
-   * [什么是响应式编程？](6/6.4.1.md)
-   * RxJS
-5. 好书推荐
+2. 好书推荐
    * [《重构》](https://book.douban.com/subject/4262627/)_`外链`_
 
 ### 柒、设计模式和软件工程
