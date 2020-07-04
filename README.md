@@ -128,7 +128,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 面向对象与面向过程有什么区别？
    * 面向对象编程的弊端是什么？
    * [重新认识JavaScript面向对象:继承](5/5.1.3.md) 
-   * [彻底搞懂泛型](5/5.1.4.md) _`updating…`_
+   * [彻底搞懂泛型](5/5.1.4.md)
    * [用JavaScript认识抽象类和虚方法](5/5.1.5.md)
 2. 函数式编程
    * [什么是函数式编程？](5/5.2.1.md)
@@ -142,7 +142,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 1. [六大设计原则导读（SOLID）](6/6.1.0.md)
    * [单一职责原则](6/6.1.1.md)
-   * [接口隔离原则](6/6.1.2.md)
+   * [接口隔离原则](6/6.1.2.md) _`updating…`_
    * [最少知识原则](6/6.1.3.md)
    * [开放封闭原则](6/6.1.4.md)
    * [里氏替换原则](6/6.1.5.md)
