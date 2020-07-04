@@ -127,15 +127,15 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 1. 面向对象编程（OOP）
    * 面向对象与面向过程有什么区别？
    * 面向对象编程的弊端是什么？
-   * [重新认识JavaScript面向对象:继承](6/6.2.3.md) 
-   * [彻底搞懂泛型](6/6.2.4.md) _`updating…`_
-   * [用JavaScript认识抽象类和虚方法](6/6.2.5.md)
+   * [重新认识JavaScript面向对象:继承](wu-bian-cheng-fan-shi/5.1.3.md) 
+   * [彻底搞懂泛型](wu-bian-cheng-fan-shi/5.1.4.md) _`updating…`_
+   * [用JavaScript认识抽象类和虚方法](wu-bian-cheng-fan-shi/5.1.5.md)
 2. 函数式编程
-   * [什么是函数式编程？](6/6.3.1.md)
-   * [JavaScript的函数式编程探索](6/6.3.2.md)
-   * [Pointfree无参数风格编程](6/6.3.3.md) _`updating…`_
+   * [什么是函数式编程？](wu-bian-cheng-fan-shi/5.2.1.md)
+   * [JavaScript的函数式编程探索](wu-bian-cheng-fan-shi/5.2.2.md)
+   * [Pointfree无参数风格编程](wu-bian-cheng-fan-shi/5.2.3.md) _`updating…`_
 3. 响应式编程
-   * [什么是响应式编程？](6/6.4.1.md)
+   * [什么是响应式编程？](wu-bian-cheng-fan-shi/5.3.1.md)
    * RxJS
 
 ### 陆、软件设计的原则
