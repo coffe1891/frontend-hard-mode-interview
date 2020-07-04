@@ -143,7 +143,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 1. [导读：SOLID](6/6.1.0.md)
    * [单一职责原则](6/6.1.1.md)
    * [接口隔离原则](6/6.1.4.md) _`updating…`_
-   * [开放封闭原则](6/6.1.2-1.md)
+   * [开放封闭原则](6/6.1.2.md)
    * [里氏替换原则](6/6.1.3.md)
    * [依赖倒置原则](6/6.1.5-1.md)
 2. 好书推荐
