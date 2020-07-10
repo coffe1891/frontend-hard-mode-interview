@@ -58,7 +58,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 3. 其他知识点
    * [深拷贝与浅拷贝](1/1.3.1.md)
    * [JavaScript函数柯里化](1/1.3.2.md)
-   * JavaScript元编程：Proxy与Refect
+   * JavaScript元编程：Proxy与Reflect
 4. 浏览器、V8引擎
    * 网页被浏览器绘出来过程是怎样的？
    * 页面重排（Reflow）与重绘（Repaint\) 
