@@ -187,7 +187,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 ### 拾、后记
 
 1. [成为一个好的程序员远比找份好工作重要](10/10.1.md)
-2. 2020年前端技术展望
+2. [2020年前端技术展望](10/10.2.md)
 
 ## 贡献者
 
