@@ -1,15 +1,13 @@
----
-description: 有关于JavaScript、编程范式、设计模式、软件开发的艺术等大前端范畴内的知识分享，旨在帮助前端工程师们夯实技术基础以通过一线互联网企业技术面试。
----
-
 # 前端内参
+
+[<img src="https://img.shields.io/github/stars/coffe1891/frontend-hard-mode-interview?style=social" alt="支持我">](https://github.com/coffe1891/frontend-hard-mode-interview/) [<img src="https://img.shields.io/github/followers/coffe1891?style=social" alt="关注我">](https://github.com/coffe1891)
 
 ![&#x5C01;&#x9762;](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyj8fmwm1j30zk0hs770.jpg)
 
 阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
 
-如果觉得有帮助请点右上角的★，你的鼓励是我更新的动力；如果想和前端工程师们讨论，也可以加入【QQ群】**308689488**；有更多问题想探讨也可以加我的【微信】**kenny2019** _\(加微信请注明 “前端内参”）。_
+如果觉得有帮助请点右上角的**Star**支持我不断更新；如果想和前端工程师们讨论，也可以加入[QQ群]308689488；有更多问题想探讨也可以加我的微信@kenn2019(请注明 “前端内参”)。
 
 > 1. 本书较多着笔于深层理论上的论述，辅有代码示例，多是经过时间洗礼后的沉淀，适合至少三年前端工作经验的朋友阅读。然而前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友们随时[@提建议](https://github.com/coffe1891/FERD/issues/new)，我将及时改进；
 > 2. 阅读本书尽量去上面的gitbook地址，gitbook导航更清晰，图片也不会出现显示错位，并且支持手机模式下浏览；
@@ -197,10 +195,9 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 ![Bob Ma](.gitbook/assets/bobma.jpg)
 
-网名：Bob Ma  
-微信：kenny2019（加微信请注明“前端内参”）  
-Email：[kai521@gmail.com](mailto:kai521@gmail.com)  
-Github：[https://github.com/coffe1891](https://github.com/coffe1891)
+![](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%40kenny2019-brightgreen)
+[<img src="https://img.shields.io/badge/Gmail-kai521%40gmail.com-red" alt="contact me via gmail">](mailto:kai521@gmail.com)  
+[https://github.com/coffe1891](https://github.com/coffe1891)
 
 对本书有任何疑问，欢迎联系我。
 
