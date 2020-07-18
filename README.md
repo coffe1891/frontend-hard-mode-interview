@@ -193,7 +193,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 ## 联系我
 
-![Bob Ma](.gitbook/assets/bobma.jpg)
+<img src=".gitbook/assets/bobma.jpg" alt="Bob Ma">
 
 ![](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%40kenny2019-brightgreen)
 [<img src="https://img.shields.io/badge/Gmail-kai521%40gmail.com-red" alt="contact me via gmail">](mailto:kai521@gmail.com)  
@@ -203,7 +203,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 ## 版权许可
 
-![](.gitbook/assets/copyright.png)
+[<img src=".gitbook/assets/copyright.png">](http://creativecommons.org/licenses/by-nc/4.0/)
 
 本作品采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可，只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
 
