@@ -1,13 +1,13 @@
 # 前端内参
 
-[<img src="https://img.shields.io/github/stars/coffe1891/frontend-hard-mode-interview?style=social" alt="支持我">](https://github.com/coffe1891/frontend-hard-mode-interview/) [<img src="https://img.shields.io/github/followers/coffe1891?style=social" alt="关注我">](https://github.com/coffe1891)
+[![&#x652F;&#x6301;&#x6211;](https://img.shields.io/github/stars/coffe1891/frontend-hard-mode-interview?style=social)](https://github.com/coffe1891/frontend-hard-mode-interview/) [![&#x5173;&#x6CE8;&#x6211;](https://img.shields.io/github/followers/coffe1891?style=social)](https://github.com/coffe1891)
 
 ![&#x5C01;&#x9762;](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyj8fmwm1j30zk0hs770.jpg)
 
 阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
 
-如果觉得有帮助请点右上角的**Star**支持我不断更新；如果想和前端工程师们讨论，也可以加入[QQ群]308689488；有更多问题想探讨也可以加我的微信@kenn2019(请注明 “前端内参”)。
+如果觉得有帮助请点右上角的**Star**支持我不断更新；如果想和前端工程师们讨论，也可以加入\[QQ群\]308689488；有更多问题想探讨也可以加我的微信@kenn2019\(请注明 “前端内参”\)。
 
 > 1. 本书较多着笔于深层理论上的论述，辅有代码示例，多是经过时间洗礼后的沉淀，适合至少三年前端工作经验的朋友阅读。然而前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友们随时[@提建议](https://github.com/coffe1891/FERD/issues/new)，我将及时改进；
 > 2. 阅读本书尽量去上面的gitbook地址，gitbook导航更清晰，图片也不会出现显示错位，并且支持手机模式下浏览；
@@ -193,17 +193,16 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 ## 联系我
 
-<img src=".gitbook/assets/bobma.jpg" alt="Bob Ma">
+![Bob Ma](.gitbook/assets/bobma.jpg)
 
-![](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%40kenny2019-brightgreen)
-[<img src="https://img.shields.io/badge/Gmail-kai521%40gmail.com-red" alt="contact me via gmail">](mailto:kai521@gmail.com)  
+![](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%40kenny2019-brightgreen) [![contact me via gmail](https://img.shields.io/badge/Gmail-kai521%40gmail.com-red)](mailto:kai521@gmail.com)  
 [https://github.com/coffe1891](https://github.com/coffe1891)
 
 对本书有任何疑问，欢迎联系我。
 
 ## 版权许可
 
-[<img src=".gitbook/assets/copyright.png">](http://creativecommons.org/licenses/by-nc/4.0/)
+[![](.gitbook/assets/copyright.png)](http://creativecommons.org/licenses/by-nc/4.0/)
 
 本作品采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可，只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
 
