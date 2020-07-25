@@ -1,6 +1,6 @@
 # 前端内参
 
-[![&#x652F;&#x6301;&#x6211;](https://img.shields.io/github/stars/coffe1891/frontend-hard-mode-interview?style=social)](https://github.com/coffe1891/frontend-hard-mode-interview/) [![&#x5173;&#x6CE8;&#x6211;](https://img.shields.io/github/followers/coffe1891?style=social)](https://github.com/coffe1891)
+[![&#x652F;&#x6301;&#x6211;](https://img.shields.io/github/stars/coffe1891/frontend-hard-mode-interview?style=social)](https://github.com/coffe1891/frontend-hard-mode-interview/)
 
 ![&#x5C01;&#x9762;](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyj8fmwm1j30zk0hs770.jpg)
 
