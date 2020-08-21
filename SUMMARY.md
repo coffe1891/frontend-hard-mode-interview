@@ -58,6 +58,7 @@
 
 ## 肆、必会的工具 <a id="4"></a>
 
+* [肆.1.1 深入理解Webpack打包](4/si-.1.1-shen-ru-li-jie-webpack-da-bao.md)
 * [肆.3.2 适用于前端开发者的20个VSCode插件](4/4.3.2.md)
 
 ## 伍、编程范式 <a id="5"></a>
