@@ -7,8 +7,6 @@
 {% endhint %}
 
 {% hint style="info" %}
-[Exporting ES6 Library Modules as Global Scripts with Webpack](https://siawyoung.com/coding/javascript/exporting-es6-modules-as-single-scripts-with-webpack.html)
+[Let's Write a JavaScript Library in ES6 using Webpack and Babel](https://www.loginradius.com/engineering/blog/write-a-javascript-library-using-webpack-and-babel/)
 {% endhint %}
-
-
 
