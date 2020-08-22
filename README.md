@@ -120,7 +120,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * Showdoc
 3. IDE-工欲善其事必先利其器
    * 高效使用VSCode的10点建议
-   * 适用于前端开发者的20个VSCode插件
+   * 适用于前端开发者的优秀VSCode插件
    * Sublime Text
 
 ### 伍、编程范式
