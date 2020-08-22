@@ -10,3 +10,7 @@
 [Let's Write a JavaScript Library in ES6 using Webpack and Babel](https://www.loginradius.com/engineering/blog/write-a-javascript-library-using-webpack-and-babel/)
 {% endhint %}
 
+{% hint style="info" %}
+[Webpack构建library时的踩坑经历](https://developer.aliyun.com/article/465323)
+{% endhint %}
+
