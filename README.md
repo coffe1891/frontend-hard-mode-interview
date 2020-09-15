@@ -93,7 +93,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 1. 综合比较
    * [jQuery过时了吗？](3/3.1.1.md)
-   * React、Vue.js和Angular对比
+   * React、Vue和Angular对比
 2. React
    * [React Hooks究竟是什么？](3/3.2.1.md)
    * React的性能优化技巧
