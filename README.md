@@ -117,7 +117,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 常用的脚手架 
 2. API文档管理
    * 用Swagger解决前后端沟通不畅与API调试强依赖的问题
-   * Showdoc
+   * Easydoc.xyz
 3. IDE-工欲善其事必先利其器
    * 高效使用VSCode的10点建议
    * 适用于前端开发者的优秀VSCode插件
