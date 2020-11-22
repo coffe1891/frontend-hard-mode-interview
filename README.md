@@ -167,7 +167,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * 中介者模式
    * 装饰者模式
    * 状态模式
-   * 适配器模式
+   * [适配器模式](7/7.1.14.md)
 2. 浅谈软件工程：MVC、MVP、MVVM
    * [MVC的前世今生](7/7.2.1.md) _`未完`_
    * MVP又是什么？
