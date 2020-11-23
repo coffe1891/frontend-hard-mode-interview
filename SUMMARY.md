@@ -32,7 +32,7 @@
 * [壹.2.14 模块化开发](1/1.2.14.md)
 * [壹.3.1 深拷贝与浅拷贝](1/1.3.1.md)
 * [壹.3.2 JavaScript函数柯里化](1/1.3.2.md)
-* [壹.3.3 JavaScript元编程：Proxy与Refect](1/1.3.3.md)
+* [壹.3.3 JavaScript元编程：Proxy与Reflect](1/1.3.3.md)
 * [壹.4.2 页面重排（Reflow）与重绘（Repaint\)](1/1.4.2.md)
 * [壹.4.3 DOM、Shadow DOM、Virtual DOM](1/1.4.3.md)
 * [壹.5.2 了解TCP、UDP、TLS](1/1.5.2.md)
