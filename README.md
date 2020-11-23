@@ -197,7 +197,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 ## 联系我
 
-![](.gitbook/assets/img_8e2ce62e-1be4-46bc-9ea0-be50e122cc27_l0_001-1600578132-516649-1189641421.jpg)
+![](.gitbook/assets/makai_greatwall.png)
 
 ![](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%40kenny2019-brightgreen) [![contact me via gmail](https://img.shields.io/badge/Gmail-kai521%40gmail.com-red)](mailto:kai521@gmail.com)  
 [https://github.com/coffe1891](https://github.com/coffe1891)
