@@ -39,7 +39,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 
 1. 你需要知道的新东西 
    * [新版 ECMAScript 特性分析](1/1.1.1.md)
-   * JavaScript未来性能优化的方向
+   * JavaScript的未来
 2. 核心概念
    * [函数](1/1.2.1.md)
    * [作用域、执行上下文、作用域链](1/1.2.2.md)
@@ -59,6 +59,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
    * [深拷贝与浅拷贝](1/1.3.1.md)
    * [JavaScript函数柯里化](1/1.3.2.md)
    * [JavaScript元编程：Proxy与Reflect](1/1.3.3.md)
+   * JavaScript中的进程、线程、协程
 4. 浏览器、V8引擎
    * 网页被浏览器绘出来过程是怎样的？
    * 页面重排（Reflow）与重绘（Repaint\) 
