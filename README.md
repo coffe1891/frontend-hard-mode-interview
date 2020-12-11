@@ -5,7 +5,8 @@
 ![&#x5C01;&#x9762;](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyj8fmwm1j30zk0hs770.jpg)
 
 阅 读 本 书：[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
-Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
+Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)  
+讨论本书：[https://github.com/coffe1891/frontend-hard-mode-interview/discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)
 
 如果觉得有帮助请点右上角的**Star**支持我不断更新；如果想和前端工程师们讨论，也可以加入\[QQ群\]308689488；有更多问题想探讨也可以加我的微信@kenny2019\(请注明 “前端内参”\)。
 
@@ -13,7 +14,7 @@ Github仓库：[https://github.com/coffe1891/frontend-hard-mode-interview](https
 > 2. 尽量访问上面的gitbook地址，导航更清晰，图片也不会出现显示错位，并且支持手机模式；
 > 3. 如果书里文章的图片显示不了，开科学上网工具、或者多刷几遍就好。
 
-前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友们随时[@提建议](https://github.com/coffe1891/FERD/issues/new)，我将及时改进；
+前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友随时[@提建议](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)，我将及时改进；
 
 ## 前言
 
