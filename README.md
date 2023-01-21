@@ -6,7 +6,7 @@
 
 【阅 读 本 书】[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 【讨论本书】[https://github.com/coffe1891/frontend-hard-mode-interview/discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)  
-【作者微信】coffe1891-mk（请注明 “前端内参”）  
+【作者微信】GZKXS1891（请注明 “前端内参”）  
 【QQ交流群】308689488（也可以扫上图二维码）
 
 如果觉得有帮助请点右上角的**Star**支持我不断更新。
