@@ -193,9 +193,26 @@
 1. [成为一个好的程序员远比找份好工作重要](10/10.1.md)
 2. [2020年前端技术展望](10/10.2.md)
 
-## 贡献者
+## 当前维护者
 
-[thales-jiang](https://github.com/thales-jiang)
+<table>
+   <td align="center">
+      <a href="https://github.com/LeeDebug">
+         <img src=".gitbook/assets/edan-qrcode.png" width="200px" alt="Edan Lee"/>
+         <br />
+         <sub><b>淳淳同学 </b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/coffe1891/frontend-hard-mode-interview/commits?author=LeeDebug" title="Code">💻</a>
+      <a href="https://leedebug.github.io/" title="Documentation">📖</a>
+      <br />
+      我将继续完善相关内容
+      <br />
+      （请注明来意：进群、学习、咨询等）
+   </td>
+</table>
+
+![](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-@YS15275278989-brightgreen)
 
 ## 联系我
 
