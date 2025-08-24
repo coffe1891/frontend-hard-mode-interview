@@ -1,8 +1,8 @@
 # Table of contents
 
-## [前端内参](README.md)
+* [首页](README.md)
 
-### [前言·写给有缘人](0.0.1.md)
+* [前言·写给有缘人](0.0.1.md)
 
 ## 零、准备Hard模式下的面试 <a id="0"></a>
 
