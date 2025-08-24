@@ -229,3 +229,7 @@
 
 本作品采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可，只要保持原作者署名、非商用，您可以自由地阅读、分享、修改本书。
 
+## Star History
+> 如果这个项目对你有帮助，⭐以表示支持 
+
+[![Star History Chart](https://api.star-history.com/svg?repos=coffe1891/frontend-hard-mode-interview&type=Date)](https://star-history.com/#coffe1891/frontend-hard-mode-interview&Date)
