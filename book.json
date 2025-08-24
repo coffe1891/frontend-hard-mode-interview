@@ -1,8 +1,8 @@
 {
-    "plugins": ["fontsettings"],
+    "plugins": ["theme-api"],
     "pluginsConfig": {
-        "fontsettings": {
-            "theme": ["white", "sepia", "night"]
+        "theme-api": {
+            "theme": "dark"
         }
     }
 }
