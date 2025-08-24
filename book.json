@@ -1,0 +1,8 @@
+{
+    "plugins": ["fontsettings"],
+    "pluginsConfig": {
+        "fontsettings": {
+            "theme": ["white", "sepia", "night"]
+        }
+    }
+}
