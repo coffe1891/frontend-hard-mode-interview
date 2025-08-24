@@ -1,6 +1,6 @@
 # Table of contents
 
-* [首页](README.md)
+* [**首页**](README.md)
 
 * [前言·写给有缘人](0.0.1.md)
 
