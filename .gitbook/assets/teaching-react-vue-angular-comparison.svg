@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="486" viewBox="0 0 960 486" role="img" aria-labelledby="title desc">
+<title id="title">React、Vue 3 与 Angular 状态更新流程对照图</title>
+<desc id="desc">三条路线分别说明 React 状态更新与组件重新渲染，Vue 3 的依赖收集与响应式更新，Angular Signal 与变化检测。流程为教学简化。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#4374ac"/></marker></defs>
+<rect x="1" y="1" width="958" height="484" rx="20" fill="#fff" stroke="#dce5ef" stroke-width="2"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" fill="#183153">
+<text x="32" y="46" font-size="26" font-weight="700">同样点一下复选框，三套框架如何更新页面？</text>
+<text x="32" y="75" font-size="17" fill="#556981">它们都能让总价从 20 变成 32，区别在于状态追踪与更新调度。</text>
+<line x1="30" y1="92" x2="930" y2="92" stroke="#dce5ef" stroke-width="2"/>
+<rect x="28" y="113" width="114" height="92" rx="12" fill="#e6f1ff" stroke="#3778ba" stroke-width="2"/>
+<text x="85" y="154" font-size="23" font-weight="700" text-anchor="middle">React</text><text x="85" y="180" font-size="15" text-anchor="middle">useState</text>
+<rect x="166" y="124" width="198" height="69" rx="12" fill="#e6f1ff" stroke="#3778ba" stroke-width="2"/>
+<text x="265" y="151" font-size="17" font-weight="600" text-anchor="middle">setSelected()</text><text x="265" y="176" font-size="15" text-anchor="middle" fill="#556981">安排状态更新</text>
+<rect x="410" y="124" width="221" height="69" rx="12" fill="#e6f1ff" stroke="#3778ba" stroke-width="2"/>
+<text x="520" y="151" font-size="17" font-weight="600" text-anchor="middle">执行组件渲染</text><text x="520" y="176" font-size="15" text-anchor="middle" fill="#556981">得到新的 UI 描述</text>
+<rect x="677" y="124" width="254" height="69" rx="12" fill="#eaf8f1" stroke="#248260" stroke-width="2"/>
+<text x="804" y="151" font-size="17" font-weight="600" text-anchor="middle">提交必要的 DOM 变化</text><text x="804" y="176" font-size="15" text-anchor="middle" fill="#556981">不是重建整个页面</text>
+<path d="M364 159 H408 M632 159 H675" stroke="#4374ac" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="28" y="222" width="114" height="92" rx="12" fill="#eaf8f1" stroke="#248260" stroke-width="2"/>
+<text x="85" y="265" font-size="23" font-weight="700" text-anchor="middle">Vue 3</text><text x="85" y="291" font-size="15" text-anchor="middle">ref</text>
+<rect x="166" y="233" width="198" height="69" rx="12" fill="#eaf8f1" stroke="#248260" stroke-width="2"/>
+<text x="265" y="260" font-size="17" font-weight="600" text-anchor="middle">响应式数据变化</text><text x="265" y="285" font-size="15" text-anchor="middle" fill="#556981">selected.value</text>
+<rect x="410" y="233" width="221" height="69" rx="12" fill="#eaf8f1" stroke="#248260" stroke-width="2"/>
+<text x="520" y="260" font-size="17" font-weight="600" text-anchor="middle">触发相关依赖</text><text x="520" y="285" font-size="15" text-anchor="middle" fill="#556981">computed、组件更新</text>
+<rect x="677" y="233" width="254" height="69" rx="12" fill="#eaf8f1" stroke="#248260" stroke-width="2"/>
+<text x="804" y="260" font-size="17" font-weight="600" text-anchor="middle">渲染并修补 DOM</text><text x="804" y="285" font-size="15" text-anchor="middle" fill="#556981">按调度时机执行</text>
+<path d="M364 268 H408 M632 268 H675" stroke="#4374ac" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="28" y="331" width="114" height="92" rx="12" fill="#f2eaff" stroke="#7958a6" stroke-width="2"/>
+<text x="85" y="374" font-size="23" font-weight="700" text-anchor="middle">Angular</text><text x="85" y="400" font-size="15" text-anchor="middle">signal</text>
+<rect x="166" y="342" width="198" height="69" rx="12" fill="#f2eaff" stroke="#7958a6" stroke-width="2"/>
+<text x="265" y="369" font-size="17" font-weight="600" text-anchor="middle">selected.update()</text><text x="265" y="394" font-size="15" text-anchor="middle" fill="#556981">更新 Signal</text>
+<rect x="410" y="342" width="221" height="69" rx="12" fill="#f2eaff" stroke="#7958a6" stroke-width="2"/>
+<text x="520" y="369" font-size="17" font-weight="600" text-anchor="middle">通知模板依赖</text><text x="520" y="394" font-size="15" text-anchor="middle" fill="#556981">参与变化检测</text>
+<rect x="677" y="342" width="254" height="69" rx="12" fill="#eaf8f1" stroke="#248260" stroke-width="2"/>
+<text x="804" y="369" font-size="17" font-weight="600" text-anchor="middle">更新相关视图</text><text x="804" y="394" font-size="15" text-anchor="middle" fill="#556981">具体路径依版本及设置而异</text>
+<path d="M364 377 H408 M632 377 H675" stroke="#4374ac" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<text x="32" y="455" font-size="16" fill="#566a83">示意图仅表达核心机制；真实实现还涉及编译优化、批处理、调度和浏览器渲染等步骤。</text>
+</g>
+</svg>
