@@ -1,96 +1,154 @@
-# 肆.1.1 深入理解 Webpack 打包
+# 肆.1.1 深入理解Webpack打包
 
-Webpack 的核心思想：**以入口模块为起点，分析依赖关系，构建模块图，再把模块和资源转换成适合部署的产物。** 只记住 `webpack.config.js` 的写法，面试时很难解释“为什么它能工作”。
+一个前端项目可能有上百个 JavaScript 文件，还有 CSS、图片、字体、TypeScript。开发时，我们希望文件拆得清楚；部署时，又希望浏览器下载得快、代码能兼容、资源路径不出错。
 
-## 01. Webpack 解决了什么问题？
+Webpack 做的，就是帮这些彼此矛盾的需求收拾残局。它不只是“把文件合并”。
 
-浏览器后来支持原生 ES Modules，但生产工程仍常常需要处理 TypeScript、CSS、图片、资源指纹、兼容性与按需加载。Webpack 的工作远不只是把所有 JavaScript 粘成一个文件。
+## 01. 先回答：浏览器为什么不能直接运行开发工程？
 
-典型构建路径可以概括为：
+现在浏览器早已支持原生 ES Modules，但实际工程还有几个问题：
 
-1. 读取配置，确定入口（entry）、输出（output）和模式。
-2. 从入口开始解析 `import`、`require` 等模块依赖。
-3. 通过 Loader 转换相关资源，再形成模块图。
-4. 经过优化、代码分割与资源生成，输出 Bundle/Chunk 等产物。
-5. 通过 Plugin 在构建生命周期中实现进一步处理。
+- 浏览器不能直接执行 TypeScript 类型语法。
+- Sass、Less 等需要转换成 CSS。
+- 希望给产物加内容哈希，方便长期缓存。
+- 希望自动拆包、压缩、抽离公共依赖并处理部分兼容性问题。
 
-Loader 与 Plugin 的职责不同：**Loader 主要转换模块内容；Plugin 可以参与更广泛的构建流程**。
+构建工具负责把**开发代码和静态资源**加工为能上线的一组文件。Webpack 会先从入口出发，分析依赖，逐步建立模块图，再根据配置生成产物。
 
-## 02. 一个最小工程
+## 02. 用一个最小项目观察构建过程
 
 目录：
 
 ```text
-my-app/
+demo/
+  src/
+    index.js
+    math.js
   package.json
-  webpack.config.cjs
-  src/index.js
+  webpack.config.js
 ```
 
-`src/index.js`：
-
 ```javascript
-import { greet } from './message.js';
-console.log(greet('前端内参'));
+// src/math.js
+export function sum(a, b) { return a + b; }
+export function multiply(a, b) { return a * b; }
 ```
 
-`src/message.js`：
-
 ```javascript
-export const greet = name => '你好，' + name;
+// src/index.js
+import { sum } from './math.js';
+console.log('2 + 3 =', sum(2, 3));
 ```
 
-`webpack.config.cjs`：
+安装 Webpack 与 CLI：
+
+```bash
+npm init -y
+npm install -D webpack webpack-cli
+npx webpack --mode production
+```
+
+如果需要明确入口与输出，可写：
 
 ```javascript
-const path = require('node:path');
+// webpack.config.js
+const path = require('path');
 
 module.exports = {
   mode: 'production',
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'app.[contenthash].js',
     clean: true
   }
 };
 ```
 
-安装 `webpack` 和 `webpack-cli` 后，运行 `npx webpack --config webpack.config.cjs`。Webpack 根据依赖图收集两个模块并生成输出文件。
+构建后查看 `dist`：生产模式一般会压缩并优化代码。`contenthash` 让文件内容变化时文件名随之变化，有利于配合合理的 HTTP 缓存策略。
 
-## 03. 按需加载为什么能拆包？
+## 03. Loader 和 Plugin 到底区别在哪？
 
-```javascript
-async function showChart() {
-  const module = await import('./chart.js');
-  module.renderChart();
-}
+很多人只背一句“Loader 转换文件，Plugin 扩展构建过程”，其实可以举例证明。
+
+假设你写了 TypeScript：
+
+```typescript
+const price: number = 20;
+console.log(price * 3);
 ```
 
-动态 `import()` 为构建工具提供代码分割边界，但实际产物怎么划分仍取决于配置和优化策略。拆包也不是越碎越好，额外请求和运行时开销都需考虑。
+浏览器不能直接运行这里的类型注解。Webpack 要通过合适的 loader 或编译工具，把它转换为普通 JavaScript。
 
-## 04. Tree Shaking 为何不总生效？
+```javascript
+module.exports = {
+  module: {
+    rules: [
+      { test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/ }
+    ]
+  },
+  resolve: { extensions: ['.ts', '.tsx', '.js'] }
+};
+```
 
-所谓 Tree Shaking，是在构建阶段分析哪些导出未被使用并尝试移除。静态 ESM 依赖关系有利于分析，但**有副作用的模块不能盲删**。例如导入文件仅为了注册全局事件或样式，即使没有使用它的导出，也可能不能移除。
+这段配置是**局部示意**，还需安装 `ts-loader` 与 `typescript` 并准备 `tsconfig.json`；若与上面的配置合用，应合并到同一个对象，不能写两份 `module.exports` 互相覆盖。
 
-不要把 `mode: 'production'` 等同于“百分百移除所有无用代码”。应检查实际输出和 Bundle Analyzer 的结果。
+而 Plugin 更像“在加工流水线的关键节点插入功能”：例如生成 HTML 模板、提取 CSS、输出构建统计等。Plugin 不只是负责一种文件类型，它可以参与整个构建生命周期。
 
-## 05. 最常见的性能优化
+## 04. 动态导入为什么能少加载代码？
 
-- 合理拆分入口和懒加载边界，减少首屏必需下载量。
-- 利用持久化缓存与稳定的资源哈希，减少重复构建和部署后的缓存失效。
-- 避免庞大的转译范围和不必要的插件。
-- 对第三方依赖分析体积，确认是否真正具备按需导入能力。
-- 在 CI 中对生产 Bundle 大小设预算并追踪变化。
+想象后台系统有一页“数据报表”，只有百分之五的用户会点开它。把报表图表库和首页一起下载，浪费不少流量。
 
-## 06. 高频问答
+```javascript
+document.querySelector('#openReport').addEventListener('click', async () => {
+  const module = await import('./report.js');
+  module.renderReport();
+});
+```
 
-**Webpack 和 Vite 是一回事吗？** 不是。Webpack 是成熟的模块构建工具；Vite 在开发阶段更依赖原生 ESM，并在构建阶段使用相应工具链。两者可解决类似工程需求，但架构和体验不同。
+Webpack 能以动态 `import()` 为边界，生成按需加载的 chunk。点击按钮时才请求对应代码，这叫**代码分割**。但要注意：拆得太碎也会增加请求与调度开销，网络环境与业务访问路径会影响最优方案。
 
-**Module、Chunk、Bundle 怎么理解？** Module 是依赖图中的模块；Chunk 是构建过程中组织的代码块；Bundle 通常指生成并交付的资源文件。实际概念要结合构建工具输出解释。
+## 05. Tree Shaking为什么有时不灵？
+
+前面 `math.js` 导出了两个函数，入口只用了 `sum`。生产构建可能把没用的 `multiply` 去掉。
+
+要具备优化条件，通常需要静态可分析的模块依赖，以及对副作用的正确处理。比如：
+
+```javascript
+// 这个模块只要被 import，就会修改全局变量
+window.__loaded = true;
+export const value = 1;
+```
+
+即使你没使用 `value`，工具也不能随便移除整个模块，否则全局行为改变。
+
+因此 `package.json` 里的 `sideEffects` 声明不能盲目写成 `false`。特别是导入 CSS、polyfill 或有初始化副作用的模块时，错误声明可能造成线上功能缺失。
+
+## 06. 为什么“打包小了”不代表网站一定快？
+
+一个 200 KB 的压缩包，如果每次打开页面都需要执行几十万次运算，仍然可能卡顿。优化必须分阶段：
+
+- **下载慢：** 查看资源体积、网络缓存、压缩和拆包。
+- **解析执行慢：** 减少不必要依赖、推迟非关键脚本。
+- **页面交互慢：** 检查长任务、DOM 规模和频繁布局。
+- **构建慢：** 查看缓存策略、loader 开销、环境模式和依赖图。
+
+不要把“打包速度”和“页面运行速度”当成一个指标。
+
+## 07. 面试官的几个进阶问题
+
+**Webpack 与 Vite 怎么选？** Vite 的开发服务器与生产构建思路和 Webpack 不同。先看项目生态、插件能力、构建目标与迁移成本，不能只看一篇跑分。
+
+**为什么热更新能保留部分状态？** HMR 在运行中替换可接受更新的模块，具体哪些状态能保留取决于框架和模块边界，不是所有模块都能无损热替换。
+
+**为什么生产环境要给资源带 hash？** 解决缓存更新与文件指纹对应的问题。它需要与服务端缓存头和 HTML 更新策略配合。
+
+## 08. 动手实验
+
+删掉 `dist`，分别执行开发模式与生产模式构建，观察文件名、压缩程度和产物差异。再在 `index.js` 增加动态 `import`，观察输出的 chunk 是否变化。**亲眼看到模块图变成文件，比背十遍定义有用。**
 
 ## 参考资料
 
-- [Webpack：Concepts](https://webpack.js.org/concepts/)
-- [Webpack：Code Splitting](https://webpack.js.org/guides/code-splitting/)
+- [Webpack：概念](https://webpack.js.org/concepts/)
+- [Webpack：代码分割](https://webpack.js.org/guides/code-splitting/)
 - [Webpack：Tree Shaking](https://webpack.js.org/guides/tree-shaking/)
