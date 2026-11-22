@@ -96,9 +96,9 @@ module.exports = {
 而 Plugin 更像“在加工流水线的关键节点插入功能”：例如生成 HTML 模板、提取 CSS、输出构建统计等。Plugin 不只是负责一种文件类型，它可以参与整个构建生命周期。
 
 
-![彩色插画：Webpack 从模块依赖图到构建、拆包和按需加载异步 chunk](../.gitbook/assets/teaching-illustration-webpack-chunks.jpg)
+![Webpack 的 report 代码块直到点击报表页面才按需加载](../.gitbook/assets/teaching-focus-webpack.svg)
 
-> **看图提示：** 动态 `import()` 可以形成代码拆分边界；是否生成独立 chunk 仍取决于配置与构建优化。
+> **看图提示：** 首页先加载主代码；进入报表页时才请求动态导入生成的报表代码块。
 
 ## 04. 动态导入为什么能少加载代码？
 
