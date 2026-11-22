@@ -2,6 +2,16 @@
 
 [![&#x652F;&#x6301;&#x6211;](https://img.shields.io/github/stars/coffe1891/frontend-hard-mode-interview?style=social)](https://github.com/coffe1891/frontend-hard-mode-interview/)
 
+> ### 🚀 2026 年《前端内参》重磅更新｜AI 时代，前端还值得干吗？
+>
+> **AI 一句话就能写页面，工作多年的前端工程师，以后靠什么吃饭？**
+>
+> **[新文章：《AI 时代，前端工程师还有出路吗？我给你五条能走的路》](10/10.3.md)**：不灌鸡汤，讲清五条转型路线、不同经验阶段怎么选，还有一份能照着做的 **90 天实战计划**。
+>
+> **[新展望：《2026 前端技术展望：走向 2027 年》](10/10.2.md)**：React、Vue、TypeScript、AI 编程，哪些值得学？哪些没必要跟风？
+>
+> 本书正在持续修订旧章节、补充原理配图、纠正技术错误。**更新日期：2026-11-22。**
+
 ![&#x5C01;&#x9762;](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyj8fmwm1j30zk0hs770.jpg)
 
 【阅 读 本 书】[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
@@ -194,6 +204,7 @@
 
 1. [成为一个好的程序员远比找份好工作重要](10/10.1.md)
 2. [2026 前端技术展望：走向 2027 年](10/10.2.md)
+3. [AI 时代，前端工程师还有出路吗？五条路线与 90 天实战计划](10/10.3.md)
 
 ## 联系我
 
