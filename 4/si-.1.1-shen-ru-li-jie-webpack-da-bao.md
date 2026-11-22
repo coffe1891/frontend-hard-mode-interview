@@ -96,7 +96,7 @@ module.exports = {
 而 Plugin 更像“在加工流水线的关键节点插入功能”：例如生成 HTML 模板、提取 CSS、输出构建统计等。Plugin 不只是负责一种文件类型，它可以参与整个构建生命周期。
 
 
-![Webpack 依赖图经过构建生成入口代码和动态加载的报表代码块](../.gitbook/assets/teaching-webpack-chunks.svg)
+![彩色插画：Webpack 从模块依赖图到构建、拆包和按需加载异步 chunk](../.gitbook/assets/teaching-illustration-webpack-chunks.jpg)
 
 > **看图提示：** 动态 `import()` 可以形成代码拆分边界；是否生成独立 chunk 仍取决于配置与构建优化。
 
