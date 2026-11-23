@@ -6,6 +6,10 @@
   const resetButton = document.querySelector("#reset");
   const output = document.querySelector("#output");
   const status = document.querySelector("#status");
+  // GitBook ContentKit 组件通过受控 URL 参数传入 Markdown 示例代码。
+  // 用户实际编辑与运行仍然完全在本地，不会回写 GitBook 文档。
+  const initialCode = new URLSearchParams(window.location.search).get("code");
+  if (initialCode && initialCode.length <= 4000) editor.value = initialCode;
   const originalCode = editor.value;
   let activeWorker = null;
   let stopTimer = null;
