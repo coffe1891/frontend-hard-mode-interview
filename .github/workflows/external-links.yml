@@ -1,0 +1,25 @@
+name: 前端内参每周外链巡检
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 7 * * 1'
+permissions:
+  contents: read
+jobs:
+  external-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: 检查所有章节的外部网站与资源
+        run: node scripts/check-external-links.mjs --timeout-ms 8000 --concurrency 6 --json reports/external-links.json
+      - name: 保存 URL 和 HTTP 状态报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: external-links
+          path: reports/external-links.json
+          if-no-files-found: warn
