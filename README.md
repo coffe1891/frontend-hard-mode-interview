@@ -12,7 +12,7 @@
 >
 > 本书正在持续修订旧章节、补充原理配图、纠正技术错误。**更新日期：2026-11-23。**
 
-![《前端内参》历史封面](.gitbook/assets/cover20200504.jpg)
+![《前端内参》原版月球横版封面](.gitbook/assets/cover20200619.jpg)
 
 【阅 读 本 书】[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 【技术交流与建议】[GitHub Discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)  
