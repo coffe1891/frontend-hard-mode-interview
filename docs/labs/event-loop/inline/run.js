@@ -1,0 +1,93 @@
+// Event Loop 单代码块原型；只负责读者修改代码并在 Worker 中真实运行。
+(() => {
+  "use strict";
+  const editor = document.querySelector("#editor");
+  const runButton = document.querySelector("#run");
+  const resetButton = document.querySelector("#reset");
+  const output = document.querySelector("#output");
+  const status = document.querySelector("#status");
+  const originalCode = editor.value;
+  let activeWorker = null;
+  let stopTimer = null;
+  let nonce = 0;
+  let lines = [];
+  let failed = false;
+
+  const setStatus = value => { status.textContent = value; };
+  const clearWorker = () => {
+    nonce++;
+    if (stopTimer !== null) clearTimeout(stopTimer);
+    stopTimer = null;
+    if (activeWorker) activeWorker.terminate();
+    activeWorker = null;
+    runButton.disabled = false;
+  };
+  const addLine = value => {
+    lines.push(String(value));
+    output.textContent = lines.join("\n");
+    output.scrollTop = output.scrollHeight;
+  };
+  const execute = () => {
+    clearWorker();
+    if (editor.value.length > 12000) {
+      output.textContent = "代码太长（最多 12000 字符），请缩短后再运行。";
+      setStatus("未执行");
+      return;
+    }
+    const current = nonce;
+    failed = false;
+    lines = [];
+    output.textContent = "运行中…";
+    runButton.disabled = true;
+    setStatus("正在运行");
+    try {
+      activeWorker = new Worker("../runner-worker.js");
+      activeWorker.addEventListener("message", e => {
+        if (nonce !== current) return;
+        const data = e.data;
+        if (!data || typeof data.type !== "string") return;
+        if (data.type === "log") addLine(data.text);
+        if (data.type === "error") {
+          failed = true;
+          addLine("错误：" + String(data.text));
+        }
+        if (data.type === "done") {
+          if (!lines.length) output.textContent = "没有 console.log 输出。";
+          setStatus(failed || data.failed ? "执行出错" : "已执行");
+          clearWorker();
+        }
+      });
+      activeWorker.addEventListener("error", e => {
+        if (nonce !== current) return;
+        failed = true;
+        addLine("Worker 错误：" + (e.message || "未知异常"));
+        setStatus("执行出错");
+        clearWorker();
+      });
+      activeWorker.postMessage({ type: "run", source: editor.value });
+      stopTimer = setTimeout(() => {
+        if (nonce !== current) return;
+        failed = true;
+        addLine("代码执行超时，已强制停止。请检查死循环或长时间的异步操作。");
+        setStatus("执行超时");
+        clearWorker();
+      }, 2500);
+    } catch (e) {
+      output.textContent = "无法启动代码运行环境：" + String(e.message || e);
+      setStatus("环境不支持");
+      clearWorker();
+    }
+  };
+
+  runButton.addEventListener("click", execute);
+  resetButton.addEventListener("click", () => {
+    clearWorker();
+    editor.value = originalCode;
+    output.textContent = "已恢复原题。先猜顺序，再点击「运行代码」。";
+    setStatus("尚未执行");
+  });
+  editor.addEventListener("keydown", e => {
+    if ((e.metaKey || e.ctrlKey) && e.key === "Enter") execute();
+  });
+  window.addEventListener("pagehide", clearWorker);
+})();
