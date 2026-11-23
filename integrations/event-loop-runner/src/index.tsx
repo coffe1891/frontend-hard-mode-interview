@@ -19,8 +19,12 @@ const DEFAULT_CODE = [
  * Git Sync 中的 ```js-run 会被映射成 props.content。
  * 访问者修改代码只影响自己的浏览器，不会改掉书的 Markdown。
  */
-export const eventLoopRunner = createComponent<{ content?: string }>({
+type RunnerState = { expanded: boolean };
+type RunnerAction = { action: 'open-runner' | 'close-runner' };
+
+export const eventLoopRunner = createComponent<{ content?: string }, RunnerState, RunnerAction>({
   componentId: 'eventloop-runner',
+  initialState: { expanded: false },
   async render(element, context) {
     const original = typeof element.props.content === 'string'
       ? element.props.content
