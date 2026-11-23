@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="《前端内参》Event Loop 互动实验室：先预测输出，再逐步观察任务队列和调用栈，最后修改代码亲手验证。">
+  <title>Event Loop 互动实验室 | 前端内参</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="https://coffe1891.gitbook.io/frontend-hard-mode-interview/1/1.2.8">前端内参 <span>/ 动手实验</span></a>
+    <a class="back-link" href="https://github.com/coffe1891/frontend-hard-mode-interview/blob/master/1/1.2.8.md" target="_blank" rel="noopener noreferrer">阅读原文章 ↗</a>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">FRONTEND NEICAN · INTERACTIVE LAB 01</p>
+      <h1 id="hero-title">Event Loop，<span>别背了，动手试。</span></h1>
+      <p class="lead">面试官一问 Promise、setTimeout 和微任务的执行顺序，你是靠背答案，还是能把它讲明白？试一次就知道。</p>
+      <div class="hero-meta"><span>4 道渐进式实验</span><span>预测 → 单步 → 修改 → 验证</span><span>不需要安装环境</span></div>
+    </section>
+
+    <div class="progressbar" aria-hidden="true"><div id="progress-fill"></div></div>
+    <nav class="lesson-nav" id="lesson-tabs" aria-label="选择实验"></nav>
+
+    <section class="lesson-header">
+      <div><p class="eyebrow" id="lesson-tag"></p><h2 id="lesson-title"></h2><p id="lesson-intro"></p></div>
+      <span class="chip">浏览器 Event Loop · 教学简化版</span>
+    </section>
+
+    <div class="workspace">
+      <div class="column">
+        <section class="panel" aria-labelledby="code-heading">
+          <div class="panel-title"><div><span class="panel-number">01</span><h3 id="code-heading">读代码，先猜结果</h3></div><span class="micro-label">JavaScript</span></div>
+          <div class="code-wrap">
+            <label for="code-editor" class="visually-hidden">可编辑 JavaScript 代码</label>
+            <textarea id="code-editor" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" aria-describedby="code-notice"></textarea>
+          </div>
+          <p class="fine-print" id="code-notice">这段代码可以直接修改。逐步动画按原题生成；修改后请点“运行当前代码”看真实结果。</p>
+          <div class="controls"><button class="btn primary" id="run-btn" type="button">▶ 运行当前代码</button><button class="btn muted" id="restore-code" type="button">恢复原题</button></div>
+          <div class="output-header"><span>真实执行结果 <small>Web Worker</small></span><span class="status" id="run-status" aria-live="polite">尚未运行</span></div>
+          <pre class="real-output" id="run-output" aria-live="polite">点击“运行当前代码”，在独立线程里试一试。</pre>
+        </section>
+
+        <section class="panel predict-panel" aria-labelledby="predict-heading">
+          <div class="panel-title"><div><span class="panel-number">02</span><h3 id="predict-heading">先预测，再验证</h3></div></div>
+          <p>把你猜的 <code>console.log</code> 输出依次填在下面，换行或用逗号隔开都可以。</p>
+          <label for="prediction" class="visually-hidden">预测的输出顺序</label>
+          <textarea id="prediction" rows="3" spellcheck="false" placeholder="例如：A, B, C, D"></textarea>
+          <div class="controls"><button class="btn primary" id="predict-btn" type="button">核对我的预测</button><button class="btn muted" id="hint-btn" type="button">给点提示</button></div>
+          <p class="feedback" id="prediction-feedback" role="status" aria-live="polite"></p>
+          <p class="hint" id="hint-text" hidden></p>
+        </section>
+      </div>
+
+      <div class="column">
+        <section class="panel trace-panel" aria-labelledby="trace-heading">
+          <div class="panel-title"><div><span class="panel-number">03</span><h3 id="trace-heading">Event Loop 一步一步看</h3></div><span id="trace-index" class="micro-label">等待开始</span></div>
+          <p class="trace-notice">这是针对<strong>原题</strong>的教学模型，不是实时读取 Chrome 内部调用栈。它只展示任务、微任务与输出的关键状态。</p>
+          <div class="explanation" id="step-explanation" aria-live="polite">按“下一步”，观察代码如何从调用栈走到微任务，再到定时器任务。</div>
+          <div class="queues">
+            <div class="queue-card stack">
+              <div class="queue-head"><span class="queue-icon">▤</span><h4>调用栈 <small>Call Stack</small></h4></div>
+              <ol id="stack-view" class="queue-list" aria-label="调用栈内容"><li class="empty">等待开始</li></ol>
+            </div>
+            <div class="queue-card micro">
+              <div class="queue-head"><span class="queue-icon">◇</span><h4>微任务 <small>Microtask Queue</small></h4></div>
+              <ol id="micro-view" class="queue-list" aria-label="微任务队列"><li class="empty">空</li></ol>
+            </div>
+            <div class="queue-card macro">
+              <div class="queue-head"><span class="queue-icon">◷</span><h4>定时器任务 <small>Timer tasks</small></h4></div>
+              <ol id="task-view" class="queue-list" aria-label="定时器任务队列"><li class="empty">空</li></ol>
+            </div>
+          </div>
+          <div class="model-output"><strong>模型输出</strong><div id="output-view" class="output-chips"><span class="empty">暂无输出</span></div></div>
+          <div class="controls trace-controls">
+            <button class="btn muted" id="trace-prev" type="button">← 上一步</button>
+            <button class="btn primary" id="trace-next" type="button">下一步 →</button>
+            <button class="btn muted" id="trace-play" type="button">▶ 自动播放</button>
+            <button class="btn subtle" id="trace-reset" type="button">重置</button>
+          </div>
+          <p id="trace-note" class="fine-print"></p>
+        </section>
+        <section class="panel takeaway" aria-labelledby="takeaway-heading">
+          <div class="panel-title"><div><span class="panel-number">04</span><h3 id="takeaway-heading">你真正应该记住的</h3></div></div>
+          <p><strong>一段同步代码先跑完。</strong> 到微任务检查点时，队列里的微任务会一直执行到清空，即使执行过程中又增加了新的微任务。之后浏览器才有机会处理其他任务和渲染。</p>
+          <p>别把 <code>setTimeout(fn, 0)</code> 理解为“立刻执行”；也别把这张图当成所有浏览器任务源的完整调度规则。</p>
+          <a class="reference-link" href="https://html.spec.whatwg.org/multipage/webappapis.html#event-loops" target="_blank" rel="noopener noreferrer">查阅 WHATWG HTML 标准 ↗</a>
+        </section>
+      </div>
+    </div>
+    <footer class="page-footer">
+      <p>《前端内参》实验室 · 不上传代码、不需要账号。自定义代码在本地 Web Worker 中运行，超时自动终止。</p>
+      <p>按题目逐步播放是教学模型，只覆盖内置示例。浏览器在不同任务源之间的实际调度、渲染时机可能不同。</p>
+      <a href="https://github.com/coffe1891/frontend-hard-mode-interview/issues" target="_blank" rel="noopener noreferrer">发现错误？提交 Issue ↗</a>
+    </footer>
+  </main>
+</body>
+</html>
