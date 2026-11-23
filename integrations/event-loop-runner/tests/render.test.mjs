@@ -57,7 +57,7 @@ test('an inserted component has the same 2,4,3,1 default question', async () => 
 });
 
 test('published integration serves the same runner assets without waiting for master/Pages', async () => {
-  for (const [path, type] of [['inline/', 'text/html'], ['inline/run.js', 'text/javascript'], ['runner-worker.js', 'text/javascript']]) {
+  for (const [path, type] of [['inline/', 'text/html'], ['inline/run.js', 'text/javascript'], ['inline/editor.bundle.js', 'text/javascript'], ['inline/editor.LICENSE.txt', 'text/plain'], ['runner-worker.js', 'text/javascript']]) {
     const response = serveRunnerAsset(new Request('https://example.gitbook.io/integration/' + path));
     assert.equal(response.status, 200);
     assert.ok(response.headers.get('Content-Type').startsWith(type));

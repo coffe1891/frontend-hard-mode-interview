@@ -5,17 +5,23 @@
   "description": "GitBook ContentKit component for inline JavaScript execution",
   "type": "module",
   "scripts": {
-    "check": "npm run prepare:assets && tsc --noEmit && gitbook integration check",
+    "check": "npm run build:editor && npm run prepare:assets && tsc --project editor/tsconfig.json && tsc --noEmit && gitbook integration check",
     "test": "npm run prepare:assets && node --test tests/*.test.mjs",
     "publish": "npm run check && npm test && gitbook integration publish",
-    "prepare:assets": "node scripts/prepare-assets.mjs"
+    "prepare:assets": "node scripts/prepare-assets.mjs",
+    "build:editor": "node scripts/build-editor.mjs"
   },
   "dependencies": {
     "@gitbook/runtime": "0.26.1"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "5.20261123.1",
+    "@codemirror/lang-javascript": "6.2.5",
+    "@codemirror/language": "6.13.1",
+    "@codemirror/view": "6.43.15",
     "@gitbook/cli": "0.33.7",
+    "@lezer/highlight": "1.2.5",
+    "codemirror": "6.0.2",
     "esbuild": "0.17.19",
     "js-yaml": "4.1.1",
     "typescript": "7.0.2"

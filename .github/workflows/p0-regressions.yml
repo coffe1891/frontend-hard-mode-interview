@@ -26,6 +26,8 @@ jobs:
       - name: 编译并检查 ContentKit 集成
         working-directory: integrations/event-loop-runner
         run: npm run check
+      - name: 确认 Pages 编辑器资源与源码一致
+        run: git diff --exit-code -- docs/labs/event-loop/inline/editor.bundle.js docs/labs/event-loop/inline/editor.LICENSE.txt
       - name: 验证真实 ContentKit 渲染与 Git Sync 映射
         working-directory: integrations/event-loop-runner
         run: npm test

@@ -57,3 +57,10 @@ https://app.gitbook.com/o/-LnmMrXLnmjAIoQY6UW2/settings/integrations/frontend-ne
 - https://gitbook.com/docs/developers/integrations/quickstart
 
 基础 JS 在访客浏览器的 Web Worker 中执行，没有 DOM；支持 Promise、queueMicrotask 和 setTimeout。该教学运行器不能作为任意第三方代码的安全沙箱。
+
+
+## 语法高亮编辑器
+
+`editor/index.ts` 是编辑器的唯一维护源码，使用锁定版本的 CodeMirror。运行 `npm run build:editor` 生成供 Pages 使用的 `docs/labs/event-loop/inline/editor.bundle.js`；此文件随提交保存，CI 会重新生成并检查一致性。GitBook 从同一目录打包相同资源，经集成 HTTP handler 提供。因此升级编辑器无需改动任何书稿 Markdown。
+
+编辑器保留原 textarea 作为执行接口及加载失败时的降级方案，加载成功后才隐藏原输入框；运行与重置继续复用现有 Worker。原文传入的代码逐字保留，不使用预览中的演示字符串替换原题。CodeMirror bundle 自带运行依赖，无需在读者浏览器中访问第三方 CDN。

@@ -30,15 +30,19 @@
     .result {border-top:1px solid #e7ebef;padding:12px 14px 14px}
     .result h2{font-size:12px;margin:0 0 8px;letter-spacing:.4px}
     #output {margin:0;min-height:72px;max-height:180px;overflow:auto;background:#f6f9fe;border-radius:7px;border:1px solid #e0e8f3;padding:10px 12px;color:#355f86;white-space:pre-wrap;word-break:break-word;font:12.5px/1.8 Consolas,ui-monospace,monospace}
+    .legend {display:flex;gap:14px;flex-wrap:wrap;padding:9px 14px;border-top:1px solid #e7ebef;background:#fff;font-size:11px;color:#667085}
+    .legend span::before {content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:currentColor;margin-right:5px;vertical-align:1px}
     .foot {margin:0;border-top:1px solid #e7ebef;padding:9px 14px;color:#667085;font-size:11px;line-height:1.65}
     @media(max-width:600px){body{padding:0}textarea{font-size:12px;height:235px;padding:11px}.bar{padding:10px}.actions{padding:9px}.foot{padding:9px}}
   </style>
   <script defer src="./run.js"></script>
+  <script defer src="./editor.bundle.js"></script>
 </head>
 <body>
   <section class="shell" aria-label="Event Loop 可运行代码">
-    <div class="bar"><strong>JavaScript · Event Loop 面试题</strong><span class="caption">可修改 · 在浏览器中运行</span></div>
+    <div class="bar"><strong>JavaScript · Event Loop 面试题</strong><span class="caption">可编辑 · 语法高亮</span></div>
     <label for="editor" style="display:block;position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">编辑 JavaScript 代码</label>
+    <div id="highlight-editor"></div>
     <textarea id="editor" spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="可编辑的 JavaScript 示例" aria-describedby="note">setTimeout(function() {
   console.log(1);
 }, 0);
@@ -49,6 +53,7 @@ new Promise(function(resolve) {
   console.log(val);
 });
 console.log(4);</textarea>
+    <div class="legend" aria-label="语法配色说明"><span style="color:#3568a8">关键字</span><span style="color:#96603a">字符串</span><span style="color:#8056a6">数字</span><span style="color:#818b9a">注释</span></div>
     <div class="actions"><button class="primary" id="run" type="button">▶ 运行代码</button><button id="reset" type="button">恢复原题</button><span class="status" id="status" role="status">尚未执行</span></div>
     <div class="result"><h2>输出结果 <span class="caption">（点击运行后显示）</span></h2><pre id="output" aria-live="polite">先猜顺序，再点击「运行代码」。</pre></div>
     <p class="foot" id="note">教学示例在本地 Web Worker 中运行，支持 Promise、queueMicrotask、setTimeout。没有 DOM；单次约 1.2 秒后结束，超时强制停止。不要输入密码或隐私信息。</p>
