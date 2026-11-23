@@ -10,7 +10,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, mkdtempSync, rmSyn
 import { tmpdir } from 'node:os';
 import { join, resolve, relative } from 'node:path';
 import { Script } from 'node:vm';
-import ts from 'typescript';
+import { spawnSync } from 'node:child_process';
 
 const root = resolve(import.meta.dirname, '..');
 const apply = process.argv.includes('--apply');
@@ -95,22 +95,33 @@ try {
     sourceFiles.set(resolve(name), possible[k]);
   }
   if (sourceFiles.size) {
-    const program = ts.createProgram([...sourceFiles.keys()], {
-      allowJs: true, checkJs: true, noEmit: true,
-      target: ts.ScriptTarget.ES2022,
-      module: ts.ModuleKind.CommonJS,
-      moduleDetection: ts.ModuleDetectionKind.Force,
-      skipLibCheck: true,
-      types: []
+    // TypeScript 7 no longer exposes the classic compiler API from the main
+    // "typescript" package. Use the supported CLI for a single checkJs pass.
+    const tsc = resolve(base, 'node_modules', '.bin', process.platform === 'win32' ? 'tsc.cmd' : 'tsc');
+    const args = ['--allowJs', '--checkJs', '--noEmit', '--skipLibCheck',
+      '--target', 'ES2022', '--module', 'commonjs', '--moduleDetection', 'force',
+      ...sourceFiles.keys()];
+    const result = spawnSync(tsc, args, {
+      cwd: base, encoding: 'utf8', maxBuffer: 20 * 1024 * 1024, timeout: 120000
     });
+    if (result.error) throw result.error;
+    // A nonzero exit status is expected when selected snippets have missing names.
+    const diagnosticLines = (result.stdout + '\n' + result.stderr).split(/\r?\n/);
     const relevant = new Set([2304, 2552, 2580, 2584, 2307, 2451, 1375, 1378]);
-    for (const diagnostic of ts.getPreEmitDiagnostics(program)) {
-      const entry = diagnostic.file && sourceFiles.get(resolve(diagnostic.file.fileName));
-      if (!entry || !relevant.has(diagnostic.code)) continue;
-      if (!entry.reason) {
-        const msg = ts.flattenDiagnosticMessageText(diagnostic.messageText, ' ');
-        entry.reason = '缺少上下文/外部变量：TS' + diagnostic.code + ' ' + msg.slice(0, 130);
+    let seen = 0;
+    for (const line of diagnosticLines) {
+      const match = line.match(/^(.+?)\(\d+,\d+\): error TS(\d+): (.*)$/);
+      if (!match) continue;
+      seen++;
+      const entry = sourceFiles.get(resolve(match[1]));
+      const code = Number(match[2]);
+      if (entry && relevant.has(code) && !entry.reason) {
+        entry.reason = '缺少上下文/外部变量：TS' + code + ' ' + match[3].slice(0, 130);
       }
+    }
+    if (result.status !== 0 && !seen) {
+      throw new Error('TypeScript CLI 检查异常，无法解析诊断信息：' +
+        (result.stdout + result.stderr).slice(0, 500));
     }
   }
 } finally {
