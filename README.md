@@ -15,9 +15,8 @@
 ![《前端内参》历史封面](.gitbook/assets/cover20200504.jpg)
 
 【阅 读 本 书】[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
-【讨论本书】[https://github.com/coffe1891/frontend-hard-mode-interview/discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)  
-【作者微信】GZKXS1891（请注明"前端内参"）  
-【QQ交流群】308689488（也可以扫上图二维码）
+【技术交流与建议】[GitHub Discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)  
+【勘误与问题反馈】[GitHub Issues](https://github.com/coffe1891/frontend-hard-mode-interview/issues)
 
 如果觉得有帮助请点右上角的**Star**支持我不断更新。
 
@@ -220,14 +219,17 @@
 
 我会把原文说法、规范、可复现代码分开核对。**不敢保证整本书永远不出错，但确认的技术错误应该尽快修，不能让读者白白踩坑。** 新增的 [代码回归测试](tests/p0-regressions.test.mjs) 和 [历史稿件索引](archive/README.md) 会帮助我们持续维护。外部图片可能随时失效，新增文档会优先使用仓库内的图片资源。
 
-## 联系我
+## 交流与合作
 
 ![](.gitbook/assets/makai_greatwall.png)
 
-**微信：** `GZKXS1891`　 **邮箱：** `kai.ma(at)163.com`（发邮件时把 `(at)` 换成 `@`）  
-[https://github.com/coffe1891](https://github.com/coffe1891)
+**技术讨论、读者提问：** 请到 [GitHub Discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions) 公开交流。发现书中错误，请提交 [GitHub Issues](https://github.com/coffe1891/frontend-hard-mode-interview/issues)，这样其他读者也能看到解决过程。
 
-对本书有任何疑问，欢迎联系我。
+**商务合作：** 可以通过微信 `GZKXS1891` 简单说明来意（请注明“前端内参·商务合作”）；后续再私下交换邮箱沟通。为减少垃圾邮件，README 不公开邮箱。
+
+**原 QQ 交流群：** `308689488`（技术问题建议优先在 Discussions 提问，方便留档和检索）。
+
+[作者 GitHub 主页](https://github.com/coffe1891)
 
 ## 版权许可
 
