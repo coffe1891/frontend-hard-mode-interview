@@ -67,6 +67,7 @@ test('runtime serializes multiline Unicode and special characters without HTML i
   const { frame, url } = await render({ content });
   assert.equal(url.href.split('?')[0], 'https://example.gitbook.io/integration/inline/');
   assert.equal(url.searchParams.get('code'), content);
+  assert.equal(url.searchParams.get('autorun'), '1', '访客点击运行后应自动执行');
   assert.ok(frame.aspectRatio > 0 && frame.aspectRatio <= 0.6);
 });
 
