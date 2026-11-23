@@ -108,11 +108,14 @@
   resetButton.addEventListener("click", () => {
     clearWorker();
     editor.value = originalCode;
-    output.textContent = "已恢复原题。先猜顺序，再点击「运行代码」。";
+    output.textContent = "已重置为文章原始代码。点击「运行代码」重新验证。";
     setStatus("尚未执行");
   });
   editor.addEventListener("keydown", e => {
     if ((e.metaKey || e.ctrlKey) && e.key === "Enter") execute();
   });
   window.addEventListener("pagehide", clearWorker);
+  // A GitBook reader presses one button on the native code block; only then
+  // does the iframe mount. Run that original code immediately in the Worker.
+  if (new URLSearchParams(window.location.search).get("autorun") === "1") execute();
 })();

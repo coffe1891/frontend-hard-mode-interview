@@ -31,6 +31,15 @@ jobs:
         run: npm test
       - name: 检查全书 Markdown 站内路径
         run: npm run test:links -- --json reports/book-links.json
+      - name: 审计全书代码块并分类
+        run: node scripts/audit-code-fences.mjs --json reports/code-fences.json
+      - name: 保存全书代码块审计报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: code-fences-audit
+          path: reports/code-fences.json
+          if-no-files-found: warn
       - name: 保存全书链接扫描结果
         if: always()
         uses: actions/upload-artifact@v4

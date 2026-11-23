@@ -7,7 +7,7 @@ import { performance } from "node:perf_hooks";
 
 function block(file, marker) {
   const source = readFileSync(file, "utf8");
-  const blocks = [...source.matchAll(/```javascript\s*\n([\s\S]*?)\n```/g)].map(m => m[1]);
+  const blocks = [...source.matchAll(/```(?:javascript|js|js-run)\s*\n([\s\S]*?)\n```/g)].map(m => m[1]);
   const result = blocks.find(code => code.includes(marker));
   assert.ok(result, `${file}: 找不到代码块标识 ${marker}`);
   return result;

@@ -19,8 +19,12 @@ const DEFAULT_CODE = [
  * Git Sync 中的 ```js-run 会被映射成 props.content。
  * 访问者修改代码只影响自己的浏览器，不会改掉书的 Markdown。
  */
-export const eventLoopRunner = createComponent<{ content?: string }>({
+type RunnerState = { expanded: boolean };
+type RunnerAction = { action: 'open-runner' | 'close-runner' };
+
+export const eventLoopRunner = createComponent<{ content?: string }, RunnerState, RunnerAction>({
   componentId: 'eventloop-runner',
+  initialState: { expanded: false },
   async render(element, context) {
     const original = typeof element.props.content === 'string'
       ? element.props.content
@@ -29,15 +33,32 @@ export const eventLoopRunner = createComponent<{ content?: string }>({
     const endpoint = context.environment.integration.urls.publicContentEndpoint;
     const url = new URL(`${endpoint.replace(/\/$/, '')}/inline/`);
     url.searchParams.set('code', code);
+    url.searchParams.set('autorun', '1');
 
+    // A book chapter can contain dozens of code blocks. Do not eagerly launch
+    // one iframe/Worker-ready runtime per block at page-load time.
+    // First show a native codeblock and one button. The editor starts only
+    // when the reader explicitly asks to experiment.
+    const expanded = element.state?.expanded === true;
+    if (!expanded) {
+      return (
+        <block>
+          <codeblock content={code} syntax="javascript" lineNumbers={true} />
+          <button label="▶ 运行这段代码" onPress={{ action: "open-runner" }} />
+        </block>
+      );
+    }
     return (
       <block>
-        <webframe
-          source={{ url: url.toString() }}
-          aspectRatio={0.6}
-        />
+        <webframe source={{ url: url.toString() }} aspectRatio={0.6} />
+        <button label="收起运行区" onPress={{ action: "close-runner" }} />
       </block>
     );
+  },
+  async action(element, action) {
+    if (action.action === "open-runner") return { state: { expanded: true } };
+    if (action.action === "close-runner") return { state: { expanded: false } };
+    return {};
   }
 });
 
