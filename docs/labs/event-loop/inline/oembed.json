@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "type": "rich",
+  "provider_name": "前端内参",
+  "provider_url": "https://coffe1891.github.io/frontend-hard-mode-interview/",
+  "title": "Event Loop 代码运行示例",
+  "html": "<iframe src=\"https://coffe1891.github.io/frontend-hard-mode-interview/labs/event-loop/inline/\" width=\"100%\" height=\"520\" loading=\"lazy\" title=\"前端内参 Event Loop 可运行代码\"></iframe>",
+  "width": 920,
+  "height": 520
+}
