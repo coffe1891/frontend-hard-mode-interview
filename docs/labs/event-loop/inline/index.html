@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="《前端内参》文章内 Event Loop 可运行代码示例：编辑、运行、查看输出。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="前端内参 · Event Loop 运行代码">
+  <meta property="og:description" content="读完就能改、改完就能运行，不用安装环境。">
+  <link rel="alternate" type="application/json+oembed" title="前端内参交互代码块" href="https://coffe1891.github.io/frontend-hard-mode-interview/labs/event-loop/inline/oembed.json">
+  <title>前端内参 · 运行代码</title>
+  <style>
+    :root { color-scheme:dark; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: #0f1724; color:#e8f0fc; font-size:14px }
+    *, *::before, *::after {box-sizing:border-box}
+    body {margin:0; padding:14px; background:#0f1724}
+    .shell {margin:auto;max-width:920px;border:1px solid #34445c; border-radius:13px; background:#101e30;overflow:hidden}
+    .bar {display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 15px;border-bottom:1px solid #2a3950;background:#16263a}
+    .bar strong {font-size:13px;letter-spacing:.25px}
+    .caption {font-size:11px;color:#9fb2cd}
+    textarea {width:100%;height:247px;max-width:100%;resize:vertical;display:block;outline:none;border:0;padding:14px 16px;background:#0a1322;color:#f4e4c3;font:13px/1.8 Consolas,ui-monospace,monospace;tab-size:2}
+    textarea:focus-visible{box-shadow:inset 0 0 0 2px #4cbcc9}
+    .actions {padding:10px 14px;display:flex;align-items:center;gap:9px;flex-wrap:wrap;border-top:1px solid #263951}
+    button {border:1px solid #3b5370;background:#20344c;color:#f4f8fe;padding:8px 13px;border-radius:8px;font-weight:650;cursor:pointer;font-size:12px}
+    button:hover {filter:brightness(1.1)}button:focus-visible{outline:3px solid #ffd374;outline-offset:2px}
+    button.primary {border:1px solid #5ad4e0;color:#09242f;background:#5ad4e0}
+    button:disabled{opacity:.5;cursor:wait}
+    .status {margin-left:auto;font-size:11px;color:#afc4d6}
+    .result {border-top:1px solid #2c3c52;padding:12px 14px 14px}
+    .result h2{font-size:12px;margin:0 0 8px;letter-spacing:.4px}
+    #output {margin:0;min-height:72px;max-height:180px;overflow:auto;background:#09131f;border-radius:8px;border:1px solid #2a4658;padding:10px 12px;color:#b3f1ca;white-space:pre-wrap;word-break:break-word;font:12.5px/1.8 Consolas,ui-monospace,monospace}
+    .foot {margin:0;border-top:1px solid #26394c;padding:9px 14px;color:#92a7bf;font-size:11px;line-height:1.65}
+    @media(max-width:600px){body{padding:7px}textarea{font-size:12px;height:235px;padding:11px}.bar{padding:10px}.actions{padding:9px}.foot{padding:9px}}
+  </style>
+  <script defer src="./run.js"></script>
+</head>
+<body>
+  <section class="shell" aria-label="Event Loop 可运行代码">
+    <div class="bar"><strong>JavaScript · Event Loop 面试题</strong><span class="caption">可修改 · 在浏览器中运行</span></div>
+    <label for="editor" style="display:block;position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">编辑 JavaScript 代码</label>
+    <textarea id="editor" spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="可编辑的 JavaScript 示例" aria-describedby="note">setTimeout(function() {
+  console.log(1);
+}, 0);
+new Promise(function(resolve) {
+  console.log(2);
+  resolve(3);
+}).then(function(val) {
+  console.log(val);
+});
+console.log(4);</textarea>
+    <div class="actions"><button class="primary" id="run" type="button">▶ 运行代码</button><button id="reset" type="button">恢复原题</button><span class="status" id="status" role="status">尚未执行</span></div>
+    <div class="result"><h2>输出结果 <span class="caption">（点击运行后显示）</span></h2><pre id="output" aria-live="polite">先猜顺序，再点击「运行代码」。</pre></div>
+    <p class="foot" id="note">教学示例在本地 Web Worker 中运行，支持 Promise、queueMicrotask、setTimeout。没有 DOM；单次约 1.2 秒后结束，超时强制停止。不要输入密码或隐私信息。</p>
+  </section>
+</body>
+</html>
