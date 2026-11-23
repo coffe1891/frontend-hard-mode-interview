@@ -22,7 +22,7 @@
       const size = `${width}:${height}`;
       if (!width || !height || size === lastSize) return;
       lastSize = size;
-      sendAction({ action: "@webframe.resize", aspectRatio: width / height, maxHeight: height });
+      sendAction({ action: "@webframe.resize", size: { aspectRatio: width / height, height } });
     };
     sendAction({ action: "@webframe.ready" });
     if (typeof ResizeObserver !== "undefined") {

@@ -1,6 +1,6 @@
 # Event Loop 文章内运行区（单题验收）
 
-当前状态（2026-11-23）：私有集成已发布到 coffe1891 组织；Space 安装和真实 GitBook 页面验收进行中。验收完成前不得合并 PR #52。
+当前状态（2026-11-23）：私有集成已发布到 coffe1891 组织并安装到《前端内参》Space；真实 GitBook PR 预览的桌面与 390px 手机宽度交互验收已通过。合并后仍需核对正式文章、Pages 和 CI。
 
 ## 实现与范围
 
@@ -8,7 +8,7 @@
 - manifest 的 `markdown.codeblock: js-run` 与 `body: content` 把原文传给 ContentKit 的 `eventloop-runner`。
 - `webframe` 使用 GitBook 官方 `publicContentEndpoint`，通过集成 HTTP handler 提供 HTML、脚本和 Worker。构建时直接读取 `docs/labs/event-loop/` 的现有文件，不另维护第二份运行器。
 - 因此可在合并 master 前测试完整候选版本，无需提前切换 Pages 发布分支。
-- 运行器发送 `@webframe.ready` 与 `@webframe.resize`，根据内容实际宽高更新内嵌尺寸；默认比例为手机端预留高度。
+- 运行器发送 `@webframe.ready` 与 `@webframe.resize`，按线上协议以 `action.size` 传递实际宽高（官方 Webframe 示例当前缺少这一层，直接照抄会导致 GitBook 页面异常）；默认比例为手机端预留高度。
 - README 原版封面、其他章节与 Pages 发布设置不变。
 
 ## 本机与 CI 检查
@@ -42,10 +42,10 @@ https://app.gitbook.com/o/-LnmMrXLnmjAIoQY6UW2/settings/integrations/frontend-ne
 
 ## 合并门槛
 
-- [ ] 确认安装到正确 Space，Git Sync 将 `js-run` 转为组件。
-- [ ] 在 GitBook 文章预览中只出现一份原题，其他原文保留。
-- [ ] 桌面与手机宽度下编辑器、运行按钮、输出区域完整显示。
-- [ ] 原题输出 `2、4、3、1`；修改后重跑输出变化；重置恢复 Markdown 原题。
+- [x] 确认安装到正确 Space，Git Sync 将 `js-run` 转为组件。
+- [x] 在 GitBook 文章预览中只出现一份原题，其他原文保留。
+- [x] 桌面与手机宽度下编辑器、运行按钮、输出区域完整显示。
+- [x] 原题输出 `2、4、3、1`；修改后重跑输出变化；重置恢复 Markdown 原题。
 - [ ] CI 与 GitBook 候选构建通过后才合并 master，再检查 Pages 和正式文章。
 - [ ] 验收结束撤销临时发布凭据，并清理本机临时认证。
 
