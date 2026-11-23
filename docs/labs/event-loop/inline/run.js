@@ -115,4 +115,7 @@
     if ((e.metaKey || e.ctrlKey) && e.key === "Enter") execute();
   });
   window.addEventListener("pagehide", clearWorker);
+  // A GitBook reader presses one button on the native code block; only then
+  // does the iframe mount. Run that original code immediately in the Worker.
+  if (new URLSearchParams(window.location.search).get("autorun") === "1") execute();
 })();
