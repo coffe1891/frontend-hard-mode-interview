@@ -23,6 +23,7 @@ const view = new EditorView({
   extensions: [
     basicSetup,
     javascript(),
+    EditorView.lineWrapping,
     syntaxHighlighting(palette),
     EditorView.contentAttributes.of({ "aria-label": "可编辑的 JavaScript 示例", spellcheck: "false" }),
     EditorView.updateListener.of(update => {
@@ -49,5 +50,7 @@ textarea.value = view.state.doc.toString();
 textarea.hidden = true;
 textarea.style.display = "none";
 reset.addEventListener("click", () => {
-  view.dispatch({ changes: { from: 0, to: view.state.doc.length, insert: textarea.value } });
+  view.dispatch({ changes: { from: 0, to: view.state.doc.length, insert: textarea.value }, selection: { anchor: 0 }, scrollIntoView: true });
+  view.scrollDOM.scrollLeft = 0;
+  view.scrollDOM.scrollTop = 0;
 });
