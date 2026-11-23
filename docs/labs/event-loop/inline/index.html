@@ -34,11 +34,13 @@
     @media(max-width:600px){body{padding:0}textarea{font-size:12px;height:235px;padding:11px}.bar{padding:10px}.actions{padding:9px}.foot{padding:9px}}
   </style>
   <script defer src="./run.js"></script>
+  <script defer src="./editor.bundle.js"></script>
 </head>
 <body>
   <section class="shell" aria-label="Event Loop 可运行代码">
-    <div class="bar"><strong>JavaScript · Event Loop 面试题</strong><span class="caption">可修改 · 在浏览器中运行</span></div>
+    <div class="bar"><strong>JavaScript · Event Loop 面试题</strong><span class="caption">可编辑 · 语法高亮</span></div>
     <label for="editor" style="display:block;position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">编辑 JavaScript 代码</label>
+    <div id="highlight-editor"></div>
     <textarea id="editor" spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="可编辑的 JavaScript 示例" aria-describedby="note">setTimeout(function() {
   console.log(1);
 }, 0);

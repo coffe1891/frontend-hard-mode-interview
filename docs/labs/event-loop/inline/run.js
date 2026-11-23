@@ -64,13 +64,27 @@
     lines = [];
     output.textContent = "运行中…";
     runButton.disabled = true;
-    setStatus("正在运行");
+    setStatus("正在加载运行环境");
+    const armTimeout = (delay, message, state) => {
+      if (stopTimer !== null) clearTimeout(stopTimer);
+      stopTimer = setTimeout(() => {
+        if (nonce !== current) return;
+        failed = true;
+        addLine(message);
+        setStatus(state);
+        clearWorker();
+      }, delay);
+    };
     try {
       activeWorker = new Worker("../runner-worker.js");
       activeWorker.addEventListener("message", e => {
         if (nonce !== current) return;
         const data = e.data;
         if (!data || typeof data.type !== "string") return;
+        if (data.type === "started") {
+          setStatus("正在运行");
+          armTimeout(2500, "代码执行超时，已强制停止。请检查死循环或长时间的异步操作。", "执行超时");
+        }
         if (data.type === "log") addLine(data.text);
         if (data.type === "error") {
           failed = true;
@@ -90,13 +104,7 @@
         clearWorker();
       });
       activeWorker.postMessage({ type: "run", source: editor.value });
-      stopTimer = setTimeout(() => {
-        if (nonce !== current) return;
-        failed = true;
-        addLine("代码执行超时，已强制停止。请检查死循环或长时间的异步操作。");
-        setStatus("执行超时");
-        clearWorker();
-      }, 2500);
+      armTimeout(10000, "运行环境加载超时，请检查网络后重试。", "加载超时");
     } catch (e) {
       output.textContent = "无法启动代码运行环境：" + String(e.message || e);
       setStatus("环境不支持");

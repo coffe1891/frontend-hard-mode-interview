@@ -45,13 +45,16 @@ export function serveRunnerAsset(request: Request): Response {
   const path = new URL(request.url).pathname;
   const key = path.endsWith('/inline/') ? 'inline/index.html'
     : path.endsWith('/inline/run.js') ? 'inline/run.js'
+    : path.endsWith('/inline/editor.bundle.js') ? 'inline/editor.bundle.js'
+    : path.endsWith('/inline/editor.LICENSE.txt') ? 'inline/editor.LICENSE.txt'
     : path.endsWith('/runner-worker.js') ? 'runner-worker.js' : undefined;
   if (!key || !['GET', 'HEAD'].includes(request.method)) {
     return new Response('Not found', { status: 404 });
   }
   return new Response(request.method === 'HEAD' ? null : assets[key], {
     headers: {
-      'Content-Type': key.endsWith('.html') ? 'text/html; charset=utf-8' : 'text/javascript; charset=utf-8',
+      'Content-Type': key.endsWith('.html') ? 'text/html; charset=utf-8'
+        : key.endsWith('.txt') ? 'text/plain; charset=utf-8' : 'text/javascript; charset=utf-8',
       'Cache-Control': 'no-store',
       'X-Content-Type-Options': 'nosniff',
       'Referrer-Policy': 'no-referrer'
