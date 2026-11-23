@@ -10,9 +10,9 @@
 >
 > **[新展望：《2026 前端技术展望：走向 2027 年》](10/10.2.md)**：React、Vue、TypeScript、AI 编程，哪些值得学？哪些没必要跟风？
 >
-> 本书正在持续修订旧章节、补充原理配图、纠正技术错误。**更新日期：2026-11-22。**
+> 本书正在持续修订旧章节、补充原理配图、纠正技术错误。**更新日期：2026-11-23。**
 
-![&#x5C01;&#x9762;](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyj8fmwm1j30zk0hs770.jpg)
+![《前端内参》历史封面](.gitbook/assets/cover20200504.jpg)
 
 【阅 读 本 书】[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 【讨论本书】[https://github.com/coffe1891/frontend-hard-mode-interview/discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)  
@@ -23,7 +23,7 @@
 
 > 1. 本书较多着笔于深层理论上的论述，辅有代码示例，适合至少三年前端工作经验的朋友阅读。
 > 2. 尽量访问上面的GitBook地址，导航更清晰，图片也不会出现显示错位，并且支持手机模式。
-> 3. 如果书里文章的图片显示不了，开启科学上网工具、多刷几遍就好。
+> 3. 如果图片显示不了，不必无意义地刷新几十遍。请附上文章地址、图片位置、浏览器信息，到 [GitHub Issues](https://github.com/coffe1891/frontend-hard-mode-interview/issues) 反馈。我会优先修复失效的图片引用。
 
 前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友随时[@提建议](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)，我将及时改进。
 
@@ -188,14 +188,22 @@
    * [MVP 又是什么？](7/7.2.2.md)
    * [为什么还要 MVVM？](7/7.2.3.md)
 
-### 捌、很有用的网站
+### 捌、TypeScript 实战与好网站
+
+**新增 TypeScript 试读三篇：**
+
+1. [TS.1 类型系统能替你挡住多少 Bug？](8/8.1.md)
+2. [TS.2 别让五个布尔值把页面状态搞乱](8/8.2.md)
+3. [TS.3 泛型：AI 写得快，你得知道哪里会出错](8/8.3.md)
+
+**常用网站：**
 
 1. [中文站-Mozilla大宝库](https://developer.mozilla.org/zh-CN/docs/Web) _`外链`_ 最全的Web相关参考文档，没有之一
 2. [英文站-StackOverflow](https://stackoverflow.com/) _`外链`_ 掌握了四级英语就能向老外提问交流了，解决疑难杂症必上
 3. [Vue.js 官方中文文档](https://cn.vuejs.org/guide/introduction.html) _`外链`_ 看 Vue 3 的用法，建议以官方文档为准
 4. [英文-Vue资源大全](https://github.com/vuejs/awesome-vue) _`外链`_ 超级多的资源，总能找到你喜欢的那款
 
-### 玖、公众号&博客推荐
+### 玖、前端团队与人物（历史资料）
 
 1. [一线互联网公司官方前端公众号](9/9.1.md)
 2. [知名前端人物](9/9.2.md)
@@ -205,6 +213,10 @@
 1. [成为一个好的程序员远比找份好工作重要](10/10.1.md)
 2. [2026 前端技术展望：走向 2027 年](10/10.2.md)
 3. [AI 时代，前端工程师还有出路吗？五条路线与 90 天实战计划](10/10.3.md)
+
+## 关于技术准确性
+
+我会把原文说法、规范、可复现代码分开核对。**不敢保证整本书永远不出错，但确认的技术错误应该尽快修，不能让读者白白踩坑。** 新增的 [代码回归测试](tests/p0-regressions.test.mjs) 和 [历史稿件索引](archive/README.md) 会帮助我们持续维护。外部图片可能随时失效，新增文档会优先使用仓库内的图片资源。
 
 ## 联系我
 
