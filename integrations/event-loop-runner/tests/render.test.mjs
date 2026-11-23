@@ -38,6 +38,7 @@ test('many inline examples use native code blocks until a reader explicitly open
 test('clicking the ContentKit button changes local state; closing does not alter original source', async () => {
   const ctx = { environment: { integration: { urls: { publicContentEndpoint: 'https://example.gitbook.io/integration' } } } };
   const element = { componentId: manifest.blocks[0].id, props: { content: 'console.log(7)' }, state: { expanded: false }, context: {} };
+  console.log('COMPONENT API METHODS', Object.keys(eventLoopRunner));
   const opened = await eventLoopRunner.action(element, { action: 'open-runner' }, ctx);
   const openState = opened instanceof Response ? (await opened.json()).state : opened.state;
   assert.equal(openState.expanded, true);
