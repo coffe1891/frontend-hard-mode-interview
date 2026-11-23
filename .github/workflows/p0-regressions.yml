@@ -1,20 +1,32 @@
-name: 前端内参技术内容检查
+name: 前端内参内容检查
 on:
   push:
+    branches: [master]
   pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   book-quality:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: 安装锁定版本 TypeScript
+      - name: 安装固定版本 TypeScript
         run: npm install --no-package-lock --ignore-scripts
-      - name: P0 示例回归
+      - name: 执行 JavaScript 示例和巡检单元测试
         run: npm run test:examples
-      - name: TypeScript 三篇样章编译检查
+      - name: TypeScript 7.0.2 编译检查
         run: npm run typecheck
-      - name: 站内Markdown路径检查
-        run: npm run test:links
+      - name: 检查全书 Markdown 站内路径
+        run: npm run test:links -- --json reports/book-links.json
+      - name: 保存全书链接扫描结果
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: markdown-links
+          path: reports/book-links.json
+          if-no-files-found: warn
