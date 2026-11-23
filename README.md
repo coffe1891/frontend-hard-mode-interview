@@ -2,6 +2,16 @@
 
 [![&#x652F;&#x6301;&#x6211;](https://img.shields.io/github/stars/coffe1891/frontend-hard-mode-interview?style=social)](https://github.com/coffe1891/frontend-hard-mode-interview/)
 
+> ### 📖 读《前端内参》，推荐直接打开 GitBook 在线版
+>
+> **👉 [点击进入《前端内参》GitBook：阅读更舒服，还能动手跑代码](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)**
+>
+> 在 GitHub 看代码没问题，但要系统读完一本书，还是 GitBook 更顺手：**章节目录清晰、配图排版更完整，电脑和手机都方便阅读。**
+>
+> 更重要的是，**部分 JavaScript 示例已经支持在文章里直接修改、运行、查看输出**，不用复制代码、切换工具。比如 [Event Loop 章节](https://coffe1891.gitbook.io/frontend-hard-mode-interview/id-1/2.-he-xin-gai-nian/1.2.8)，可以边读原理边验证面试题。
+>
+> *交互功能正在逐章完善，并非所有代码都支持在线运行。GitHub 主要用于查看源码、反馈问题和参与共建。*
+
 > ### 🚀 2026 年《前端内参》重磅更新｜AI 时代，前端还值得干吗？
 >
 > **AI 一句话就能写页面，工作多年的前端工程师，以后靠什么吃饭？**
@@ -16,14 +26,14 @@
 
 ![《前端内参》原版月球横版封面](.gitbook/assets/cover20200619.jpg)
 
-【阅 读 本 书】[https://coffe1891.gitbook.io/frontend-hard-mode-interview](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
+【📖 GitBook 在线阅读（推荐）】[打开《前端内参》交互阅读版](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
 【技术交流与建议】[GitHub Discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)  
 【勘误与问题反馈】[GitHub Issues](https://github.com/coffe1891/frontend-hard-mode-interview/issues)
 
 如果觉得有帮助请点右上角的**Star**支持我不断更新。
 
 > 1. 本书较多着笔于深层理论上的论述，辅有代码示例，适合至少三年前端工作经验的朋友阅读。
-> 2. 尽量访问上面的GitBook地址，导航更清晰，图片也不会出现显示错位，并且支持手机模式。
+> 2. 建议在 GitBook 阅读：导航、配图和手机排版更适合连续学习；部分代码题已支持在原文位置运行验证。
 > 3. 如果图片显示不了，不必无意义地刷新几十遍。请附上文章地址、图片位置、浏览器信息，到 [GitHub Issues](https://github.com/coffe1891/frontend-hard-mode-interview/issues) 反馈。我会优先修复失效的图片引用。
 
 前端技术日新月异，我也在不断学习，因此疏漏之处在所难免，欢迎朋友随时[@提建议](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)，我将及时改进。
