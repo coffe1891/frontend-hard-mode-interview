@@ -35,6 +35,18 @@ test('many inline examples use native code blocks until a reader explicitly open
   assert.equal(open.output.element.children[1].onPress.action, 'close-runner');
 });
 
+test('clicking the ContentKit button changes local state; closing does not alter original source', async () => {
+  const ctx = { environment: { integration: { urls: { publicContentEndpoint: 'https://example.gitbook.io/integration' } } } };
+  const element = { componentId: manifest.blocks[0].id, props: { content: 'console.log(7)' }, state: { expanded: false }, context: {} };
+  const opened = await eventLoopRunner.action(element, { action: 'open-runner' }, ctx);
+  const openState = opened instanceof Response ? (await opened.json()).state : opened.state;
+  assert.equal(openState.expanded, true);
+  const closed = await eventLoopRunner.action({ ...element, state: openState }, { action: 'close-runner' }, ctx);
+  const closeState = closed instanceof Response ? (await closed.json()).state : closed.state;
+  assert.equal(closeState.expanded, false);
+  assert.equal(element.props.content, 'console.log(7)');
+});
+
 test('Git Sync manifest maps the original question exactly once while supporting other runnable blocks', async () => {
   assert.deepEqual(manifest.blocks[0].markdown, { codeblock: 'js-run', body: 'content' });
   assert.equal(manifest.visibility, 'private');
