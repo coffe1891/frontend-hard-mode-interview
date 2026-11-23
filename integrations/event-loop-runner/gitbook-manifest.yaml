@@ -8,7 +8,7 @@ script: ./src/index.tsx
 blocks:
   - id: eventloop-runner
     title: JavaScript · 运行代码
-    description: 文章内执行 Event Loop 示例（Web Worker）
+    description: 在文章原位置编辑并运行 JavaScript 示例（Web Worker）
     markdown:
       codeblock: js-run
       body: content
