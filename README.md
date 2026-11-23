@@ -224,7 +224,7 @@
 
 ![](.gitbook/assets/makai_greatwall.png)
 
-![](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%40kenny2019-brightgreen) [![contact me via gmail](https://img.shields.io/badge/Gmail-kai521%40gmail.com-red)](mailto:kai521@gmail.com)  
+**微信：** @kenny2019　 **邮箱：** [kai521@gmail.com](mailto:kai521@gmail.com)  
 [https://github.com/coffe1891](https://github.com/coffe1891)
 
 对本书有任何疑问，欢迎联系我。
