@@ -1,0 +1,15 @@
+# 将 organization 改成 GitBook 组织 ID 或子域名后才能发布。
+name: frontend-neican-code-runner
+title: 前端内参 · 文章内代码运行器
+description: 在《前端内参》文章中编辑并运行 JavaScript 示例
+organization: REPLACE_WITH_GITBOOK_ORGANIZATION
+visibility: private
+scopes: []
+script: ./src/index.tsx
+blocks:
+  - id: eventloop-runner
+    title: JavaScript · 运行代码
+    description: 文章内执行 Event Loop 示例（Web Worker）
+    markdown:
+      codeblock: js-run
+      body: content
