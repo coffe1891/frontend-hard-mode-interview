@@ -108,7 +108,7 @@
   resetButton.addEventListener("click", () => {
     clearWorker();
     editor.value = originalCode;
-    output.textContent = "已恢复原题。先猜顺序，再点击「运行代码」。";
+    output.textContent = "已重置为文章原始代码。点击「运行代码」重新验证。";
     setStatus("尚未执行");
   });
   editor.addEventListener("keydown", e => {
