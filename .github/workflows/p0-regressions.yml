@@ -1,0 +1,14 @@
+name: P0 技术勘误回归测试
+on:
+  push:
+  pull_request:
+jobs:
+  p0-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: 检查 P0 代码示例
+        run: node --test tests/p0-regressions.test.mjs
