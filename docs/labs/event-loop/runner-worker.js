@@ -37,6 +37,7 @@ self.addEventListener("error", event => {
 self.addEventListener("message", event => {
   if (!event.data || event.data.type !== "run" || typeof event.data.source !== "string") return;
   logCount = 0;
+  self.postMessage({ type: "started" });
   try {
     // 有意允许读者输入 JS：仅执行本地编辑器里的代码，不从 URL 读取或执行远程脚本。
     // 无 DOM 的 Worker 与 UI 分离；父页面会在 2.5 秒后强制 terminate。
