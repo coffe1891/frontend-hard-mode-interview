@@ -21,6 +21,8 @@ const view = new EditorView({
   doc: textarea.value,
   parent: document.querySelector("#highlight-editor")!,
   extensions: [
+    // Run takes precedence over CodeMirror's default Mod-Enter blank-line command.
+    keymap.of([{ key: "Mod-Enter", run: () => { run.click(); return true; } }]),
     basicSetup,
     javascript(),
     EditorView.lineWrapping,
@@ -29,7 +31,6 @@ const view = new EditorView({
     EditorView.updateListener.of(update => {
       if (update.docChanged) textarea.value = update.state.doc.toString();
     }),
-    keymap.of([{ key: "Mod-Enter", run: () => { run.click(); return true; } }]),
     EditorView.theme({
       "&": { backgroundColor: "#fff", color: "#344054", fontSize: "14px" },
       "&.cm-focused": { outline: "none", boxShadow: "inset 0 0 0 1px #c8dcf5" },
