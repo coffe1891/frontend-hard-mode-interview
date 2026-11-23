@@ -1,0 +1,14 @@
+{
+  "name": "frontend-neican-gitbook-code-runner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GitBook ContentKit component for inline JavaScript execution",
+  "type": "module",
+  "scripts": {
+    "check": "gitbook integration check",
+    "publish": "gitbook integration publish"
+  },
+  "dependencies": {
+    "@gitbook/runtime": "latest"
+  }
+}
