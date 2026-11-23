@@ -63,7 +63,7 @@ for (const path of files) {
       }
       const log=/\bconsole\.(?:log|info|warn|error|debug)\s*\(/.test(code);
       const candidate=kind==="JavaScript"&&current.language!=="js-run"&&syntax==="valid"&&code.length<=4000&&risks.length===0&&log;
-      records.push({path,line:current.line,language:current.language,kind,length:code.length,syntax,risks,hasConsoleLog:log,candidate,firstLine:code.trim().split("\n")[0].slice(0,160)});
+      records.push({path,line:current.line,language:current.language,kind,length:code.length,syntax,risks,hasConsoleLog:log,candidate,firstLine:code.trim().split("\n")[0].slice(0,160),code});
       current=null;
     } else current.body.push(lines[i]);
   }
