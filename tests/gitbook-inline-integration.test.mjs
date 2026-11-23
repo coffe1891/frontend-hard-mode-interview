@@ -5,7 +5,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const read = path => readFileSync(join(root, path), "utf8");
+const read = path => readFileSync(join(root, path), "utf8").replace(/\r\n/g, "\n");
 const manifest = read("integrations/event-loop-runner/gitbook-manifest.yaml");
 const source = read("integrations/event-loop-runner/src/index.tsx");
 const chapter = read("1/1.2.8.md");
@@ -34,5 +34,5 @@ test("集成仅声明必要权限，不公开或存储账户密钥", () => {
   assert.match(manifest, /visibility: private/);
   assert.match(manifest, /scopes: \[\]/);
   assert.doesNotMatch(manifest, /site:script:inject/);
-  assert.match(manifest, /REPLACE_WITH_GITBOOK_ORGANIZATION/);
+  assert.match(manifest, /organization: -LnmMrXLnmjAIoQY6UW2/);
 });

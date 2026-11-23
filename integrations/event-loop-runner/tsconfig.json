@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "jsxImportSource": "@gitbook/runtime",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": [
+      "@cloudflare/workers-types"
+    ],
+    "lib": [
+      "ES2022"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/@gitbook/runtime/src/jsx-runtime.d.ts"
+  ]
+}

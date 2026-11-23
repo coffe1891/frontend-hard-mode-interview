@@ -11,6 +11,27 @@
   const initialCode = new URLSearchParams(window.location.search).get("code");
   if (initialCode && initialCode.length <= 4000) editor.value = initialCode;
   const originalCode = editor.value;
+
+  // ContentKit sizing is independent of code execution; standalone pages send no messages.
+  if (window.parent !== window) {
+    const sendAction = action => window.parent.postMessage({ action }, "*");
+    let lastSize = "";
+    const resizeFrame = () => {
+      const width = document.documentElement.clientWidth;
+      const height = Math.ceil(document.body.getBoundingClientRect().height);
+      const size = `${width}:${height}`;
+      if (!width || !height || size === lastSize) return;
+      lastSize = size;
+      sendAction({ action: "@webframe.resize", aspectRatio: width / height, maxHeight: height });
+    };
+    sendAction({ action: "@webframe.ready" });
+    if (typeof ResizeObserver !== "undefined") {
+      new ResizeObserver(resizeFrame).observe(document.body);
+    }
+    window.addEventListener("resize", resizeFrame);
+    resizeFrame();
+  }
+
   let activeWorker = null;
   let stopTimer = null;
   let nonce = 0;
