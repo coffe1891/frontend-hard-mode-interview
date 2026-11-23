@@ -38,8 +38,8 @@ test('many inline examples use native code blocks until a reader explicitly open
 test('lazy button actions are declared in the compiled ContentKit component', async () => {
   const source = readFileSync(new URL('src/index.tsx', root), 'utf8');
   assert.match(source, /initialState: \{ expanded: false \}/);
-  assert.match(source, /action: 'open-runner'/);
-  assert.match(source, /action: 'close-runner'/);
+  assert.match(source, /action: [\"']open-runner[\"']/);
+  assert.match(source, /action: [\"']close-runner[\"']/);
   assert.match(source, /expanded: true/);
   assert.match(source, /expanded: false/);
 });
