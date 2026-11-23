@@ -4,6 +4,7 @@ import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { runInNewContext } from "node:vm";
+import { execFileSync } from "node:child_process";
 import { lessons, simulate, checkPrediction, normalizedLines } from "../docs/labs/event-loop/engine.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -63,4 +64,11 @@ test("完整的单页实验室包含预测、单步、修改代码与执行结�
   assert.match(worker, /new Function\("console"/);
   assert.match(app, /2500/);
   assert.match(html, /逐步动画按原题生成/);
+});
+
+test("静态站点 JavaScript 入口及 Worker 均能通过 Node 语法检查", () => {
+  for (const name of ["engine.mjs", "app.js", "runner-worker.js"]) {
+    execFileSync(process.execPath, ["--check", join(here, "../docs/labs/event-loop", name)],
+      { stdio: "pipe", timeout: 5000 });
+  }
 });
