@@ -33,6 +33,7 @@ export const eventLoopRunner = createComponent<{ content?: string }, RunnerState
     const endpoint = context.environment.integration.urls.publicContentEndpoint;
     const url = new URL(`${endpoint.replace(/\/$/, '')}/inline/`);
     url.searchParams.set('code', code);
+    url.searchParams.set('autorun', '1');
 
     // A book chapter can contain dozens of code blocks. Do not eagerly launch
     // one iframe/Worker-ready runtime per block at page-load time.
@@ -43,7 +44,7 @@ export const eventLoopRunner = createComponent<{ content?: string }, RunnerState
       return (
         <block>
           <codeblock content={code} syntax="javascript" lineNumbers={true} />
-          <button label="▶ 运行／修改代码" onPress={{ action: "open-runner" }} />
+          <button label="▶ 运行这段代码" onPress={{ action: "open-runner" }} />
         </block>
       );
     }
