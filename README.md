@@ -224,7 +224,7 @@
 
 ![](.gitbook/assets/makai_greatwall.png)
 
-**微信：** `GZKXS1891`　 **邮箱：** `kai.ma(at)163.com`（请将 `at` 换成 `@`）  
+**微信：** `GZKXS1891`　 **邮箱：** `kai.ma(at)163.com`（发邮件时把 `(at)` 换成 `@`）  
 [https://github.com/coffe1891](https://github.com/coffe1891)
 
 对本书有任何疑问，欢迎联系我。
