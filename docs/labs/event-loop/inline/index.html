@@ -36,7 +36,7 @@
   <script defer src="./run.js"></script>
 </head>
 <body>
-  <section class="shell" aria-label="Event Loop 可运行代码">
+  <section class="shell" aria-label="JavaScript 可运行代码">
     <div class="bar"><strong>JavaScript · 可运行代码</strong><span class="caption">可修改 · 在浏览器中运行</span></div>
     <label for="editor" style="display:block;position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">编辑 JavaScript 代码</label>
     <textarea id="editor" spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="可编辑的 JavaScript 示例" aria-describedby="note">setTimeout(function() {
@@ -49,8 +49,8 @@ new Promise(function(resolve) {
   console.log(val);
 });
 console.log(4);</textarea>
-    <div class="actions"><button class="primary" id="run" type="button">▶ 运行代码</button><button id="reset" type="button">恢复原题</button><span class="status" id="status" role="status">尚未执行</span></div>
-    <div class="result"><h2>输出结果 <span class="caption">（点击运行后显示）</span></h2><pre id="output" aria-live="polite">先猜顺序，再点击「运行代码」。</pre></div>
+    <div class="actions"><button class="primary" id="run" type="button">▶ 运行代码</button><button id="reset" type="button">重置代码</button><span class="status" id="status" role="status">尚未执行</span></div>
+    <div class="result"><h2>输出结果 <span class="caption">（点击运行后显示）</span></h2><pre id="output" aria-live="polite">修改代码后，点击「运行代码」查看输出。</pre></div>
     <p class="foot" id="note">教学示例在本地 Web Worker 中运行，支持 Promise、queueMicrotask、setTimeout。没有 DOM；单次约 1.2 秒后结束，超时强制停止。不要输入密码或隐私信息。</p>
   </section>
 </body>
