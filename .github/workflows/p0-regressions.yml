@@ -1,14 +1,20 @@
-name: P0 技术勘误回归测试
+name: 前端内参技术内容检查
 on:
   push:
   pull_request:
 jobs:
-  p0-check:
+  book-quality:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: 检查 P0 代码示例
-        run: node --test tests/p0-regressions.test.mjs
+      - name: 安装锁定版本 TypeScript
+        run: npm install --no-package-lock --ignore-scripts
+      - name: P0 示例回归
+        run: npm run test:examples
+      - name: TypeScript 三篇样章编译检查
+        run: npm run typecheck
+      - name: 站内Markdown路径检查
+        run: npm run test:links
