@@ -31,10 +31,6 @@
 
 ![《前端内参》原版月球横版封面](.gitbook/assets/cover20200619.jpg)
 
-【📖 GitBook 在线阅读（推荐）】[打开《前端内参》交互阅读版](https://coffe1891.gitbook.io/frontend-hard-mode-interview/)  
-【技术交流与建议】[GitHub Discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions)  
-【勘误与问题反馈】[GitHub Issues](https://github.com/coffe1891/frontend-hard-mode-interview/issues)
-
 如果觉得有帮助请点右上角的**Star**支持我不断更新。
 
 > 1. 本书较多着笔于深层理论上的论述，辅有代码示例，适合至少三年前端工作经验的朋友阅读。
