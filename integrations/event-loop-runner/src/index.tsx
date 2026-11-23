@@ -30,14 +30,30 @@ export const eventLoopRunner = createComponent<{ content?: string }>({
     const url = new URL(`${endpoint.replace(/\/$/, '')}/inline/`);
     url.searchParams.set('code', code);
 
+    // A book chapter can contain dozens of code blocks. Do not eagerly launch
+    // one iframe/Worker-ready runtime per block at page-load time.
+    // First show a native codeblock and one button. The editor starts only
+    // when the reader explicitly asks to experiment.
+    const expanded = element.state?.expanded === true;
+    if (!expanded) {
+      return (
+        <block>
+          <codeblock content={code} syntax="javascript" lineNumbers={true} />
+          <button label="▶ 运行／修改代码" onPress={{ action: "open-runner" }} />
+        </block>
+      );
+    }
     return (
       <block>
-        <webframe
-          source={{ url: url.toString() }}
-          aspectRatio={0.6}
-        />
+        <webframe source={{ url: url.toString() }} aspectRatio={0.6} />
+        <button label="收起运行区" onPress={{ action: "close-runner" }} />
       </block>
     );
+  },
+  async action(element, action) {
+    if (action.action === "open-runner") return { state: { expanded: true } };
+    if (action.action === "close-runner") return { state: { expanded: false } };
+    return {};
   }
 });
 
