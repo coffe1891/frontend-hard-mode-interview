@@ -21,6 +21,14 @@ jobs:
         run: npm run test:examples
       - name: TypeScript 7.0.2 编译检查
         run: npm run typecheck
+      - name: 安装固定版本 GitBook 集成依赖
+        run: npm ci --ignore-scripts --prefix integrations/event-loop-runner
+      - name: 编译并检查 ContentKit 集成
+        working-directory: integrations/event-loop-runner
+        run: npm run check
+      - name: 验证真实 ContentKit 渲染与 Git Sync 映射
+        working-directory: integrations/event-loop-runner
+        run: npm test
       - name: 检查全书 Markdown 站内路径
         run: npm run test:links -- --json reports/book-links.json
       - name: 保存全书链接扫描结果

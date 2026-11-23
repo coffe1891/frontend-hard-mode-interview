@@ -1,0 +1,23 @@
+{
+  "name": "frontend-neican-gitbook-code-runner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GitBook ContentKit component for inline JavaScript execution",
+  "type": "module",
+  "scripts": {
+    "check": "npm run prepare:assets && tsc --noEmit && gitbook integration check",
+    "test": "npm run prepare:assets && node --test tests/*.test.mjs",
+    "publish": "npm run check && npm test && gitbook integration publish",
+    "prepare:assets": "node scripts/prepare-assets.mjs"
+  },
+  "dependencies": {
+    "@gitbook/runtime": "0.26.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20261123.1",
+    "@gitbook/cli": "0.33.7",
+    "esbuild": "0.17.19",
+    "js-yaml": "4.1.1",
+    "typescript": "7.0.2"
+  }
+}
