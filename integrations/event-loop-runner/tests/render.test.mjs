@@ -23,21 +23,22 @@ async function render(props) {
   return { output, frame, url: new URL(frame.source.url) };
 }
 
-test('Git Sync manifest maps the single original question to the real runtime component', async () => {
+test('Git Sync manifest maps the original question exactly once while supporting other runnable blocks', async () => {
   assert.deepEqual(manifest.blocks[0].markdown, { codeblock: 'js-run', body: 'content' });
   assert.equal(manifest.visibility, 'private');
   assert.deepEqual(manifest.scopes, []);
   assert.equal(manifest.organization, '-LnmMrXLnmjAIoQY6UW2');
   const chapter = readFileSync(new URL('../../1/1.2.8.md', root), 'utf8').replace(/\r\n/g, '\n');
   const blocks = [...chapter.matchAll(/```js-run\n([\s\S]*?)```/g)];
-  assert.equal(blocks.length, 1);
+  const originalBlocks = blocks.filter(match => match[1].includes('执行顺序问题'));
+  assert.equal(originalBlocks.length, 1, '原面试题不能出现重复内容');
   const questionBlocks = [...chapter.matchAll(/```[^\n]*\n([\s\S]*?)```/g)]
     .filter(match => match[1].includes('console.log(4)'));
   assert.equal(questionBlocks.length, 1);
-  assert.match(blocks[0][1], /执行顺序问题/);
-  assert.match(blocks[0][1], /resolve, reject/);
-  const { url } = await render({ content: blocks[0][1] });
-  assert.equal(url.searchParams.get('code'), blocks[0][1]);
+  assert.match(originalBlocks[0][1], /执行顺序问题/);
+  assert.match(originalBlocks[0][1], /resolve, reject/);
+  const { url } = await render({ content: originalBlocks[0][1] });
+  assert.equal(url.searchParams.get('code'), originalBlocks[0][1]);
 });
 
 test('runtime serializes multiline Unicode and special characters without HTML interpretation', async () => {
