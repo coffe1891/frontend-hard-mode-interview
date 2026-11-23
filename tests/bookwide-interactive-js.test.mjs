@@ -5,7 +5,7 @@ import { createHash } from "node:crypto";
 import { Script } from "node:vm";
 
 const whitelist = JSON.parse(readFileSync("reports/interactive-js-vetted.json", "utf8")).verifiedBlocks;
-const migrationDigest = "71b5c411ddd6782003fbe494939cbc2de30f1f3f3ef18b09b672fe22090b7295";
+const migrationDigest = "2b6344a251b0213ce884edbd39c04131e9e24b9a6358f720ea8fec1b0e3cbf9b";
 
 function selectedCode(path, number) {
   const lines=readFileSync(path,"utf8").replace(/\r\n/g,"\n").split("\n");
@@ -19,7 +19,7 @@ function selectedCode(path, number) {
   return lines.slice(number,end).join("\n");
 }
 
-test("199 处经过隔离验证的 JS 示例只替换围栏标识，代码字节完全保留",()=>{
+test("192 处经过隔离验证的 JS 示例只替换围栏标识，代码字节完全保留",()=>{
   const hash=createHash("sha256");
   let total=0;
   for(const [path,positions] of Object.entries(whitelist).sort((a,b)=>a[0]<b[0]?-1:a[0]>b[0]?1:0)) {
@@ -31,7 +31,7 @@ test("199 处经过隔离验证的 JS 示例只替换围栏标识，代码字节
       total++;
     }
   }
-  assert.equal(total,199);
+  assert.equal(total,192);
   assert.equal(hash.digest("hex"),migrationDigest,"正文源码发生变化，应重新审核，而不是静默覆盖");
 });
 

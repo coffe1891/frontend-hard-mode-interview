@@ -1,8 +1,8 @@
 {
   "version": 1,
   "sourceCommit": "478b6fe4c6f1935d4d303d672f38aae5362bc253",
-  "method": "static syntax + isolated Node VM context with limited globals; this is a candidate gate, not browser E2E",
-  "caution": "Source code fences must remain byte-for-byte except language tag; install and test GitBook inline runtime before merging.",
+  "method": "static syntax + isolated Node VM smoke-check; excludes seven 1s+ / multi-second timer examples because the browser runner stops after ~1.2 seconds",
+  "caution": "Only pure JS with actual log output and supported timing. Other examples require a separate runtime or manual rewrite.",
   "verifiedBlocks": {
     "1/1.1.1.md": [
       40,
@@ -64,8 +64,6 @@
     "1/1.2.13.md": [
       44,
       97,
-      187,
-      202,
       218
     ],
     "1/1.2.2.md": [
@@ -94,15 +92,10 @@
       168,
       198,
       251,
-      290,
-      300,
       317
     ],
     "1/1.2.5.md": [
-      9,
-      21,
       49,
-      71,
       121,
       146,
       167
