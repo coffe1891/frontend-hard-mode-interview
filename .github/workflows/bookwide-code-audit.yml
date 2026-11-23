@@ -1,0 +1,27 @@
+name: 前端内参全书交互代码审计
+on:
+  push:
+    branches:
+      - feat/bookwide-interactive-code-audit-2026-11-23
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: 安装固定版本的静态分析工具
+        run: npm install --no-package-lock --ignore-scripts
+      - name: 分类统计全书代码块（不会修改正文）
+        run: node scripts/audit-interactive-code.mjs --max-per-file=3
+      - name: 保存完整代码块清单与排除原因
+        uses: actions/upload-artifact@v4
+        with:
+          name: interactive-code-audit
+          path: reports/interactive-code-audit.json
+          if-no-files-found: error
