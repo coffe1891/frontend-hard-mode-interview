@@ -162,7 +162,11 @@
     * [柒.2.2 MVP](7/7.2.2.md)
     * [柒.2.3 MVVM](7/7.2.3.md)
 
-## 捌、很有用的网站 <a id="8"></a>
+## 捌、TypeScript 实战与学习资源 <a id="8"></a>
+
+* [TS.1 类型系统能替你挡住多少 Bug？](8/8.1.md)
+* [TS.2 用判别联合类型整理页面状态](8/8.2.md)
+* [TS.3 泛型与AI代码审查](8/8.3.md)
 
 * [MDN Web 文档](https://developer.mozilla.org/zh-CN/docs/Web)
 * [Stack Overflow](https://stackoverflow.com/)
@@ -172,7 +176,9 @@
 ## 玖、公众号&博客推荐 <a id="9"></a>
 
 * [玖.1 一线互联网公司前端团队官方公众号](9/9.1.md)
-* [玖.2 知名前端人物](9/9.2.md)
+* [玖.2 知名前端人物（历史资料）](9/9.2.md)
+
+* [旧稿索引：保留历史链接](archive/README.md)
 
 ## 拾、后记 <a id="10"></a>
 
