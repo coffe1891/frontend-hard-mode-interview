@@ -98,7 +98,7 @@ try {
     // TypeScript 7 no longer exposes the classic compiler API from the main
     // "typescript" package. Use the supported CLI for a single checkJs pass.
     const tsc = resolve(base, 'node_modules', '.bin', process.platform === 'win32' ? 'tsc.cmd' : 'tsc');
-    const args = ['--allowJs', '--checkJs', '--noEmit', '--skipLibCheck',
+    const args = ['--ignoreConfig', '--allowJs', '--checkJs', '--noEmit', '--skipLibCheck',
       '--target', 'ES2022', '--module', 'commonjs', '--moduleDetection', 'force',
       ...sourceFiles.keys()];
     const result = spawnSync(tsc, args, {
