@@ -19,8 +19,10 @@ test("ContentKit 代码块与 Git Sync Markdown 语法命名一致", () => {
   assert.match(source, /componentId: 'eventloop-runner'/);
   assert.match(source, /<webframe/);
   assert.match(source, /source=\{\{ url: url\.toString\(\) \}\}/);
-  assert.ok(chapter.includes("\u0060\u0060\u0060js-run\n"), "文章应当仅插入一个 js-run 围栏");
-  assert.equal(chapter.split("\u0060\u0060\u0060js-run\n").length - 1, 1);
+  const runnableFence = "\u0060\u0060\u0060js-run\n";
+  assert.ok(chapter.includes(runnableFence), "Event Loop 章节至少包含一处可运行 JS 代码块");
+  assert.equal(chapter.split(runnableFence + "// 执行顺序问题，考察频率挺高").length - 1, 1,
+    "原始面试题只允许出现一次，避免复制静态版和交互版");
 });
 
 test("ContentKit 传入 Markdown 源码而非始终使用硬编码的原题", () => {
