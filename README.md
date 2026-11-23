@@ -225,7 +225,7 @@
 
 **技术讨论、读者提问：** 请到 [GitHub Discussions](https://github.com/coffe1891/frontend-hard-mode-interview/discussions) 公开交流。发现书中错误，请提交 [GitHub Issues](https://github.com/coffe1891/frontend-hard-mode-interview/issues)，这样其他读者也能看到解决过程。
 
-**商务合作：** 可以通过微信 `GZKXS1891` 简单说明来意（请注明“前端内参·商务合作”）；后续再私下交换邮箱沟通。为减少垃圾邮件，README 不公开邮箱。
+**商务合作：** 可以通过微信 `GZKXS1891` 简单说明来意（请注明“前端内参·商务合作”）。
 
 **原 QQ 交流群：** `308689488`（技术问题建议优先在 Discussions 提问，方便留档和检索）。
 
