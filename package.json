@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "《前端内参》技术示例与站内引用检查",
   "scripts": {
-    "test:examples": "node --test tests/p0-regressions.test.mjs",
+    "test:examples": "node --test tests/*.test.mjs",
     "test:links": "node scripts/check-doc-links.mjs",
     "test:links:strict": "node scripts/check-doc-links.mjs --strict",
     "typecheck": "tsc --project tsconfig.json"
